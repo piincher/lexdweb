@@ -47,13 +47,13 @@ export function CorridorGrid({ locale }: CorridorGridProps) {
 
   return (
     <section className={styles.section} aria-labelledby="corridors-title">
-      <div className={styles.sectionHead}>
+      <div className={styles.sectionHead} data-reveal>
         <p className={styles.overline}>{t('overline')}</p>
         <h2 id="corridors-title">{t('title')}</h2>
         <p>{t('subtitle')}</p>
       </div>
 
-      <div className={styles.corridors}>
+      <div className={styles.corridors} data-stagger>
         {corridors.map(({ slug, data }) => (
           <Link
             key={slug}
@@ -61,6 +61,7 @@ export function CorridorGrid({ locale }: CorridorGridProps) {
             // Cameroon is the home corridor, marked with the amber rule rather
             // than reordered into a separate block.
             className={`${styles.corridor} ${slug === 'china-to-cameroon' ? styles.corridorHome : ''}`}
+            data-reveal="scale"
           >
             <span className={styles.corridorName}>
               <strong>{data.destination.country}</strong>

@@ -44,7 +44,7 @@ export function AppSection() {
 
   return (
     <section className={styles.app} aria-labelledby="app-title">
-      <div>
+      <div data-reveal="left">
         <p className={styles.overline} style={{ color: 'var(--green-200)' }}>
           {t('overline')}
         </p>
@@ -95,7 +95,7 @@ export function AppSection() {
         {!APP_LINKS.ios ? <p className={styles.trackingHint}>{t('iosPending')}</p> : null}
       </div>
 
-      <figure className={styles.appVisual}>
+      <figure className={styles.appVisual} data-reveal="right">
         <Image
           src="/lexd-wordmark-light.png"
           alt="LEXD"

@@ -123,9 +123,9 @@ export function SeoServicePage({
       </section>
 
       <section className="border-b border-slate-200 bg-slate-50 py-10 dark:border-slate-800 dark:bg-slate-900">
-        <div className="mx-auto grid max-w-6xl gap-4 px-4 sm:grid-cols-2 sm:px-6 lg:grid-cols-4 lg:px-8">
+        <div className="mx-auto grid max-w-6xl gap-4 px-4 sm:grid-cols-2 sm:px-6 lg:grid-cols-4 lg:px-8" data-stagger>
           {highlights.map((item) => (
-            <div key={item} className="rounded-lg border border-slate-200 bg-white p-5 dark:border-slate-800 dark:bg-slate-950">
+            <div key={item} className="rounded-lg border border-slate-200 bg-white p-5 dark:border-slate-800 dark:bg-slate-950" data-reveal data-hover="lift">
               <p className="font-semibold text-slate-900 dark:text-white">{item}</p>
             </div>
           ))}
@@ -136,7 +136,7 @@ export function SeoServicePage({
         <div className="grid gap-10 lg:grid-cols-[1fr_320px]">
           <article className="space-y-12">
             {sections.map((section) => (
-              <section key={section.title}>
+              <section key={section.title} data-reveal>
                 <h2 className="text-2xl font-bold md:text-3xl">{section.title}</h2>
                 <p className="mt-4 leading-8 text-slate-700 dark:text-slate-300">{section.body}</p>
                 {section.items && (
@@ -152,7 +152,7 @@ export function SeoServicePage({
             ))}
 
             {table && (
-              <section>
+              <section data-reveal>
                 <h2 className="text-2xl font-bold md:text-3xl">{labels.comparisonTitle}</h2>
                 <div className="mt-5 overflow-x-auto rounded-lg border border-slate-200 dark:border-slate-800">
                   <table className="w-full min-w-[640px] text-left text-sm">
@@ -181,7 +181,7 @@ export function SeoServicePage({
               </section>
             )}
 
-            <section>
+            <section data-reveal>
               <h2 className="text-2xl font-bold md:text-3xl">{labels.processTitle}</h2>
               <ol className="mt-5 grid gap-4">
                 {process.map((step, index) => (
@@ -193,7 +193,7 @@ export function SeoServicePage({
               </ol>
             </section>
 
-            <section>
+            <section data-reveal>
               <h2 className="text-2xl font-bold md:text-3xl">{labels.faqTitle}</h2>
               <div className="mt-5 space-y-4">
                 {faqs.map((faq) => (
@@ -206,7 +206,7 @@ export function SeoServicePage({
             </section>
           </article>
 
-          <aside className="h-fit rounded-lg border border-slate-200 bg-slate-50 p-6 dark:border-slate-800 dark:bg-slate-900">
+          <aside className="h-fit rounded-lg border border-slate-200 bg-slate-50 p-6 dark:border-slate-800 dark:bg-slate-900" data-reveal="right">
             <h2 className="text-lg font-bold">{labels.usefulLinksTitle}</h2>
             <div className="mt-4 grid gap-3">
               {links.map((link) => (

@@ -26,6 +26,7 @@ import {
 } from 'lucide-react';
 import type { Locale } from '@/i18n/config';
 import { CONTACT_CONFIG } from '@/config/app';
+import { AnimatedNumber } from '@/components/animations/AnimatedNumber';
 import {
   AppSection,
   CorridorGrid,
@@ -61,7 +62,7 @@ export function DispatchLandingPage({ locale }: DispatchLandingPageProps) {
   return (
     <div className={styles.page}>
       <section className={styles.hero} aria-labelledby="home-title">
-        <div className={styles.heroCopy}>
+        <div className={styles.heroCopy} data-accent="glow">
           <p className={styles.corridor}>{t('dispatch.corridor')}</p>
           <h1 id="home-title">{t('hero.headline')}</h1>
           <p className={styles.lede}>{t('hero.subheadline')}</p>
@@ -96,14 +97,14 @@ export function DispatchLandingPage({ locale }: DispatchLandingPageProps) {
       <RateStrip locale={locale} />
 
       <section className={styles.coverage} aria-labelledby="coverage-title">
-        <div>
+        <div data-reveal="left">
           <p className={styles.coverageLabel}>{t('dispatch.coverageLabel')}</p>
           <h2 id="coverage-title">{t('dispatch.coverageTitle')}</h2>
           <p>{t('dispatch.coverageText')}</p>
         </div>
-        <div className={styles.coverageDetails}>
-          <div><span>{t('dispatch.rateCbm')}</span><strong>350 000 FCFA / CBM</strong></div>
-          <div><span>{t('dispatch.rateKg')}</span><strong>8 000 FCFA / kg</strong></div>
+        <div className={styles.coverageDetails} data-reveal="right">
+          <div><span>{t('dispatch.rateCbm')}</span><strong><AnimatedNumber value={350000} locale="fr-FR" /> FCFA / CBM</strong></div>
+          <div><span>{t('dispatch.rateKg')}</span><strong><AnimatedNumber value={8000} locale="fr-FR" /> FCFA / kg</strong></div>
           <a href={`https://wa.me/${CONTACT_CONFIG.WHATSAPP.HILARY}`} target="_blank" rel="noopener noreferrer">
             {t('dispatch.contactHilary')} · {CONTACT_CONFIG.PHONE.HILARY}
           </a>
@@ -114,13 +115,13 @@ export function DispatchLandingPage({ locale }: DispatchLandingPageProps) {
       <JourneyDetail />
 
       <section className={styles.services} id="services" aria-labelledby="services-title">
-        <header>
+        <header data-reveal>
           <h2 id="services-title">{t('dispatch.servicesTitle')}</h2>
           <p>{t('services.subtitle')}</p>
         </header>
         <div className={styles.serviceRows}>
           {SERVICES.map(({ key, href, icon: Icon }) => (
-            <Link key={key} href={withLocale(href)} className={styles.serviceRow}>
+            <Link key={key} href={withLocale(href)} className={styles.serviceRow} data-reveal>
               <span className={styles.serviceIcon}><Icon aria-hidden="true" /></span>
               <span className={styles.serviceCopy}>
                 <strong>{t(`services.items.${key}.title`)}</strong>
@@ -139,7 +140,7 @@ export function DispatchLandingPage({ locale }: DispatchLandingPageProps) {
       <CorridorGrid locale={locale} />
 
       <section className={styles.about} id="about" aria-labelledby="about-title">
-        <figure>
+        <figure data-reveal="left">
           <Image
             src={OPERATIONS_IMAGE}
             alt={t('about.gallery.warehouseLabel')}
@@ -147,7 +148,7 @@ export function DispatchLandingPage({ locale }: DispatchLandingPageProps) {
             sizes="(min-width: 64rem) 50vw, 100vw"
           />
         </figure>
-        <div className={styles.aboutCopy}>
+        <div className={styles.aboutCopy} data-reveal="right">
           <h2 id="about-title">{t('about.title')}</h2>
           <p>{t('about.description1')}</p>
           <p>{t('about.description2')}</p>
@@ -159,7 +160,7 @@ export function DispatchLandingPage({ locale }: DispatchLandingPageProps) {
       <AppSection />
 
       <section className={styles.faq} aria-labelledby="faq-title">
-        <header>
+        <header data-reveal="left">
           <h2 id="faq-title">{t('faq.title')}</h2>
           <p>{t('faq.helpDescription')}</p>
           <a href={`https://wa.me/${CONTACT_CONFIG.WHATSAPP.CAMEROON}`} target="_blank" rel="noopener noreferrer">
@@ -168,7 +169,7 @@ export function DispatchLandingPage({ locale }: DispatchLandingPageProps) {
         </header>
         <div className={styles.faqList}>
           {faq.map((item) => (
-            <details key={item.question}>
+            <details key={item.question} data-reveal>
               <summary>{item.question}<i>+</i></summary>
               <p>{item.answer}</p>
             </details>
@@ -177,11 +178,11 @@ export function DispatchLandingPage({ locale }: DispatchLandingPageProps) {
       </section>
 
       <section className={styles.closing} id="contact">
-        <div>
+        <div data-reveal="left">
           <h2>{t('contact.title')}</h2>
           <p>{t('contact.subtitle')}</p>
         </div>
-        <a href={`https://wa.me/${CONTACT_CONFIG.WHATSAPP.CAMEROON}`} target="_blank" rel="noopener noreferrer">
+        <a href={`https://wa.me/${CONTACT_CONFIG.WHATSAPP.CAMEROON}`} target="_blank" rel="noopener noreferrer" data-reveal="right">
           <span>WhatsApp</span><ArrowRight aria-hidden="true" />
         </a>
       </section>

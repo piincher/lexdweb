@@ -27,9 +27,11 @@ import { PWAProvider, InstallPrompt, UpdateNotification, OfflineIndicator } from
 import { PromoModalProvider } from '@/features/promoCampaigns';
 import { SmoothScroll } from '@/components/smooth-scroll';
 import { AnimationProvider } from '@/components/animation';
+import { RevealOnScroll } from '@/components/scroll-animations';
 import type { Theme, ResolvedTheme } from '@/store/useThemeStore';
 import '../globals.css';
 import '@/styles/scroll-animations.css';
+import '@/styles/motion.css';
 
 // Animation component styles
 import '@/components/animations/SpotlightCard.css';
@@ -275,6 +277,9 @@ export default async function LocaleLayout({ children, params }: LayoutProps) {
             <HumanReadableIntlProvider locale={validLocale} messages={messages}>
               <AnimationProvider>
                 <SmoothScroll>
+                  {/* Site-wide reveal-on-scroll: enhances any [data-reveal]
+                      element, no-ops under reduced motion. */}
+                  <RevealOnScroll />
                   <PromoModalProvider>
                     <OfflineIndicator />
                     <UpdateNotification />

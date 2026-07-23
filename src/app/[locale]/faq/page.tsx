@@ -199,10 +199,10 @@ export default async function FAQPage({ params }: Props) {
           <p className="mb-4 text-sm font-semibold uppercase tracking-wider text-blue-600 dark:text-blue-300">
             {isEn ? 'China to Africa FAQ' : 'FAQ Chine-Cameroon'}
           </p>
-          <h1 className="text-4xl font-black md:text-6xl">
+          <h1 className="text-4xl font-black md:text-6xl" data-reveal>
             {isEn ? 'Frequently Asked Questions — China to Africa Cargo' : 'Questions Fréquentes — Cargo Chine Cameroon'}
           </h1>
-          <p className="mt-6 text-lg leading-8 text-slate-700 dark:text-slate-300">
+          <p className="mt-6 text-lg leading-8 text-slate-700 dark:text-slate-300" data-reveal>
             {isEn
               ? 'Essential answers before sourcing, paying suppliers or shipping goods from China to Cameroon, Africa and beyond.'
               : 'Les réponses essentielles avant de sourcer, payer un fournisseur ou expédier vos marchandises de Chine vers Douala. Tout sur le cargo Chine Cameroun.'}
@@ -210,14 +210,14 @@ export default async function FAQPage({ params }: Props) {
 
           <div className="mt-10 space-y-4">
             {pageFaqs.map((faq) => (
-              <section key={faq.question} className="rounded-lg border border-slate-200 p-6 dark:border-slate-800">
+              <section key={faq.question} className="rounded-lg border border-slate-200 p-6 dark:border-slate-800" data-reveal>
                 <h2 className="text-xl font-bold">{faq.question}</h2>
                 <p className="mt-3 leading-7 text-slate-700 dark:text-slate-300">{faq.answer}</p>
               </section>
             ))}
           </div>
 
-          <div className="mt-10 rounded-lg bg-blue-600 p-6 text-white">
+          <div className="mt-10 rounded-lg bg-blue-600 p-6 text-white" data-reveal="scale">
             <h2 className="text-2xl font-bold">{isEn ? 'Have a specific case?' : 'Vous avez un cas précis ?'}</h2>
             <p className="mt-2 !text-white">
               {isEn

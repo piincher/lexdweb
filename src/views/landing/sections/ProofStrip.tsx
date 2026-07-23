@@ -28,15 +28,15 @@ export function ProofStrip() {
 
   return (
     <section className={styles.section} aria-labelledby="proof-title">
-      <div className={styles.sectionHead}>
+      <div className={styles.sectionHead} data-reveal>
         <p className={styles.overline}>{t('overline')}</p>
         <h2 id="proof-title">{t('title')}</h2>
         <p>{t('subtitle')}</p>
       </div>
 
-      <div className={styles.proof}>
+      <div className={styles.proof} data-stagger>
         {ITEMS.map(({ key, icon: Icon }) => (
-          <div key={key} className={styles.proofItem}>
+          <div key={key} className={styles.proofItem} data-reveal data-hover="lift">
             <span className={styles.proofIcon}>
               <Icon aria-hidden="true" />
             </span>

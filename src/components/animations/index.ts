@@ -105,6 +105,9 @@ export { MagneticWrapper } from './MagneticWrapper';
 // ============================================================================
 export { Counter } from './Counter';
 
+// Locale-aware count-up for formatted figures (e.g. rates like "350 000").
+export { AnimatedNumber } from './AnimatedNumber';
+
 // ============================================================================
 // Type re-exports for convenience
 // ============================================================================

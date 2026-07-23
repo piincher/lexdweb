@@ -110,16 +110,16 @@ export default async function ServicesHub({ params }: Props) {
             <p className="mb-4 text-sm font-semibold uppercase tracking-wider text-blue-600 dark:text-blue-300">
               {isEn ? 'LEXD Services' : 'Services LEXD'}
             </p>
-            <h1 className="max-w-4xl text-4xl font-black md:text-6xl">
+            <h1 className="max-w-4xl text-4xl font-black md:text-6xl" data-reveal>
               {isEn ? 'Services for doing business with China from Cameroun and Africa' : 'Services pour importer de Chine au Cameroun'}
             </h1>
-            <p className="mt-6 max-w-3xl text-lg leading-8 text-slate-700 dark:text-slate-300">
+            <p className="mt-6 max-w-3xl text-lg leading-8 text-slate-700 dark:text-slate-300" data-reveal>
               {isEn
                 ? 'One partner to find the supplier, secure payment, verify quality and ship goods from China to Douala or across Africa.'
                 : 'Un seul partenaire pour trouver le fournisseur, sécuriser le paiement, vérifier la qualité et expédier vos marchandises de la Chine vers Douala.'}
             </p>
 
-            <div className="mt-10 grid gap-5 md:grid-cols-2 lg:grid-cols-3">
+            <div className="mt-10 grid gap-5 md:grid-cols-2 lg:grid-cols-3" data-stagger>
               {services.map((service) => {
                 const isTwoLocaleService =
                   service.href === '/services/paiement-fournisseur-chine' ||
@@ -133,6 +133,8 @@ export default async function ServicesHub({ params }: Props) {
                     key={service.href}
                     href={`/${linkLocale}${service.href}`}
                     className="rounded-lg border border-slate-200 p-6 transition hover:border-blue-300 hover:bg-blue-50 dark:border-slate-800 dark:hover:border-blue-700 dark:hover:bg-slate-900"
+                    data-reveal
+                    data-hover="lift"
                   >
                     <h2 className="text-xl font-bold">{service.title[textLocale]}</h2>
                     <p className="mt-3 leading-7 text-slate-700 dark:text-slate-300">{service.description[textLocale]}</p>
