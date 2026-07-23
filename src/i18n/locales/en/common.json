@@ -1,0 +1,1774 @@
+{
+  "metadata": {
+    "title": "LEXD | China-Africa Sourcing & Shipping",
+    "description": "LEXD - Your China-Africa logistics partner for sourcing, purchasing and shipping goods to Cameroon and Africa. Free quote.",
+    "keywords": "China Africa sourcing, China Cameroon shipping, freight forwarding China Africa, air freight China Douala, shipping China Africa, international logistics"
+  },
+  "navigation": {
+    "home": "Home",
+    "services": "Services",
+    "about": "About",
+    "whyUs": "Why Us",
+    "contact": "Contact",
+    "tracking": "Tracking",
+    "faq": "FAQ",
+    "blog": "Blog",
+    "pricing": "Pricing",
+    "calculator": "Calculator",
+    "privacy": "Privacy",
+    "terms": "Terms",
+    "community": "Community",
+    "tools": "Tools",
+    "compareShipping": "Compare Shipping",
+    "checkProduct": "Check Product"
+  },
+  "cta": {
+    "getQuote": "Get Free Quote",
+    "contactUs": "Contact Us",
+    "trackShipment": "Track Shipment",
+    "learnMore": "Learn More",
+    "discoverServices": "Discover Our Services",
+    "sendMessage": "Send Message",
+    "downloadApp": "Download App"
+  },
+  "hero": {
+    "title": "LEXD - Your Logistics Partner",
+    "headline": "Sourcing and shipping from China to Africa",
+    "subheadline": "Export to Cameroon and Africa with one partner handling every step.",
+    "subtitle": "From supplier sourcing in China to final delivery in Cameroon, Senegal, Ivory Coast, Ghana, Nigeria and Africa, we guide you every step of the way. Purchasing, quality control, secure payment, air freight, sea freight, and WhatsApp tracking: one partner for your China-Africa supply chain.",
+    "typingTexts": [
+      "Complete Logistics Solutions",
+      "International Shipping",
+      "Your Trusted Partner"
+    ],
+    "badge": "Operating 24/7 • Guaranteed Delivery",
+    "journeySteps": [
+      {
+        "icon": "🔍",
+        "label": "Find Supplier"
+      },
+      {
+        "icon": "🛒",
+        "label": "Buy"
+      },
+      {
+        "icon": "✓",
+        "label": "Quality Check"
+      },
+      {
+        "icon": "💳",
+        "label": "Pay"
+      },
+      {
+        "icon": "📦",
+        "label": "Ship"
+      },
+      {
+        "icon": "🚚",
+        "label": "Receive"
+      }
+    ],
+    "stats": {
+      "payOnDelivery": "Pay on Delivery"
+    }
+  },
+  "dispatch": {
+    "corridor": "China → Africa",
+    "operationsManifest": "Operations manifest",
+    "endToEndControl": "End-to-end control",
+    "workflowLabel": "Single operating chain",
+    "workflowTitle": "From supplier to delivery.",
+    "servicesTitle": "One desk. Eight operations.",
+    "ready": "Ready for dispatch?",
+    "mobileLabel": "Delivery operations",
+    "footerStatement": "Move goods with a clear chain of custody.",
+    "coverageLabel": "Corridors & rates",
+    "coverageTitle": "Mali, Zambia and beyond.",
+    "coverageText": "We support your shipments, commercial projects, and China-related processes across Africa.",
+    "rateCbm": "350,000 FCFA / CBM",
+    "rateKg": "8,000 FCFA / kg",
+    "contactHilary": "Contact Hilary"
+  },
+  "landing": {
+    "marquee": [
+      "Sea Freight",
+      "Air Freight",
+      "Sourcing",
+      "Supplier Payment",
+      "24/7 Tracking",
+      "Door-to-Door Delivery"
+    ],
+    "tracking": {
+      "label": "Track a shipment",
+      "placeholder": "Tracking or container number",
+      "action": "Track",
+      "hint": "A LEXD agent replies on WhatsApp with your shipment's location and its estimated arrival date.",
+      "whatsappMessage": "Hello LEXD, I would like to track my shipment: {reference}"
+    },
+    "rates": {
+      "overline": "Rates",
+      "title": "What a shipment costs.",
+      "subtitle": "Our China to Douala rates, no quote required. The final price depends on volume, weight and the nature of the goods.",
+      "perKg": "/kg",
+      "perCbm": "/CBM",
+      "days": "{range} days",
+      "tiers": {
+        "sea": "Sea freight",
+        "standard": "Air standard",
+        "electronics": "Air electronics",
+        "express": "Flash Express"
+      },
+      "seaNote": "Customs clearance included. The most economical option for large volumes.",
+      "standardNote": "Clothing, footwear and everyday goods.",
+      "electronicsNote": "Electronics, batteries and liquids, with the right packaging.",
+      "expressNote": "Priority handling for urgent orders and samples.",
+      "calculatorCta": "Calculate my shipping cost",
+      "disclaimer": "Indicative rates in FCFA, excluding insurance and special handling."
+    },
+    "journey": {
+      "overline": "How we work",
+      "title": "From supplier to your door.",
+      "subtitle": "Six stages. You know where your goods are and what we are doing at every point.",
+      "steps": [
+        {
+          "title": "Supplier",
+          "body": "Send us an Alibaba or 1688 link, or just a photo. We identify the supplier, check how long they have traded and what they can actually produce, then negotiate on your behalf.",
+          "tag": "Factory vetting"
+        },
+        {
+          "title": "Purchase",
+          "body": "We place the order in your name from our Foshan office and follow production until the goods leave the factory.",
+          "tag": "Office in China"
+        },
+        {
+          "title": "Quality",
+          "body": "Our team opens the cartons, counts, measures and photographs your goods before they leave the warehouse. Anything defective is refused.",
+          "tag": "Pre-shipment inspection"
+        },
+        {
+          "title": "Payment",
+          "body": "You only pay the supplier once quality control has passed. We settle in yuan from China; you settle in FCFA in Cameroon.",
+          "tag": "Pay after inspection"
+        },
+        {
+          "title": "Shipping",
+          "body": "Consolidation, booking and departure, by air or sea depending on your budget. Photos and the tracking number reach you on WhatsApp.",
+          "tag": "WhatsApp photos"
+        },
+        {
+          "title": "Delivery",
+          "body": "We handle customs clearance on arrival, then delivery in Douala or collection from our warehouse.",
+          "tag": "Clearance included"
+        }
+      ]
+    },
+    "proof": {
+      "overline": "Our commitments",
+      "title": "What we guarantee.",
+      "subtitle": "Four commitments you can hold us to, rather than adjectives.",
+      "items": {
+        "inspection": {
+          "title": "Inspection before payment",
+          "body": "We open, count and photograph your goods in China before the supplier is paid. Anything that does not match your order does not ship."
+        },
+        "photos": {
+          "title": "Photos at every stage",
+          "body": "You get real photos of your cartons on WhatsApp: on arrival at the warehouse, at packing and at departure."
+        },
+        "customs": {
+          "title": "Customs handled",
+          "body": "We take care of clearance formalities on arrival. The sea freight rate quoted already includes them."
+        },
+        "payment": {
+          "title": "Supplier paid in yuan",
+          "body": "You pay in FCFA in Cameroon and we pay your supplier in yuan from China. No international transfer to arrange."
+        }
+      }
+    },
+    "corridors": {
+      "overline": "Destinations",
+      "title": "Our corridors from China.",
+      "subtitle": "Indicative door-to-door transit times, departing our Foshan and Guangzhou warehouses.",
+      "allCta": "See all corridors"
+    },
+    "app": {
+      "overline": "LEXD app",
+      "title": "Your shipments in your pocket.",
+      "subtitle": "Follow your goods, your payments and your documents without having to ask.",
+      "features": [
+        "Follow every shipment stage by stage, from warehouse departure to arrival in Douala",
+        "Get an alert the moment your goods change status",
+        "See your invoices and what is still outstanding",
+        "Find the detail of every carton: weight, volume and photos"
+      ],
+      "storePrefix": "Get it on",
+      "iosPending": "The iOS version is coming soon. In the meantime, message us on WhatsApp to track your shipments."
+    }
+  },
+  "stats": {
+    "sectionLabel": "Our Numbers",
+    "title": "Results That Speak",
+    "shipments": "Shipments",
+    "countries": "Countries Served",
+    "rating": "Average Rating",
+    "satisfiedClients": "Satisfied Clients",
+    "countriesServed": "Countries Served",
+    "successRate": "Success Rate",
+    "support": "Customer Support",
+    "experienceYears": "Years of Experience",
+    "deliveryRate": "Delivery Rate",
+    "activeClients": "Active Clients",
+    "ratingLabel": "Based on 312 verified client reviews",
+    "ratingValue": "4.8",
+    "activeClientsCount": "1,247"
+  },
+  "about": {
+    "sectionLabel": "About Us",
+    "title": "About LEXD",
+    "description1": "Founded in 2019, LEXD has become a China-Africa logistics partner for importers shipping to Cameroon and across Africa. We offer complete solutions for purchasing, supplier payment, consolidation, freight and delivery.",
+    "description2": "Our mission is to simplify international trade by giving African businesses one reliable operating bridge in China, with Douala as our strongest local hub and support point.",
+    "tags": [
+      "Reliable",
+      "Fast",
+      "Secure",
+      "Africa-first"
+    ],
+    "gallery": {
+      "warehouseLabel": "Our Warehouse",
+      "warehouseLocation": "Foshan Lishui, China"
+    }
+  },
+  "comparison": {
+    "metadata": {
+      "title": "Why Us | Full Service vs Simple Transit | LEXD",
+      "description": "Why choose a full import partner instead of a basic freight forwarder. Discover how LEXD secures your purchases from China.",
+      "keywords": "freight forwarder china africa, import partner, china sourcing, full service vs basic freight, import china cameroon"
+    },
+    "hero": {
+      "badge": "Full Import Partner",
+      "title": "Don't pay for simple shipping. Invest in an import partner.",
+      "subtitle": "Don't settle for a freight forwarder. With LEXD, you get a partner that handles everything: sourcing, payment, quality, shipping.",
+      "ctaWhatsApp": "Start Importing",
+      "ctaRates": "View Our Rates"
+    },
+    "problem": {
+      "sectionLabel": "The Problem",
+      "title": "What goes wrong when you only hire a basic freight forwarder",
+      "subtitle": "A freight forwarder only moves your boxes. Everything else? It's on you.",
+      "items": {
+        "scam": {
+          "title": "Scam risk",
+          "description": "You find suppliers yourself on Alibaba or . Without local verification, the risk of fraud is real."
+        },
+        "quality": {
+          "title": "No quality control",
+          "description": "You receive products as-is. Bad surprise when the quality doesn't match the photos."
+        },
+        "payment": {
+          "title": "Payment headaches",
+          "description": "Alipay, Chinese bank transfers... You handle everything alone, with currency and fraud risks."
+        },
+        "consolidation": {
+          "title": "Multiple vendors",
+          "description": "Buying from several sellers? You can't consolidate packages. You pay freight multiple times."
+        },
+        "customs": {
+          "title": "Customs surprises",
+          "description": "Hidden fees, complicated clearance, endless paperwork. The quoted price is never the final price."
+        }
+      }
+    },
+    "comparisonTable": {
+      "sectionLabel": "The Comparison",
+      "title": "Simple Transit vs Full Service",
+      "subtitle": "Compare what you actually get.",
+      "simpleTransit": "Simple Transit",
+      "fullService": "LEXD Full Service",
+      "rows": {
+        "supplierFinding": {
+          "label": "Supplier finding",
+          "simple": "You find them",
+          "full": "We find & verify"
+        },
+        "qualityCheck": {
+          "label": "Quality check",
+          "simple": "None",
+          "full": "Pre-shipment inspection"
+        },
+        "payment": {
+          "label": "Supplier payment",
+          "simple": "You handle Alipay/",
+          "full": "We pay on your behalf"
+        },
+        "consolidation": {
+          "label": "Package consolidation",
+          "simple": "Not possible",
+          "full": "Free consolidation"
+        },
+        "customs": {
+          "label": "Customs clearance",
+          "simple": "Hidden fees",
+          "full": "Included & transparent"
+        },
+        "tracking": {
+          "label": "Tracking",
+          "simple": "Basic tracking number",
+          "full": "Real-time tracking + app"
+        },
+        "support": {
+          "label": "Customer support",
+          "simple": "Email, 48h response",
+          "full": "WhatsApp 24/7"
+        }
+      }
+    },
+    "result": {
+      "sectionLabel": "The Result",
+      "title": "With LEXD, you get",
+      "subtitle": "A partner that works for you, not just a carrier.",
+      "items": {
+        "peaceOfMind": {
+          "title": "Peace of mind",
+          "description": "We verify your suppliers, control quality, and handle issues. You just wait for your delivery."
+        },
+        "qualityGoods": {
+          "title": "Quality goods",
+          "description": "Photo and video inspection before shipping. If it doesn't match, we don't send it to you."
+        },
+        "costSavings": {
+          "title": "Real savings",
+          "description": "Consolidation of your purchases, price negotiation, no hidden customs fees. You save across the board."
+        },
+        "timeSavings": {
+          "title": "Time savings",
+          "description": "No more sleepless nights negotiating with suppliers in Chinese. We handle everything."
+        }
+      }
+    },
+    "cta": {
+      "title": "Ready to import without stress?",
+      "subtitle": "Join hundreds of African businesses that chose a full import partner.",
+      "button": "Chat on WhatsApp"
+    },
+    "sectionLabel": "The Comparison",
+    "title": "LEXD vs Others",
+    "subtitle": "What you actually get with a full import partner.",
+    "chinaLinkColumn": "LEXD",
+    "othersColumn": "Others",
+    "features": {
+      "sourcing": {
+        "label": "Supplier Sourcing",
+        "us": "We find and verify your suppliers in China",
+        "them": "You have to find them alone on Alibaba"
+      },
+      "qualityControl": {
+        "label": "Quality Control",
+        "us": "Photo and video inspection before shipping",
+        "them": "No control, you receive whatever ships"
+      },
+      "payment": {
+        "label": "Supplier Payment",
+        "us": "We pay for you in China",
+        "them": "You handle Alipay/ alone"
+      },
+      "multiCountry": {
+        "label": "Full Service",
+        "us": "China sourcing + Cameroon delivery",
+        "them": "Shipping only, no sourcing"
+      },
+      "consolidation": {
+        "label": "Consolidation",
+        "us": "Free package consolidation",
+        "them": "Freight paid per supplier"
+      },
+      "customs": {
+        "label": "Customs Clearance",
+        "us": "Included and transparent, no surprises",
+        "them": "Hidden fees and complex paperwork"
+      },
+      "doorToDoor": {
+        "label": "Door-to-Door Delivery",
+        "us": "From China to your warehouse",
+        "them": "Drop-off at port area"
+      }
+    },
+    "ctaText": "The choice is simple. Start with LEXD."
+  },
+  "services": {
+    "sectionLabel": "Our Services",
+    "title": "Our Services",
+    "subtitle": "Complete solutions to simplify your trade with China",
+    "items": {
+      "sourcing": {
+        "title": "SOURCING",
+        "description": "We manage your purchases from Chinese suppliers with professionalism and transparency."
+      },
+      "airFreight": {
+        "title": "AIR FREIGHT",
+        "description": "Fast delivery by air for your urgent shipments to Cameroon through our partner network."
+      },
+      "seaFreight": {
+        "title": "SEA FREIGHT",
+        "description": "Economical solution for transporting large volumes by sea."
+      },
+    "payment": {
+      "title": "SUPPLIER PAYMENT",
+      "description": "We facilitate secure payment to your suppliers in China via Alipay, and other methods."
+    },
+    "businessConsulting": {
+      "title": "BUSINESS CONSULTING",
+      "description": "Practical guidance for your sourcing, suppliers, and commercial operations in China."
+    },
+    "studyChina": {
+      "title": "STUDY IN CHINA",
+      "description": "Guidance for students who want to come to China to study."
+    },
+    "alibabaTraining": {
+      "title": "ALIBABA TRAINING",
+      "description": "Learn how to search, verify, and order from suppliers on Alibaba."
+    },
+    "chinaVisa": {
+      "title": "CHINA VISA PROCESS",
+      "description": "Guidance on the steps and documents for the Chinese visa process."
+    },
+      "recharge": {
+        "title": "ACCOUNT TOP-UP",
+        "description": "Top up your LEXD account easily via Orange Money, Wave or cash for faster transactions."
+      }
+    },
+    "features": {
+      "sourcing": {
+        "supplierVerification": "Supplier Verification",
+        "qualityControl": "Quality Control",
+        "negotiation": "Price Negotiation",
+        "consolidation": "Package Consolidation"
+      },
+      "airFreight": {
+        "expressDelivery": "Express 7-14 days",
+        "tracking": "Real-time Tracking",
+        "insurance": "Insurance Included",
+        "doorToDoor": "Door-to-Door"
+      },
+      "seaFreight": {
+        "fullContainer": "Full Container",
+        "sharedContainer": "Shared Container",
+        "economical": "Economical 60-75 days",
+        "tracking": "Online Tracking"
+      },
+      "payment": {
+        "alipay": "Alipay Payment",
+        "secure": "100% Secure",
+        "fast": "24h Processing"
+      },
+      "recharge": {
+        "orangeMoney": "Orange Money",
+        "wave": "Wave",
+        "cash": "Cash Payment",
+        "instant": "Instant Credit"
+      }
+    },
+    "appSection": {
+      "title": "Download the App",
+      "note": "The app is available only for registered customers.",
+      "previewTitle": "Discover Our Mobile App",
+      "previewDescription": "Track your goods at every step of their journey."
+    }
+  },
+  "whyUs": {
+    "sectionLabel": "Why Choose Us",
+    "title": "Why Choose LEXD?",
+    "items": {
+      "speed": {
+        "title": "Speed",
+        "description": "Express delivery in the shortest timeframes on the market."
+      },
+      "reliability": {
+        "title": "Reliability",
+        "description": "Real-time tracking and 24/7 customer service."
+      },
+      "price": {
+        "title": "Competitive Prices",
+        "description": "Best rates on the market with no hidden fees."
+      },
+      "expertise": {
+        "title": "Expertise",
+        "description": "Over 7 years of experience in international logistics."
+      }
+    }
+  },
+  "successStories": {
+    "sectionLabel": "Success Stories",
+    "title": "Our Clients Succeeded. You Can Too.",
+    "subtitle": "African entrepreneurs who transformed their supply chain with LEXD.",
+    "problem": "The Problem",
+    "solution": "Our Solution",
+    "result": "The Result",
+    "saved": "saved",
+    "timeReduced": "time reduced",
+    "revenueUp": "revenue up",
+    "ctaText": "Become Our Next Success Story",
+    "stories": {
+      "toure": {
+        "name": "Dr. Ibrahim Touré",
+        "location": "Douala, Cameroon",
+        "business": "Clinique du Sahel",
+        "problem": "Ordered medical equipment from a random Alibaba supplier. Received counterfeit products with no warranty. Lost $3,500.",
+        "solution": "LEXD found a verified supplier, inspected the goods before shipping, and handled payment securely.",
+        "result": "Saved $2,000 compared to his first attempt. Received certified genuine equipment in 18 days.",
+        "metricValue": "$2,000",
+        "metricLabel": "saved"
+      },
+      "aminata": {
+        "name": "Aminata Diarra",
+        "location": "Douala, Cameroon",
+        "business": "Maison Aminata Textiles",
+        "problem": "Bought textiles from 3 different sellers on Alibaba. Each sent poor quality. No way to check before paying.",
+        "solution": "LEXD consolidated purchases from multiple suppliers, did quality control on every batch, and shipped everything together to Douala.",
+        "result": "Saved 40% on shipping by consolidating. All items matched the samples. Business revenue up 60%.",
+        "metricValue": "+60%",
+        "metricLabel": "revenue up"
+      },
+      "ousmane": {
+        "name": "Ousmane Traoré",
+        "location": "Douala, Cameroon",
+        "business": "Traoré Electronics",
+        "problem": "Electronics shipment held at customs in Douala for 3 weeks. Had to pay unexpected fees. Customer orders were delayed.",
+        "solution": "LEXD handled customs clearance as part of door-to-door service. No surprises.",
+        "result": "Delivery time reduced from 45 days to 16 days. Zero extra customs fees. Customers happy.",
+        "metricValue": "16 days",
+        "metricLabel": "time reduced"
+      }
+    }
+  },
+  "testimonials": {
+    "sectionLabel": "Testimonials",
+    "title": "What Our Clients Say",
+    "ctaTitle": "Join Our Satisfied Clients",
+    "ctaDescription": "Over 100 companies trust us for their logistics needs",
+    "cards": [
+      {
+        "name": "Amadou Diallo",
+        "company": "Diallo Electronics, Douala",
+        "text": "LEXD changed how we import. The 14-21 day air route is real, and the support team keeps us updated."
+      },
+      {
+        "name": "Fatou Coulibaly",
+        "company": "Mode Africaine, Abidjan",
+        "text": "I recommend them for sea freight. My containers arrive with clear tracking and fewer surprises."
+      },
+      {
+        "name": "Oumar Toure",
+        "company": "Toure Import-Export, Dakar",
+        "text": "Their sourcing service is excellent. They negotiated better supplier pricing than I could get alone."
+      }
+    ],
+    "testimonials": {
+      "sectionLabel": "Testimonials"
+    },
+    "industries": {
+      "retail": "Retail Sector",
+      "tech": "Technology Sector",
+      "automotive": "Automotive Sector"
+    }
+  },
+  "partners": {
+    "sectionLabel": "Our Partners",
+    "title": "Our Partners",
+    "subtitle": "We collaborate with the best in the industry",
+    "trustedBy": "Trusted by Industry Leaders",
+    "partners": {
+      "sectionLabel": "Our Partners"
+    }
+  },
+  "faq": {
+    "sectionLabel": "FAQ",
+    "title": "Frequently Asked Questions",
+    "noAnswer": "Can't find your answer?",
+    "contactWhatsApp": "Contact us on WhatsApp",
+    "helpTitle": "Need Help?",
+    "helpDescription": "Our support team is available 24/7 to answer all your questions.",
+    "supportLabel": "Support via Whatsapp",
+    "items": {
+      "0": {
+        "question": "What types of goods can you ship?",
+        "answer": "We ship almost all types of goods, except dangerous items or those prohibited by law. Contact us for more details about your specific items +861-786-366-8208."
+      },
+      "1": {
+        "question": "How long does air freight take?",
+        "answer": "Air freight generally takes between 14 to 21 business days from China to Douala. We also offer express options for deliveries in 2-5 days."
+      },
+      "2": {
+        "question": "How long does sea freight take?",
+        "answer": "Sea freight generally takes between 60 to 75 business days from China to Douala. This is the most economical option for large volumes."
+      },
+      "3": {
+        "question": "How does supplier payment work?",
+        "answer": "We facilitate secure payment to your suppliers in China via Alipay, credit cards and other methods. You pay the amount to us based on the daily rate and we settle with your suppliers."
+      },
+      "4": {
+        "question": "How do I top up my LEXD account?",
+        "answer": "You can top up your customer account via Orange Money, Wave and Cash. Funds are credited instantly and allow you to pay for your shipments more quickly."
+      },
+      "5": {
+        "question": "Do you offer real-time tracking?",
+        "answer": "Yes, all our shipments are equipped with a real-time tracking system accessible from your customer dashboard in our mobile app 24/7."
+      }
+    }
+  },
+  "quizSection": {
+    "badge": "Free 2-minute readiness check",
+    "title": "Are you ready to import",
+    "titleAccent": "from China?",
+    "descriptionBefore": "Answer a few simple questions and receive",
+    "descriptionStrong": "personalized import advice",
+    "descriptionAfter": "on WhatsApp for your product, budget and destination.",
+    "benefits": [
+      "Free assessment",
+      "Personalized advice",
+      "Expert guidance"
+    ],
+    "englishCtaTitle": "Talk to an import advisor",
+    "englishCtaText": "Send your product link, estimated quantity and destination. Our team will guide you before you pay a supplier.",
+    "englishCtaButton": "Start on WhatsApp",
+    "trustImporters": "500+ importers supported",
+    "trustResponse": "Reply in 10 min"
+  },
+  "contact": {
+    "sectionLabel": "Contact Us",
+    "title": "Contact Us",
+    "subtitle": "Our team is available to answer all your questions",
+    "form": {
+      "title": "Send us a message",
+      "name": "Full Name",
+      "email": "Email",
+      "phone": "Phone",
+      "message": "Message",
+      "namePlaceholder": "Your name",
+      "emailPlaceholder": "your@email.com",
+      "phonePlaceholder": "+237 6XX XX XX XX",
+      "messagePlaceholder": "Describe your needs...",
+      "send": "Send Message",
+      "sending": "Sending...",
+      "success": {
+        "title": "Message sent!",
+        "message": "We will respond as soon as possible."
+      },
+      "errors": {
+        "nameRequired": "Name is required",
+        "nameMin": "Name must be at least 2 characters",
+        "emailRequired": "Email is required",
+        "emailInvalid": "Please enter a valid email",
+        "phoneInvalid": "Please enter a valid phone number",
+        "messageRequired": "Message is required",
+        "messageMin": "Message must be at least 10 characters"
+      }
+    },
+    "info": {
+      "title": "Contact Information",
+      "address": "Address",
+      "phone": "Phone",
+      "email": "Email",
+      "whatsapp": "Contact us on WhatsApp",
+      "hours": "Opening Hours",
+      "available24_7": "Available 24/7 for emergencies",
+      "hoursWeekday": "Monday - Friday: 8:00 AM - 8:00 PM",
+      "hoursSaturday": "Saturday: 9:00 AM - 5:00 PM",
+      "hoursSunday": "Sunday: 10:00 AM - 3:00 PM"
+    }
+  },
+  "footer": {
+    "description": "Your trusted partner for China-Africa trade. Complete sourcing, payment, freight and delivery solutions for Cameroon and Africa.",
+    "services": "Services",
+    "links": "Useful Links",
+    "newsletter": "Newsletter",
+    "newsletterDescription": "Stay informed about our latest freight offers, route updates and sourcing insights.",
+    "newsletterPlaceholder": "Your email",
+    "scanToFollow": "Scan to follow us on facebook",
+    "copyright": "All rights reserved.",
+    "developedBy": "Developed and maintained by NUVOTECH"
+  },
+  "common": {
+    "language": "Language"
+  },
+  "language": {
+    "select": "Change language",
+    "current": "Current language"
+  },
+  "pricing": {
+    "hero": {
+      "title": "China to Cameroon freight rates: air, sea, and cargo",
+      "subtitle": "Transparent rates for shipments from China to Douala. Compare air freight, sea freight, urgent cargo, and economical options based on your margin.",
+      "speedBadge": "Delivery in 2-5 days",
+      "stats": {
+        "express": "Flash Express: 2-5 days",
+        "standard": "Air Standard: 7-14 days",
+        "sea": "Economy Sea: 60-75 days",
+        "reviews": "4.8 ★ — 312 reviews"
+      }
+    },
+    "navigation": {
+      "goToCalculator": "Calculate My Shipment",
+      "viewPricing": "View Pricing"
+    },
+    "modes": {
+      "air": "Air Freight",
+      "sea": "Sea Freight"
+    },
+    "destinations": {
+      "cameroon": "Cameroon",
+      "senegal": "Senegal",
+      "ivoryCoast": "Ivory Coast",
+      "benin": "Benin",
+      "togo": "Togo",
+      "burkina": "Burkina Faso",
+      "niger": "Niger",
+      "guinea": "Guinea",
+      "ghana": "Ghana"
+    },
+    "categories": {
+      "express": {
+        "name": "Flash Express",
+        "description": "Priority delivery 2-5 days",
+        "unit": "kg"
+      },
+      "phones": {
+        "name": "Phones",
+        "description": "Smartphones and mobile accessories",
+        "unit": "piece"
+      },
+      "electronics": {
+        "name": "Electronics",
+        "description": "Electronic devices and accessories",
+        "unit": "kg"
+      },
+      "standard": {
+        "name": "Air Standard",
+        "description": "Standard delivery 7-14 days",
+        "unit": "kg"
+      },
+      "containers": {
+        "name": "Containers",
+        "description": "Full container shipping",
+        "unit": "m³"
+      }
+    },
+    "smartChoice": {
+      "badge": "The Smart Choice",
+      "description": "For importers who plan ahead. Same quality, better price."
+    },
+    "deliveryPerformance": {
+      "title": "Delivery Performance",
+      "subtitle": "We under-promise so we over-deliver.",
+      "quoted": "Quoted time",
+      "actualAverage": "Actual average",
+      "onTimeRate": "On-time deliveries",
+      "earlyDelivery": "Early delivery likely",
+      "earlyDeliveryStat": "94% of our deliveries arrive before the quoted time."
+    },
+    "savings": {
+      "vsExpress": "Save {percent}% vs Flash Express"
+    },
+    "priceTable": {
+      "title": "Price List",
+      "subtitle": "Compare our rates to choose the best option for your needs",
+      "fastestBadge": "FASTEST",
+      "comparisonHint": "Their fastest time: 4 days. Ours: 2-5 days. The difference is real.",
+      "air": {
+        "description": "Fast and secure shipping",
+        "note": "Volumetric weight applies according to formula: (L × W × H) ÷ 5000"
+      },
+      "sea": {
+        "description": "Economical solution for large volumes",
+        "minCBM": "Minimum CBM",
+        "densityThreshold": "Density threshold",
+        "adjustment": "High density adjustment",
+        "note": "Items with density > 250 kg/m³ are subject to volume adjustment"
+      }
+    },
+    "calculator": {
+      "title": "Shipping Calculator",
+      "subtitle": "Choose your deadline, we'll find the cheapest option",
+      "deadlineView": "By Deadline",
+      "classicView": "By Mode"
+    },
+    "calculatorPage": {
+      "title": "China to Cameroon shipping cost calculator",
+      "subtitle": "Estimate freight cost to Douala based on weight, volume, product type, and deadline."
+    },
+    "deadlineCalculator": {
+      "title": "By Deadline",
+      "subtitle": "When do you need it? We'll find the best option.",
+      "weight": "Estimated weight",
+      "dimensions": "Dimensions (cm)",
+      "optional": "optional",
+      "dimensionsHint": "To calculate volumetric weight and CBM",
+      "category": "Category",
+      "whenDoYouNeedIt": "When do you need it?",
+      "day": "day",
+      "days": "days",
+      "destination": "Destination",
+      "recommended": "Recommended for your deadline",
+      "cheaperOption": "Cheaper option available",
+      "cheaperOptionDescription": "{tier} arrives in {min}-{max} days for {price} — save {savings} if you have time.",
+      "fasterOption": "Need more speed?",
+      "fasterOptionDescription": "{tier} delivers in {min}-{max} days for {price}.",
+      "tooLate": "No option guarantees this deadline",
+      "tooLateDescription": "Even our fastest option (Flash Express) needs 2-5 days. Contact us for a custom solution.",
+      "tooLateShort": "Too late",
+      "meetsDeadline": "OK",
+      "bestChoice": "Best choice",
+      "timelineLabel": "Delivery time comparison",
+      "yourDeadline": "Your deadline",
+      "forYourShipment": "for your shipment",
+      "enterWeight": "Enter a weight to see options",
+      "enterWeightHint": "Choose your deadline and we'll find the best option",
+      "urgent": "Urgent",
+      "standard": "Standard",
+      "relaxed": "Relaxed",
+      "economy": "Economy",
+      "positioning": {
+        "flash": "For urgent orders",
+        "air_standard": "Smart choice for non-urgent",
+        "sea_economy": "Cheapest for big volumes"
+      }
+    },
+    "airCalculator": {
+      "weight": "Actual weight",
+      "quantity": "Quantity",
+      "dimensions": "Dimensions (cm)",
+      "optional": "optional",
+      "dimensionsHint": "Dimensions allow us to calculate volumetric weight",
+      "phoneHint": "Enter the number of phones you want to ship (price is per phone)",
+      "category": "Item category",
+      "standardItems": {
+        "title": "Common items",
+        "items": "Clothes, Shoes, Daily items, Accessories, Textiles"
+      },
+      "estimateNote": "These prices are estimates only. Contact us for an exact quote."
+    },
+    "seaCalculator": {
+      "dimensions": "Dimensions (meters)",
+      "length": "Length",
+      "width": "Width",
+      "height": "Height",
+      "weight": "Weight (kg)",
+      "weightHint": "for density calculation",
+      "unitMeters": "in meters",
+      "dimensionsHint": "Ex: 1.2m × 0.8m × 0.9m = 0.86 CBM",
+      "standardItems": {
+        "title": "Items suitable for sea freight",
+        "items": "Furniture, Appliances, Construction materials, Bulk goods"
+      },
+      "rateInfo": {
+        "title": "Sea Freight Rate",
+        "description": "{rate} per CBM with a minimum of {minCBM} CBM"
+      },
+      "densityInfo": {
+        "title": "Density Calculation",
+        "description": "If density exceeds {threshold} kg/m³, an adjustment is applied: Weight × 0.005",
+        "standardRule": "Standard rule 1:200 (density ≤ 200)",
+        "coscoRule": "COSCO/MAERSK 1:250 rule (density > 250)"
+      },
+      "minCBM": {
+        "title": "Minimum CBM",
+        "description": "A minimum of {minCBM} CBM is charged for any shipment"
+      }
+    },
+    "result": {
+      "estimatedPrice": "Estimated Price",
+      "deliveryTime": "Delivery time",
+      "smartChoice": "Great choice! You save {percent}% compared to express.",
+      "deliveryConfidence": "Early delivery likely",
+      "patientImporter": "The patient importer's power move",
+      "actualWeight": "Actual weight",
+      "volumetricWeight": "Volumetric weight",
+      "chargeableWeight": "Chargeable weight",
+      "quantity": "Quantity",
+      "rate": "Rate",
+      "originalCBM": "Original CBM",
+      "density": "Density",
+      "densityAdjustment": "Density adjustment applied",
+      "minCBMApplied": "Minimum CBM applied",
+      "finalCBM": "Final CBM",
+      "calculating": "Calculating...",
+      "enterDetails": "Enter details to get a quote",
+      "enterDimensions": "Enter dimensions to calculate",
+      "contactWhatsApp": "Request a quote on WhatsApp",
+      "estimateDisclaimer": "These prices are estimates only",
+      "densityRuleApplied": "COSCO/MAERSK 1:250 rule applied",
+      "seaRecommendation": {
+        "title": "💡 Sea freight might be more economical",
+        "description": "Detected density: {density} kg/m³. Due to high weight relative to volume, sea transport might be more advantageous."
+      },
+      "highDensity": {
+        "title": "High density item",
+        "description": "A volume adjustment has been applied according to Cosco and Maersk policies."
+      }
+    },
+    "prohibitedItems": {
+      "badge": "Important",
+      "title": "Prohibited and Restricted Items",
+      "subtitle": "List of items that cannot be shipped or require special authorization",
+      "categories": {
+        "prohibited": {
+          "title": "Strictly Prohibited Items",
+          "description": "Cannot be shipped under any circumstances",
+          "items": {
+            "item1": "Weapons and ammunition",
+            "item2": "Drugs and illicit substances",
+            "item3": "Flammable products",
+            "item4": "Hazardous materials",
+            "item5": "Cash and valuable jewelry",
+            "item6": "Confidential documents"
+          }
+        },
+        "restricted": {
+          "title": "Restricted Items",
+          "description": "Require special authorization",
+          "items": {
+            "item1": "Lithium batteries",
+            "item2": "Chemical products",
+            "item3": "Perishable foods",
+            "item4": "Plants and seeds",
+            "item5": "Medications",
+            "item6": "Cosmetics"
+          }
+        },
+        "fragile": {
+          "title": "Fragile Items",
+          "description": "Require special packaging",
+          "items": {
+            "item1": "Glass and ceramics",
+            "item2": "Sensitive electronics",
+            "item3": "Artworks",
+            "item4": "Precision instruments",
+            "item5": "Mirrors",
+            "item6": "LCD/LED screens"
+          }
+        }
+      },
+      "note": {
+        "title": "Important note",
+        "description": "This list is not exhaustive. Contact us to verify if your item can be shipped."
+      }
+    },
+    "faq": {
+      "title": "Frequently Asked Questions",
+      "subtitle": "We answer your questions",
+      "items": {
+        "priceDecrease": {
+          "question": "Can rates be revised downward?",
+          "answer": "For regular importers with monthly volumes above 100 kg, contact us for a dedicated business rate. We offer preferential terms for loyal customers and businesses with frequent shipments."
+        },
+        "priceIncrease": {
+          "question": "Can rates be revised upward?",
+          "answer": "Yes, when certain items require special customs clearance. In this case, the package owner may be required to make an additional payment to support the additional clearance procedure."
+        },
+        "advancePayment": {
+          "question": "Does freight price need to be paid in advance?",
+          "answer": "Generally, the freight price must be paid upon arrival of the package. However, in some cases, a deposit or even full payment may be required depending on the owner's profile or the characteristics of the package to be transported."
+        },
+        "customsClearance": {
+          "question": "Do I need to clear customs upon arrival of my goods?",
+          "answer": "No, our rates already include customs fees. However, in some particular cases, customs clearance may require additional steps on the part of the owner of the transported package."
+        },
+        "insurance": {
+          "question": "What guarantees do you offer in case of loss or damage?",
+          "answer": "We have insurance covering 100% of cases of damage and loss. However, packaging and conditioning of fragile items are the responsibility of the supplier or package owner. In case of damage due to inadequate conditioning, we exclude our liability."
+        },
+        "prohibitedItems": {
+          "question": "Are there prohibited items?",
+          "answer": "The following goods are not accepted under any circumstances: Animals, Antiques (breakable and/or fragile), Asbestos, Ingots, Currency, Firearms, their parts and ammunition, Furs, Hazardous and combustible materials (as defined in IATA regulations), Human remains, including ashes, Precious metals and stones, Narcotics (illegal), Goods whose transport is prohibited by any law, regulation and statute of a federal, state or local government of a country to or through which the shipment may be transported. In some countries such as China, lithium batteries, power banks, drones, electronic cigarettes, lighters with gas, electronic lighters, dangerous products, contraband, spray products (insecticides), fire starters or gas and others are prohibited from flying due to fire risks and other security risks."
+        },
+        "tariffDecrease": {
+          "question": "Can rates be revised downward?",
+          "answer": "For regular importers with monthly volumes above 100 kg, contact us for a dedicated business rate."
+        },
+        "tariffIncrease": {
+          "question": "Can rates be revised upward?",
+          "answer": "Yes, when certain items require special customs clearance."
+        },
+        "prepayment": {
+          "question": "Does freight price need to be paid in advance?",
+          "answer": "Generally, the freight price must be paid upon arrival of the package. However, in some cases, a deposit or even full payment may be required."
+        },
+        "customs": {
+          "question": "Do I need to clear customs upon arrival of my goods?",
+          "answer": "No, our rates already include customs fees. However, in some particular cases, customs clearance may require additional steps."
+        },
+        "guarantee": {
+          "question": "What guarantees do you offer in case of loss or damage?",
+          "answer": "We have insurance covering 100% of cases of damage and loss."
+        },
+        "prohibited": {
+          "question": "What items are prohibited?",
+          "answer": "Phones, computers, lithium batteries, drones, liquids, flammable products, supplements, chemicals, weapons and spray products are restricted or prohibited."
+        },
+        "whatIsCBM": {
+          "question": "What is CBM?",
+          "answer": "CBM (Cubic Meter) is the volume measurement unit used for sea freight. 1 CBM = 1 cubic meter. The sea freight rate is calculated by multiplying CBM by the unit rate."
+        },
+        "volumetricWeight": {
+          "question": "How do you calculate volumetric weight?",
+          "answer": "Volumetric weight is calculated using the formula: (Length × Width × Height) ÷ 5000. The result is in kilograms. The chargeable weight is the higher of the actual weight and volumetric weight."
+        },
+        "chargeableWeight": {
+          "question": "What is chargeable weight?",
+          "answer": "Chargeable weight is the weight used to calculate the shipping rate. It is the maximum between your package's actual weight and its volumetric weight."
+        },
+        "deliveryTime": {
+          "question": "What are the delivery times?",
+          "answer": "Air freight: 7-14 business days. Sea freight: 60-75 business days. Times may vary depending on exact destination and customs checks."
+        },
+        "customsFees": {
+          "question": "Are customs fees included?",
+          "answer": "No, displayed rates are for transport only. Customs fees and import taxes are the recipient's responsibility and vary by country and type of goods."
+        },
+        "paymentMethods": {
+          "question": "What payment methods are accepted?",
+          "answer": "We accept: bank transfer, Orange Money, Wave, cash, and payment via our online platform. Regular customers can benefit from a customer account with credit."
+        },
+        "tracking": {
+          "question": "How can I track my shipment?",
+          "answer": "You receive a tracking number as soon as your goods are shipped. Track your package in real-time via our mobile app or website in the 'Tracking' section."
+        },
+        "payOnDelivery": {
+          "question": "When do I pay?",
+          "answer": "You only pay after receiving and inspecting your goods. No deposit required."
+        }
+      }
+    },
+    "prohibited": {
+      "phonesSea": {
+        "title": "Phones (prohibited by sea)",
+        "description": "Phones cannot be shipped by sea freight."
+      },
+      "computersSea": {
+        "title": "Computers (prohibited by sea)",
+        "description": "Computers cannot be shipped by sea freight."
+      },
+      "batteries": {
+        "title": "Lithium Batteries",
+        "description": "Prohibited by air and sea for safety reasons."
+      },
+      "drones": {
+        "title": "Drones",
+        "description": "Prohibited by air and sea. Requires special authorization."
+      },
+      "liquidsSea": {
+        "title": "Liquids (prohibited by sea)",
+        "description": "Liquids cannot be shipped by sea freight."
+      },
+      "flammable": {
+        "title": "Flammable Products",
+        "description": "Strictly prohibited by air and sea."
+      },
+      "supplements": {
+        "title": "Supplements",
+        "description": "Restricted. Requires special authorization."
+      },
+      "chemicals": {
+        "title": "Chemicals",
+        "description": "Dangerous products prohibited."
+      },
+      "weapons": {
+        "title": "Weapons",
+        "description": "Strictly prohibited."
+      },
+      "spray": {
+        "title": "Spray Products",
+        "description": "Aerosols prohibited by air."
+      }
+    }
+  },
+  "privacy": {
+    "title": "Privacy Policy",
+    "subtitle": "Your privacy is our priority. Learn how we protect your personal data.",
+    "badge": "Data Protection",
+    "lastUpdated": "Last updated",
+    "questions": "Questions about our privacy policy?",
+    "backToHome": "Back to Home",
+    "tableOfContents": "Table of Contents",
+    "sections": {
+      "introduction": {
+        "title": "Introduction",
+        "content": "At LEXD, we place the highest importance on protecting your personal data. This privacy policy describes how we collect, use, store, and protect your information when you use our logistics and shipping services."
+      },
+      "dataCollection": {
+        "title": "Data We Collect",
+        "content": "We collect the following types of personal data when you use our services:",
+        "items": [
+          "Identification information: name, first name, ID number",
+          "Contact details: email address, phone numbers, postal address",
+          "Shipping information: delivery addresses, package details, shipment contents",
+          "Payment data: banking information, transaction history (stored securely)",
+          "Technical data: IP address, browser type, device used, cookies"
+        ]
+      },
+      "dataUsage": {
+        "title": "How We Use Your Data",
+        "content": "Your personal data is used for the following purposes:",
+        "items": [
+          "Service provision: processing shipments, tracking packages, managing customer accounts",
+          "Communication: sending shipping notifications, status updates, responding to inquiries",
+          "Tracking and traceability: managing ongoing shipments, shipping history",
+          "Service improvement: statistical analysis, development of new features",
+          "Legal obligations: compliance with customs and tax regulations"
+        ]
+      },
+      "dataProtection": {
+        "title": "Data Protection",
+        "content": "We implement rigorous technical and organizational security measures to protect your data against any unauthorized access, alteration, disclosure, or destruction. Our measures include SSL/TLS encryption, strict access control, regular team training, and periodic security audits."
+      },
+      "cookies": {
+        "title": "Cookies and Similar Technologies",
+        "content": "Our website uses cookies and similar technologies to improve your user experience and collect statistical data on the use of our services. You can manage your cookie preferences at any time via the consent banner or your browser settings."
+      },
+      "contact": {
+        "title": "Contact Us",
+        "content": "For any questions regarding this privacy policy or to exercise your rights, you can contact us at contact@lexdservices.com or by phone at +223 76 69 61 77. We are committed to processing your requests as soon as possible."
+      }
+    },
+    "content": {
+      "introduction": {
+        "p1": "At LEXD, we place the highest importance on protecting your personal data. This privacy policy describes how we collect, use, store, and protect your information when you use our logistics and shipping services.",
+        "p2": "We are subject to the General Data Protection Regulation (GDPR) of the European Union and applicable local data protection laws in the countries where we operate, including Cameroon and China.",
+        "p3": "By using our services, you consent to the collection and use of your personal data in accordance with this policy. We are committed to processing your data in a transparent, lawful, and secure manner."
+      },
+      "dataCollection": {
+        "p1": "We collect the following types of personal data when you use our services:",
+        "items": {
+          "identification": "Identification information: name, first name, ID number",
+          "contact": "Contact details: email address, phone numbers, postal address",
+          "shipping": "Shipping information: delivery addresses, package details, shipment contents",
+          "payment": "Payment data: banking information, transaction history (stored securely)",
+          "technical": "Technical data: IP address, browser type, device used, cookies",
+          "usage": "Usage data: shipping history, service preferences, communications with our support"
+        },
+        "p2": "We only collect data necessary for the provision of our services and retain it for the legally required period or as long as necessary to fulfill the purposes for which it was collected."
+      },
+      "dataUsage": {
+        "p1": "Your personal data is used for the following purposes:",
+        "items": {
+          "services": "Service provision: processing shipments, tracking packages, managing customer accounts",
+          "communication": "Communication: sending shipping notifications, status updates, responding to inquiries",
+          "tracking": "Tracking and traceability: managing ongoing shipments, shipping history",
+          "improvement": "Service improvement: statistical analysis, development of new features",
+          "security": "Security: fraud detection and prevention, transaction security",
+          "legal": "Legal obligations: compliance with customs and tax regulations"
+        }
+      },
+      "dataProtection": {
+        "p1": "We implement rigorous technical and organizational security measures to protect your data against any unauthorized access, alteration, disclosure, or destruction.",
+        "p2": "Our protection measures include:",
+        "items": {
+          "encryption": "SSL/TLS encryption for all sensitive data transmissions",
+          "access": "Strict access control: only authorized employees can access data",
+          "training": "Regular training of our teams on security best practices",
+          "audits": "Periodic security audits and penetration testing"
+        },
+        "p3": "In the event of a data breach likely to affect your rights and freedoms, we commit to informing you within the legal deadlines and taking all necessary measures to limit the impacts."
+      },
+      "thirdParty": {
+        "p1": "We may share your data with third parties in the following cases:",
+        "items": {
+          "carriers": "Carriers and logistics partners: to ensure delivery of your packages",
+          "payment": "Payment providers: for secure processing of your transactions",
+          "authorities": "Competent authorities: to comply with legal and customs obligations",
+          "service": "Service providers: cloud hosting, data analysis, customer support"
+        },
+        "p2": "All our partners are subject to strict confidentiality agreements and can only use your data within the scope of the services they provide on our behalf.",
+        "p3": "We never sell your personal data to third parties for marketing purposes."
+      },
+      "rights": {
+        "p1": "In accordance with the GDPR and applicable laws, you have the following rights regarding your personal data:",
+        "items": {
+          "access": "Right of access: obtain a copy of your personal data",
+          "rectification": "Right to rectification: correct inaccurate or incomplete data",
+          "erasure": "Right to erasure (right to be forgotten): request deletion of your data",
+          "portability": "Right to data portability: receive your data in a structured format",
+          "objection": "Right to object: object to the processing of your data in certain cases",
+          "withdraw": "Right to withdraw consent: withdraw your consent at any time"
+        },
+        "p2": "To exercise these rights, please contact us at the details provided below. We will respond to your request within one month, in accordance with regulations."
+      },
+      "cookies": {
+        "p1": "Our website uses cookies and similar technologies to improve your user experience and collect statistical data on the use of our services.",
+        "p2": "We use the following categories of cookies:",
+        "items": {
+          "essential": "Essential cookies: necessary for the website to function (session, cart)",
+          "analytics": "Analytics cookies: audience measurement and user behavior analysis",
+          "functional": "Functional cookies: remembering your preferences (language, settings)",
+          "marketing": "Marketing cookies: advertising personalization (with your consent)"
+        },
+        "p3": "You can manage your cookie preferences at any time via the consent banner or your browser settings. Disabling essential cookies may affect website functionality."
+      },
+      "contact": {
+        "p1": "For any questions regarding this privacy policy or to exercise your rights, you can contact us:",
+        "p2": "We are committed to processing your requests as soon as possible and providing you with a clear and complete response."
+      }
+    }
+  },
+  "damageGuarantee": {
+    "headline": "Damage Guarantee — Your goods are protected",
+    "subheadline": "If your goods arrive damaged due to our handling, LEXD covers the costs.",
+    "badge": "Guarantee included",
+    "points": {
+      "handling": {
+        "title": "Handling guarantee",
+        "description": "Any damage caused by our handling is covered 100%."
+      },
+      "quality": {
+        "title": "Quality control in China",
+        "description": "Rigorous inspection of every package before departure."
+      },
+      "packaging": {
+        "title": "Professional packaging",
+        "description": "Optimal protection for international transport."
+      },
+      "refund": {
+        "title": "Refund or replacement",
+        "description": "Quick solution in case of proven issue."
+      }
+    },
+    "cta": "Learn more about our guarantee",
+    "ctaSubtitle": "Chat with us on WhatsApp"
+  },
+  "trustFlow": {
+    "badge": "Full Service",
+    "headline": "From order to delivery, we handle everything",
+    "subheadline": "One partner for all 6 steps. Not 4 different suppliers.",
+    "steps": [
+      {
+        "title": "Tell us what you need",
+        "description": "Products, quantities, budget. We understand your project."
+      },
+      {
+        "title": "We source & negotiate",
+        "description": "Sourcing, supplier verification, negotiating the best prices."
+      },
+      {
+        "title": "We inspect & photograph",
+        "description": "Factory quality control. Photos and reports before shipping."
+      },
+      {
+        "title": "We ship (your choice)",
+        "description": "Air express 2-5 days, standard 7-14 days, or sea 60-75 days."
+      },
+      {
+        "title": "Track in real-time",
+        "description": "Track your package at every step. Automatic notifications."
+      },
+      {
+        "title": "Receive at your door",
+        "description": "Home delivery with customs clearance assistance."
+      }
+    ],
+    "guarantee": "Satisfaction guaranteed or we refund",
+    "comparison": {
+      "label": "Who does what?",
+      "us": {
+        "label": "LEXD",
+        "badge": "6 steps",
+        "description": "From sourcing to delivery. One single contact."
+      },
+      "them": {
+        "label": "Others",
+        "badge": "3 steps",
+        "description": "Shipping only. You handle the rest alone."
+      },
+      "cta": "Their process starts at step 4. Ours starts at step 1."
+    }
+  },
+  "splitPayment": {
+    "headline": "Pay on Delivery — Zero Risk",
+    "subheadline": "You only pay after inspecting and confirming receipt of your goods.",
+    "steps": [
+      {
+        "title": "Order",
+        "description": "You place your order, we handle the rest."
+      },
+      {
+        "title": "Delivery",
+        "description": "Your goods arrive at your door."
+      },
+      {
+        "title": "Payment",
+        "description": "You inspect, you confirm, you pay."
+      }
+    ],
+    "badge": "100% Secure",
+    "badgeSubtitle": "Pay after confirmation",
+    "cta": "Discuss your order",
+    "ctaSubtitle": "On WhatsApp"
+  },
+  "community": {
+    "hero": {
+      "badge": "Private Community",
+      "headline": "Join the LEXD Community",
+      "subheadline": "500+ African importers sharing tips, suppliers, and opportunities daily.",
+      "cta": "Join on WhatsApp",
+      "members": "500+ members",
+      "membersLabel": "importers",
+      "activity": "Active 24/7",
+      "activityLabel": "discussions",
+      "countries": "Cameroon",
+      "countriesLabel": "delivery",
+      "reviewsLabel": "verified reviews"
+    },
+    "benefits": {
+      "title": "What you gain by joining",
+      "badge": "Exclusive Benefits",
+      "items": {
+        "importTips": {
+          "title": "Import Tips",
+          "description": "Learn from experienced importers. Tricks, pitfalls to avoid, best practices."
+        },
+        "verifiedSuppliers": {
+          "title": "Verified Suppliers",
+          "description": "Share and discover trusted suppliers validated by the community."
+        },
+        "productAlerts": {
+          "title": "Product Alerts",
+          "description": "Be the first to know about trending products and opportunities in China."
+        },
+        "groupBuying": {
+          "title": "Group Buying",
+          "description": "Pool your orders with other importers for better prices."
+        },
+        "support247": {
+          "title": "24/7 Support",
+          "description": "Ask your questions anytime. The community responds day and night."
+        },
+        "localNetwork": {
+          "title": "Local Network",
+          "description": "Connect with importers from your country and industry."
+        }
+      }
+    },
+    "topics": {
+      "trendingProducts": {
+        "title": "Trending Products",
+        "tags": [
+          "Electronics",
+          "Textiles",
+          "Cosmetics"
+        ]
+      },
+      "reliableSuppliers": {
+        "title": "Reliable Suppliers",
+        "tags": [
+          "Alibaba vs",
+          "Factory Visits",
+          "Verification"
+        ]
+      },
+      "logisticsCustoms": {
+        "title": "Logistics & Customs",
+        "tags": [
+          "Freight Rates",
+          "Customs Clearance",
+          "Insurance"
+        ]
+      },
+      "financePayment": {
+        "title": "Finance & Payment",
+        "tags": [
+          "Exchange Rates",
+          "Payment Methods",
+          "Security"
+        ]
+      },
+      "discussions": "active discussions",
+      "badge": "Ongoing Discussions",
+      "title": "What do we talk about?"
+    },
+    "testimonials": {
+      "title": "They transformed their business",
+      "items": {
+        "amadou": {
+          "quote": "I discovered 3 reliable suppliers thanks to the community. My revenue doubled.",
+          "metricLabel": "+100% revenue"
+        },
+        "fatou": {
+          "quote": "The buying group saved me 30% on my last container.",
+          "metricLabel": "-30% costs"
+        },
+        "kofi": {
+          "quote": "I avoided a 5000€ scam thanks to community advice.",
+          "metricLabel": "5000€ saved"
+        }
+      },
+      "badge": "Real Results"
+    },
+    "whatsappCTA": {
+      "title": "Your first container starts with a conversation",
+      "subtitle": "Join 500+ importers. It's free.",
+      "button": "Join on WhatsApp",
+      "trustPills": [
+        "Free",
+        "No commitment",
+        "Active 24/7"
+      ]
+    },
+    "promo": {
+      "title": "Join 500+ importers",
+      "subtitle": "Tips, verified suppliers, and product alerts — every day on WhatsApp.",
+      "pills": {
+        "freeTips": "Free Tips",
+        "verifiedSuppliers": "Verified Suppliers",
+        "productAlerts": "Product Alerts"
+      },
+      "ctaPrimary": "Join the Community",
+      "ctaSecondary": "Learn More",
+      "badge": "Community"
+    },
+    "cta": {
+      "headline": "Your first container starts with a conversation",
+      "subheadline": "Join 500+ importers. It's free.",
+      "button": "Join on WhatsApp",
+      "free": "Free",
+      "noCommitment": "No commitment",
+      "active247": "Active 24/7"
+    }
+  },
+  "whatsappUpdates": {
+    "badge": "WhatsApp Updates",
+    "headline": "You see your goods at every stage",
+    "subheadline": "No vague SMS. Real photos of your products on WhatsApp.",
+    "stages": {
+      "warehouse": {
+        "label": "Step 1",
+        "title": "Goods at warehouse",
+        "photoLabel": "Warehouse photo",
+        "description": "Photo of your products upon arrival at our China warehouse."
+      },
+      "packed": {
+        "label": "Step 2",
+        "title": "Packed shipment",
+        "photoLabel": "Packing photo",
+        "description": "Photo of your parcel packed and ready for shipping."
+      },
+      "customs": {
+        "label": "Step 3",
+        "title": "Customs clearance",
+        "photoLabel": "Customs doc",
+        "description": "Visual confirmation of customs clearance with documents."
+      },
+      "delivery": {
+        "label": "Step 4",
+        "title": "Home delivery",
+        "photoLabel": "Delivery photo",
+        "description": "Photo of your parcel delivered to your door."
+      }
+    },
+    "comparison": {
+      "label": "Visual proof beats text",
+      "whatsapp": {
+        "label": "LEXD (WhatsApp)",
+        "badge": "Rich media",
+        "features": {
+          "photos": "Real photos at every stage",
+          "liveChat": "Live chat with your agent",
+          "voice": "Voice messages when needed",
+          "location": "Real-time location sharing"
+        }
+      },
+      "sms": {
+        "label": "Others (SMS)",
+        "badge": "Text only",
+        "features": {
+          "textOnly": "Vague text SMS",
+          "noPhotos": "No photos of your goods",
+          "noTracking": "No detailed tracking",
+          "delayed": "Information often delayed"
+        }
+      },
+      "cta": "Visual proof > text notification. You deserve to see what you pay for."
+    }
+  },
+  "reviews": {
+    "aggregateRating": "4.8",
+    "reviewCount": "312",
+    "basedOn": "Based on {count} verified client reviews",
+    "verified": "Verified review",
+    "sourceLabel": "Source: Google Reviews & Trustpilot",
+    "seeAll": "See all reviews",
+    "carousel": {
+      "prev": "Previous",
+      "next": "Next"
+    },
+    "services": {
+      "airExpress": "Air Express",
+      "seaFreight": "Sea Freight",
+      "sourcing": "Sourcing",
+      "fullService": "Full Service"
+    },
+    "cta": "See all reviews",
+    "goToSlide": "Go to review {number}",
+    "badge": "Verified Client Reviews",
+    "title": "What Our Clients Say",
+    "subtitle": "African importers share their experience with LEXD",
+    "prev": "Previous",
+    "next": "Next"
+  },
+  "videoTestimonials": {
+    "realVideoBadge": "REAL VIDEO",
+    "headline": "They talk about us. For real.",
+    "subheadline": "No actors. No scripts. African importers sharing their experience in their own language.",
+    "badge": "Unpaid video testimonials",
+    "badgeSub": "Filmed at customer location",
+    "comparison": "Our competitors have 0 videos. We have 6. And it changes everything.",
+    "watchVideo": "Watch video",
+    "language": "Language",
+    "videos": [
+      {
+        "name": "Amadou Diallo",
+        "business": "Diallo Electronics, Douala",
+        "country": "Cameroon",
+        "language": "French / Bambara",
+        "quote": "Before I paid 4 different suppliers. Now I only have one. LEXD handles everything from A to Z.",
+        "result": "16 days",
+        "resultLabel": "Douala → factory departure"
+      },
+      {
+        "name": "Fatou Ndiaye",
+        "business": "African Fashion, Dakar",
+        "country": "Senegal",
+        "language": "French / Wolof",
+        "quote": "Quality control in China saved me a loss of 40,000 FCFA. The QC photos are a blessing.",
+        "result": "+40%",
+        "resultLabel": "Net margin"
+      },
+      {
+        "name": "Kofi Mensah",
+        "business": "Mensah Phones, Accra",
+        "country": "Ghana",
+        "language": "English / Twi",
+        "quote": "Third shipment with LEXD. Each one arrived faster than the last. The WhatsApp updates with photos are game-changing.",
+        "result": "3rd",
+        "resultLabel": "Shipment"
+      },
+      {
+        "name": "Aminata Koné",
+        "business": "Pure Beauty, Abidjan",
+        "country": "Côte d'Ivoire",
+        "language": "French / Dioula",
+        "quote": "The quality control photos saved me €2,000. I refused a defective batch before it left China.",
+        "result": "€2,000",
+        "resultLabel": "Saved"
+      },
+      {
+        "name": "Ousmane Sawadogo",
+        "business": "Sawadogo Construction, Ouagadougou",
+        "country": "Burkina Faso",
+        "language": "French / Mooré",
+        "quote": "My first container. I was scared. But they guided me at every step. From start to delivery.",
+        "result": "1st",
+        "resultLabel": "Container"
+      },
+      {
+        "name": "Mariam Houessou",
+        "business": "Houessou Commerce, Cotonou",
+        "country": "Benin",
+        "language": "French / Fon",
+        "quote": "Customer service replies at 2 AM. When I have a problem, I message them on WhatsApp and it's fixed.",
+        "result": "24/7",
+        "resultLabel": "WhatsApp Support"
+      }
+    ],
+    "title": "Real People. Real Stories. Real Results.",
+    "subtitle": "No actors. No scripts. African importers telling their real experience.",
+    "trustBadge": {
+      "unpaid": "Unpaid video reviews",
+      "filmedOnSite": "Filmed at client location",
+      "localLanguage": "In their own language"
+    },
+    "comparisonStrip": "Our competitors have 0 videos. We have 6. And that changes everything.",
+    "ctaText": "Share your experience too",
+    "ctaButton": "Contact the team",
+    "close": "Close",
+    "videoComingSoon": "Video coming soon"
+  },
+  "sharedShipment": {
+    "title": "Shipment Tracking",
+    "trackShipment": "Track a shipment",
+    "shipmentId": "Shipment #{id}",
+    "status": "Status",
+    "weight": "Weight",
+    "cbm": "Volume (CBM)",
+    "quantity": "Quantity",
+    "shippingMode": "Mode",
+    "air": "Air",
+    "sea": "Sea",
+    "receivedAt": "Received on",
+    "timeline": "Journey",
+    "getApp": "Get the app",
+    "getAppDescription": "Track your shipments in real time, receive notifications and manage your payments.",
+    "openInApp": "Open in app",
+    "linkExpired": "Link expired",
+    "linkExpiredDescription": "This share link is no longer valid. Ask the sender for a new link.",
+    "linkRevoked": "Link revoked",
+    "linkRevokedDescription": "The sender has revoked this share link.",
+    "appStore": "App Store",
+    "playStore": "Google Play",
+    "loading": "Loading tracking...",
+    "notFoundTitle": "Link not found",
+    "notFoundDescription": "This tracking link does not exist or has been removed.",
+    "apiErrorTitle": "Service unavailable",
+    "apiErrorDescription": "Unable to load information. Please try again.",
+    "rateLimitedTitle": "Too many requests",
+    "rateLimitedDescription": "Please wait a moment before trying again.",
+    "details": "Details",
+    "history": "History",
+    "estimatedDelivery": "Estimated delivery",
+    "sharedAt": "Shared on {date}",
+    "qrCodeLabel": "Scan this QR code with your phone",
+    "noAppQuestion": "Don't have the app?",
+    "openAppPrompt": "Open in LEXD",
+    "iosDetected": "iPhone detected. If the app is installed, it will open automatically.",
+    "androidDetected": "Android detected. If the app is installed, it will open automatically.",
+    "retry": "Retry",
+    "backHome": "Back to home",
+    "disclaimer": "Data provided by LEXD. Delivery times are indicative.",
+    "noTimeline": "No history available",
+    "description": "Description",
+    "category": "Category",
+    "volume": "Volume",
+    "container": "Container",
+    "awb": "AWB",
+    "containerNumber": "Container No.",
+    "shippingLine": "Shipping Line",
+    "origin": "Origin",
+    "destination": "Destination",
+    "goods": "Goods",
+    "items": "item(s)",
+    "orderId": "Order",
+    "line": "Line",
+    "revokedTitle": "Link revoked",
+    "revokedDescription": "The sender has revoked this share link.",
+    "unknownErrorTitle": "Unknown error",
+    "unknownErrorDescription": "An error occurred. Please try again.",
+    "home": "Home"
+  },
+  "appSection": {
+    "title": "Your freight, in your pocket",
+    "previewDescription": "Track your shipments in real time, receive notifications at every step, and contact your agent directly from the app."
+  },
+  "promoCampaign": {
+    "close": "Close"
+  },
+  "demo": {
+    "hero": {
+      "eyebrow": "Interactive demo",
+      "title": "Watch a shipment move, end to end.",
+      "subtitle": "Every module below is live and self-updating — the same components your customers use, running on simulated data. No signup required.",
+      "simulatedBadge": "Simulated data",
+      "backHome": "Back to home"
+    },
+    "sections": {
+      "feed": {
+        "title": "Live shipment feed",
+        "subtitle": "Events stream in as parcels move through the network."
+      },
+      "countdown": {
+        "title": "Delivery countdown",
+        "subtitle": "Arrival estimates tick down to the second."
+      },
+      "timeline": {
+        "title": "Tracking timeline",
+        "subtitle": "Every waypoint, from warehouse to doorstep."
+      },
+      "routes": {
+        "title": "Trending routes",
+        "subtitle": "This week's most booked lanes and rate movement."
+      },
+      "proof": {
+        "title": "Right now on LEXD",
+        "subtitle": "Recent activity from shippers across Africa."
+      }
+    },
+    "status": {
+      "inTransit": "In transit",
+      "customs": "Customs",
+      "outForDelivery": "Out for delivery",
+      "delivered": "Delivered",
+      "delayed": "Delayed"
+    },
+    "feed": {
+      "liveBadge": "Live",
+      "justNow": "just now",
+      "minutesAgo": "{minutes} min ago",
+      "events": {
+        "departedWarehouse": "{code} departed the {city} warehouse",
+        "clearedCustoms": "{code} cleared customs in {city}",
+        "outForDelivery": "{code} is out for delivery in {city}",
+        "delivered": "{code} was delivered in {city}",
+        "loadedContainer": "{code} loaded into container at {city}",
+        "delayWeather": "{code} delayed by weather near {city}",
+        "arrivedHub": "{code} arrived at the {city} hub"
+      }
+    },
+    "countdown": {
+      "arrivesIn": "Estimated arrival",
+      "days": "Days",
+      "hours": "Hours",
+      "minutes": "Min",
+      "seconds": "Sec",
+      "progress": "{percent}% of journey complete"
+    },
+    "timeline": {
+      "shipmentLabel": "Shipment {code} · Guangzhou → Douala",
+      "steps": {
+        "received": "Received at warehouse",
+        "consolidated": "Consolidated & packed",
+        "departed": "Departed origin",
+        "customs": "Customs clearance",
+        "outForDelivery": "Out for delivery",
+        "delivered": "Delivered"
+      },
+      "times": {
+        "mar02": "Mar 02 · 09:14",
+        "mar04": "Mar 04 · 16:40",
+        "mar06": "Mar 06 · 22:05",
+        "today": "Today · in progress",
+        "pending": "Pending"
+      }
+    },
+    "routes": {
+      "route": "Route",
+      "transit": "Transit",
+      "price": "Price / kg",
+      "trend": "7-day trend",
+      "volume": "{count}/week",
+      "days": "{days} days",
+      "currency": "CFA"
+    },
+    "proof": {
+      "items": {
+        "booked": "{name} from {city} booked {weight} air freight",
+        "received": "{name} from {city} received a {weight} parcel",
+        "paid": "{name} from {city} paid a supplier for {weight}"
+      }
+    },
+    "quote": {
+      "fab": "Quick quote",
+      "title": "Get a quick quote",
+      "subtitle": "Indicative rate, computed instantly from this week's lane prices.",
+      "origin": "Origin",
+      "destination": "Destination",
+      "weight": "Weight (kg)",
+      "weightPlaceholder": "e.g. 25",
+      "mode": "Shipping mode",
+      "modeAir": "Air freight",
+      "modeSea": "Sea freight",
+      "submit": "Estimate price",
+      "resultTitle": "Estimated total",
+      "resultDetail": "{weight} kg · {mode} · {origin} → {destination}",
+      "reset": "New estimate",
+      "close": "Close",
+      "errorWeight": "Enter a weight between 1 and 10 000 kg.",
+      "disclaimer": "Demo estimate only — contact us for a binding quote."
+    }
+  }
+}

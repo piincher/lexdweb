@@ -1,0 +1,9 @@
+{
+  "date": "2026-07-19",
+  "framework": "Next.js 15 App Router",
+  "fonts": ["Geist", "Geist Mono"],
+  "palette": "LEXD canonical green, amber, and green-tinted neutral ramps",
+  "motion": ["framer-motion", "GSAP"],
+  "spacing": "4-point named scale in tokens.css",
+  "scope": "65 route-level files; multi-page redesign"
+}

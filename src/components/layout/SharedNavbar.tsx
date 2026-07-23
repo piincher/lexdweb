@@ -1,0 +1,307 @@
+/**
+ * Shared Navbar Component
+ *
+ * Responsive navigation bar with mobile menu, language selector, and CTA.
+ * Supports RTL layouts and dark mode.
+ * Part of the layout components.
+ */
+
+'use client';
+
+import { useState, useEffect, useRef } from 'react';
+import Link from 'next/link';
+import Image from 'next/image';
+import { motion, AnimatePresence } from 'framer-motion';
+import { Menu, X, Phone, Users, ChevronDown, Calculator, Scale, ShieldCheck } from 'lucide-react';
+import { useTranslations } from 'next-intl';
+import { LanguageSelector } from '@/components/language/LanguageSelector';
+import { ThemeToggle } from '@/components/theme/ThemeToggle';
+import { cn } from '@/lib/utils';
+import type { Locale } from '@/i18n/config';
+
+interface SharedNavbarProps {
+  locale: Locale;
+}
+
+const NAV_LINKS = [
+  { key: 'home', href: '/', label: 'navigation.home' },
+  { key: 'services', href: '/#services', label: 'navigation.services' },
+  { key: 'about', href: '/#about', label: 'navigation.about' },
+  { key: 'whyUs', href: '/#why-us', label: 'navigation.whyUs' },
+  { key: 'community', href: '/communaute', label: 'navigation.community' },
+  { key: 'blog', href: '/blog', label: 'navigation.blog' },
+  { key: 'contact', href: '/#contact', label: 'navigation.contact' },
+] as const;
+
+const TOOL_LINKS = [
+  { key: 'pricing', href: '/tarifs', label: 'navigation.pricing', icon: null },
+  { key: 'calculator', href: '/calculateur', label: 'navigation.calculator', icon: Calculator },
+  { key: 'compareShipping', href: '/comparateur-transport', label: 'navigation.compareShipping', icon: Scale },
+  { key: 'checkProduct', href: '/verifier-produit', label: 'navigation.checkProduct', icon: ShieldCheck },
+] as const;
+
+export function SharedNavbar({ locale }: SharedNavbarProps) {
+  if (typeof window !== 'undefined') {
+    (window as any).__SHARED_NAVBAR_LOCALE__ = locale;
+  }
+  const t = useTranslations();
+  const [isMobileMenuOpen, setIsMobileMenuOpen] = useState(false);
+  const [isScrolled, setIsScrolled] = useState(false);
+  const [isToolsOpen, setIsToolsOpen] = useState(false);
+  const toolsRef = useRef<HTMLDivElement>(null);
+
+  useEffect(() => {
+    const handleScroll = () => {
+      setIsScrolled(window.scrollY > 50);
+    };
+
+    handleScroll();
+    window.addEventListener('scroll', handleScroll, { passive: true });
+    return () => window.removeEventListener('scroll', handleScroll);
+  }, []);
+
+  // Close tools dropdown when clicking outside
+  useEffect(() => {
+    const handleClickOutside = (event: MouseEvent) => {
+      if (toolsRef.current && !toolsRef.current.contains(event.target as Node)) {
+        setIsToolsOpen(false);
+      }
+    };
+    document.addEventListener('mousedown', handleClickOutside);
+    return () => document.removeEventListener('mousedown', handleClickOutside);
+  }, []);
+
+  const isActive = (href: string) => {
+    if (href === '/') return false;
+    return isScrolled;
+  };
+
+  const getNavHref = (link: (typeof NAV_LINKS)[number]) => {
+    return `/${locale}${link.href}`;
+  };
+
+  const getToolHref = (href: string) => {
+    return `/${locale}${href}`;
+  };
+
+  return (
+    <motion.header
+      className={cn(
+        'fixed top-0 left-0 right-0 z-50 transition-all duration-300',
+        isScrolled
+          ? 'bg-white/90 dark:bg-gray-900/90 backdrop-blur-lg border-b border-[var(--color-rule)]'
+          : 'bg-transparent'
+      )}
+      initial={{ y: -100 }}
+      animate={{ y: 0 }}
+      transition={{ duration: 0.6 }}
+    >
+      <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+        <div className="flex items-center justify-between h-16 md:h-20">
+          {/* Logo */}
+          <Link href={`/${locale}/`} className="flex items-center gap-2">
+            <motion.div
+              whileHover={{ scale: 1.05 }}
+              whileTap={{ scale: 0.95 }}
+              className="relative w-10 h-10 md:w-12 md:h-12"
+            >
+              <Image
+                src="/icons/icon-192x192.png"
+                alt="LEXD"
+                fill
+                sizes="(min-width: 768px) 48px, 40px"
+                className="object-contain rounded-lg"
+                priority
+              />
+            </motion.div>
+            <span className="font-bold text-lg md:text-xl text-[var(--color-ink)] hidden sm:block">
+              LEXD
+            </span>
+          </Link>
+
+          {/* Desktop Navigation */}
+          <nav className="hidden lg:flex items-center gap-1">
+            {NAV_LINKS.map((link) => (
+              <Link
+                key={link.key}
+                href={getNavHref(link)}
+                className={cn(
+                  'relative px-3 py-2 text-sm font-medium rounded-lg transition-colors',
+                  isActive(link.href)
+                    ? 'text-[var(--color-primary)]'
+                    : 'text-[var(--color-ink-2)] hover:text-[var(--color-primary)] hover:bg-gray-100 dark:hover:bg-gray-800'
+                )}
+              >
+                {t(link.label)}
+                {isActive(link.href) && (
+                  <motion.div
+                    layoutId="navbar-indicator"
+                    className="absolute bottom-0 left-1/2 -translate-x-1/2 w-1 h-1 bg-[var(--color-primary)] rounded-full"
+                    transition={{ type: 'spring', bounce: 0.2, duration: 0.6 }}
+                  />
+                )}
+              </Link>
+            ))}
+
+            {/* Tools Dropdown */}
+            <div ref={toolsRef} className="relative">
+              <button
+                onClick={() => setIsToolsOpen(!isToolsOpen)}
+                onMouseEnter={() => setIsToolsOpen(true)}
+                className={cn(
+                  'flex items-center gap-1 px-3 py-2 text-sm font-medium rounded-lg transition-colors',
+                  isToolsOpen
+                    ? 'text-[var(--color-primary)] bg-[var(--color-paper-2)]'
+                    : 'text-[var(--color-ink-2)] hover:text-[var(--color-primary)] hover:bg-gray-100 dark:hover:bg-gray-800'
+                )}
+              >
+                {t('navigation.tools')}
+                <ChevronDown
+                  className={cn(
+                    'w-4 h-4 transition-transform',
+                    isToolsOpen && 'rotate-180'
+                  )}
+                />
+              </button>
+
+              <AnimatePresence>
+                {isToolsOpen && (
+                  <motion.div
+                    initial={{ opacity: 0, y: 8, scale: 0.96 }}
+                    animate={{ opacity: 1, y: 0, scale: 1 }}
+                    exit={{ opacity: 0, y: 8, scale: 0.96 }}
+                    transition={{ duration: 0.15 }}
+                    onMouseLeave={() => setIsToolsOpen(false)}
+                    className="absolute top-full left-0 mt-2 w-56 rounded-xl border border-gray-200 dark:border-gray-700 bg-white dark:bg-gray-900 shadow-xl shadow-black/10 dark:shadow-black/30 py-2"
+                  >
+                    {TOOL_LINKS.map((tool) => {
+                      const Icon = tool.icon;
+                      return (
+                        <Link
+                          key={tool.key}
+                          href={getToolHref(tool.href)}
+                          onClick={() => setIsToolsOpen(false)}
+                          className="flex items-center gap-3 px-4 py-2.5 text-sm text-gray-700 dark:text-gray-300 hover:bg-[var(--color-paper-2)] hover:text-[var(--color-primary)] transition-colors"
+                        >
+                          {Icon && <Icon className="w-4 h-4 shrink-0" />}
+                          {!Icon && <div className="w-4 h-4 shrink-0" />}
+                          {t(tool.label)}
+                        </Link>
+                      );
+                    })}
+                  </motion.div>
+                )}
+              </AnimatePresence>
+            </div>
+          </nav>
+
+          {/* Right Section */}
+          <div className="flex items-center gap-2">
+            <ThemeToggle />
+            <LanguageSelector locale={locale} variant="minimal" />
+
+            {/* CTA Button - Desktop */}
+            <a
+              href={`https://wa.me/237672660161`}
+              target="_blank"
+              rel="noopener noreferrer"
+              className="hidden lg:flex items-center gap-2 bg-green-500 hover:bg-green-600 text-white px-4 py-2 rounded-xl font-medium transition-colors"
+            >
+              <Phone className="w-4 h-4" />
+              <span>WhatsApp</span>
+            </a>
+
+            {/* Mobile Menu Button */}
+            <button
+              onClick={() => setIsMobileMenuOpen(!isMobileMenuOpen)}
+              className="lg:hidden p-2 rounded-lg hover:bg-gray-100 dark:hover:bg-gray-800 transition-colors"
+              aria-label="Toggle menu"
+            >
+              {isMobileMenuOpen ? (
+                <X className="w-6 h-6 text-gray-700 dark:text-gray-300" />
+              ) : (
+                <Menu className="w-6 h-6 text-gray-700 dark:text-gray-300" />
+              )}
+            </button>
+          </div>
+        </div>
+      </div>
+
+      {/* Mobile Menu */}
+      <AnimatePresence>
+        {isMobileMenuOpen && (
+          <motion.div
+            initial={{ opacity: 0, height: 0 }}
+            animate={{ opacity: 1, height: 'auto' }}
+            exit={{ opacity: 0, height: 0 }}
+            className="lg:hidden bg-white dark:bg-gray-900 border-t border-gray-200 dark:border-gray-800"
+          >
+            <nav className="px-4 py-4 space-y-2">
+              {NAV_LINKS.map((link) => {
+                const isCommunity = link.key === 'community';
+                return (
+                  <Link
+                    key={link.key}
+                    href={getNavHref(link)}
+                    onClick={() => setIsMobileMenuOpen(false)}
+                    className={cn(
+                      'flex items-center gap-2 px-4 py-3 rounded-xl text-base font-medium transition-colors',
+                      isActive(link.href)
+                        ? 'bg-[var(--color-paper-2)] text-[var(--color-primary)]'
+                        : 'text-gray-700 dark:text-gray-300 hover:bg-gray-100 dark:hover:bg-gray-800'
+                    )}
+                  >
+                    {isCommunity && <Users className="w-4 h-4" />}
+                    {t(link.label)}
+                  </Link>
+                );
+              })}
+
+              <div className="pt-4 border-t border-gray-200 dark:border-gray-800 space-y-3">
+                {/* Tools Section */}
+                <div className="px-4 pb-2">
+                  <span className="text-xs font-semibold text-gray-500 dark:text-gray-400 uppercase tracking-wider">
+                    {t('navigation.tools')}
+                  </span>
+                </div>
+
+                {TOOL_LINKS.map((tool) => {
+                  const Icon = tool.icon;
+                  return (
+                    <Link
+                      key={tool.key}
+                      href={getToolHref(tool.href)}
+                      onClick={() => setIsMobileMenuOpen(false)}
+                      className="flex items-center gap-2 px-4 py-3 rounded-xl text-base font-medium text-gray-700 dark:text-gray-300 hover:bg-gray-100 dark:hover:bg-gray-800 transition-colors"
+                    >
+                      {Icon && <Icon className="w-4 h-4" />}
+                      {!Icon && <div className="w-4 h-4" />}
+                      {t(tool.label)}
+                    </Link>
+                  );
+                })}
+
+                <div className="flex items-center justify-between px-4 pt-2">
+                  <span className="text-sm text-gray-600 dark:text-gray-400">{t('common.language')}</span>
+                  <LanguageSelector locale={locale} variant="default" />
+                </div>
+
+                <a
+                  href={`https://wa.me/237672660161`}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="flex items-center justify-center gap-2 bg-green-500 hover:bg-green-600 text-white px-4 py-3 rounded-xl font-medium transition-colors w-full"
+                >
+                  <Phone className="w-5 h-5" />
+                  <span>WhatsApp</span>
+                </a>
+              </div>
+            </nav>
+          </motion.div>
+        )}
+      </AnimatePresence>
+    </motion.header>
+  );
+}
+
+export default SharedNavbar;
