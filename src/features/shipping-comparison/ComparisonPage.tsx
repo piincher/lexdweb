@@ -135,11 +135,12 @@ export function ComparisonPage({ locale = 'fr' }: ComparisonPageProps) {
       {/* Trust Signals */}
       <section className="border-y border-white/5 bg-white/[0.02]">
         <div className="mx-auto max-w-6xl px-4 py-10 sm:px-6 lg:px-8">
-          <div className="grid gap-6 sm:grid-cols-2 lg:grid-cols-4">
+          <div className="grid gap-6 sm:grid-cols-2 lg:grid-cols-4" data-stagger>
             {trustSignals.map((signal) => (
               <div
                 key={signal.title}
                 className="flex items-start gap-4 rounded-xl border border-white/5 bg-white/5 p-4 backdrop-blur-sm transition hover:bg-white/[0.07]"
+                data-reveal
               >
                 <div className="shrink-0 text-blue-400">{signal.icon}</div>
                 <div>
@@ -155,7 +156,7 @@ export function ComparisonPage({ locale = 'fr' }: ComparisonPageProps) {
       {/* Comparison Tool */}
       <section className="py-16">
         <div className="mx-auto max-w-6xl px-4 sm:px-6 lg:px-8">
-          <div className="mx-auto max-w-3xl text-center mb-10">
+          <div className="mx-auto max-w-3xl text-center mb-10" data-reveal>
             <h2 className="text-2xl font-bold md:text-3xl">
               {isEn ? 'Compare Your Shipment' : 'Comparez Votre Envoi'}
             </h2>
@@ -185,12 +186,12 @@ export function ComparisonPage({ locale = 'fr' }: ComparisonPageProps) {
       {/* How It Works */}
       <section className="border-y border-white/5 bg-white/[0.02] py-16">
         <div className="mx-auto max-w-6xl px-4 sm:px-6 lg:px-8">
-          <div className="mx-auto max-w-3xl text-center mb-10">
+          <div className="mx-auto max-w-3xl text-center mb-10" data-reveal>
             <h2 className="text-2xl font-bold md:text-3xl">
               {isEn ? 'How the Comparison Works' : 'Comment Fonctionne la Comparaison'}
             </h2>
           </div>
-          <div className="grid gap-6 md:grid-cols-3">
+          <div className="grid gap-6 md:grid-cols-3" data-stagger>
             {[
               {
                 step: '01',
@@ -217,6 +218,8 @@ export function ComparisonPage({ locale = 'fr' }: ComparisonPageProps) {
               <div
                 key={item.step}
                 className="rounded-2xl border border-white/10 bg-white/5 p-6 backdrop-blur-md"
+                data-reveal
+                data-hover="lift"
               >
                 <span className="text-3xl font-black text-blue-300">{item.step}</span>
                 <h3 className="mt-3 text-lg font-bold text-white">{item.title}</h3>
@@ -230,7 +233,7 @@ export function ComparisonPage({ locale = 'fr' }: ComparisonPageProps) {
       {/* Internal Links */}
       <section className="py-16">
         <div className="mx-auto max-w-6xl px-4 sm:px-6 lg:px-8">
-          <div className="mx-auto max-w-3xl text-center mb-10">
+          <div className="mx-auto max-w-3xl text-center mb-10" data-reveal>
             <h2 className="text-2xl font-bold md:text-3xl">
               {isEn ? 'Explore Our Services' : 'Découvrez Nos Services'}
             </h2>
@@ -240,12 +243,13 @@ export function ComparisonPage({ locale = 'fr' }: ComparisonPageProps) {
                 : 'En savoir plus sur la façon dont ChinaLink peut aider votre entreprise à importer de Chine.'}
             </p>
           </div>
-          <div className="flex flex-wrap justify-center gap-3">
+          <div className="flex flex-wrap justify-center gap-3" data-stagger>
             {internalLinks.map((link) => (
               <Link
                 key={link.href}
                 href={link.href}
                 className="rounded-xl border border-white/10 bg-white/5 px-5 py-3 text-sm font-semibold text-white backdrop-blur-sm transition hover:bg-white/10 hover:border-white/20"
+                data-reveal
               >
                 {link.label}
               </Link>

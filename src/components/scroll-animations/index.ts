@@ -41,3 +41,8 @@ export type {
   ScrollAnimation,
   AnimationRange,
 } from './ScrollReveal';
+
+// IntersectionObserver-based reveal — works in every modern browser (Safari &
+// Firefox included). Mount <RevealOnScroll /> once; opt elements in with a
+// `data-reveal` attribute. See RevealOnScroll.tsx for the full contract.
+export { RevealOnScroll } from './RevealOnScroll';

@@ -24,15 +24,15 @@ export function JourneyDetail() {
 
   return (
     <section className={styles.section} aria-labelledby="journey-detail-title">
-      <div className={styles.sectionHead}>
+      <div className={styles.sectionHead} data-reveal>
         <p className={styles.overline}>{t('overline')}</p>
         <h2 id="journey-detail-title">{t('title')}</h2>
         <p>{t('subtitle')}</p>
       </div>
 
-      <ol className={styles.steps}>
+      <ol className={styles.steps} data-stagger>
         {steps.map((step, index) => (
-          <li key={step.title} className={styles.step}>
+          <li key={step.title} className={styles.step} data-reveal>
             <span className={styles.stepIndex}>{String(index + 1).padStart(2, '0')}</span>
             <div className={styles.stepBody}>
               <h3>{step.title}</h3>

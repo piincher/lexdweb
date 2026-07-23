@@ -5,6 +5,7 @@ import { useTranslations } from 'next-intl';
 import { ArrowRight, Plane, Ship, Zap } from 'lucide-react';
 import type { Locale } from '@/i18n/config';
 import { AIR_RATES, SEA_RATES } from '@/features/pricing/constants';
+import { AnimatedNumber } from '@/components/animations/AnimatedNumber';
 import styles from './sections.module.css';
 
 interface RateStripProps { locale: Locale; }
@@ -34,14 +35,12 @@ const timeOf = (category: string): string =>
 
 export function RateStrip({ locale }: RateStripProps) {
   const t = useTranslations('landing.rates');
-  // Non-breaking thin space: "300 000 FCFA" must never wrap mid-number.
-  const money = (value: number) => `${value.toLocaleString('fr-FR').replace(/ |\s/g, ' ')}`;
 
   const tiers = [
     {
       key: 'sea',
       icon: Ship,
-      price: money(SEA_RATES.rateFCFA),
+      amount: SEA_RATES.rateFCFA,
       unit: t('perCbm'),
       days: dayRange(SEA_RATES.deliveryTime),
       note: t('seaNote'),
@@ -50,7 +49,7 @@ export function RateStrip({ locale }: RateStripProps) {
     {
       key: 'standard',
       icon: Plane,
-      price: money(rateOf('standard')),
+      amount: rateOf('standard'),
       unit: t('perKg'),
       days: timeOf('standard'),
       note: t('standardNote'),
@@ -59,7 +58,7 @@ export function RateStrip({ locale }: RateStripProps) {
     {
       key: 'electronics',
       icon: Plane,
-      price: money(rateOf('electronics')),
+      amount: rateOf('electronics'),
       unit: t('perKg'),
       days: timeOf('electronics'),
       note: t('electronicsNote'),
@@ -68,7 +67,7 @@ export function RateStrip({ locale }: RateStripProps) {
     {
       key: 'express',
       icon: Zap,
-      price: money(rateOf('express')),
+      amount: rateOf('express'),
       unit: t('perKg'),
       days: timeOf('express'),
       note: t('expressNote'),
@@ -78,21 +77,26 @@ export function RateStrip({ locale }: RateStripProps) {
 
   return (
     <section className={styles.section} aria-labelledby="rates-title">
-      <div className={styles.sectionHead}>
+      <div className={styles.sectionHead} data-reveal>
         <p className={styles.overline}>{t('overline')}</p>
         <h2 id="rates-title">{t('title')}</h2>
         <p>{t('subtitle')}</p>
       </div>
 
-      <div className={styles.rates}>
-        {tiers.map(({ key, icon: Icon, price, unit, days, note, featured }) => (
-          <div key={key} className={`${styles.rate} ${featured ? styles.rateFeatured : ''}`}>
+      <div className={styles.rates} data-stagger>
+        {tiers.map(({ key, icon: Icon, amount, unit, days, note, featured }) => (
+          <div
+            key={key}
+            className={`${styles.rate} ${featured ? styles.rateFeatured : ''}`}
+            data-reveal
+            data-hover="lift"
+          >
             <p className={styles.rateMode}>
               <Icon aria-hidden="true" />
               {t(`tiers.${key}`)}
             </p>
             <p className={styles.ratePrice}>
-              {price}
+              <AnimatedNumber value={amount} locale="fr-FR" />
               <span className={styles.rateUnit}> FCFA {unit}</span>
             </p>
             <p className={styles.rateTime}>{t('days', { range: days })}</p>

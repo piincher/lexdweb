@@ -1,0 +1,120 @@
+/**
+ * Site-wide motion utilities — subtle & premium.
+ *
+ * Everything here is OPT-IN through `data-*` attributes, so adding motion to a
+ * page never changes its markup structure, layout, or content. Elements are
+ * fully visible by default; the hidden state is only ever added at runtime by
+ * `RevealOnScroll`, and only to elements that are off-screen.
+ *
+ * Tokens reused from tokens.css:
+ *   --ease-out: cubic-bezier(0.16, 1, 0.3, 1)
+ *   --dur-short: 220ms · --dur-long: 420ms
+ */
+
+/* ==========================================================================
+   Reveal on scroll
+   ========================================================================== */
+
+[data-reveal] {
+  transition:
+    opacity var(--dur-long, 420ms) var(--ease-out, ease),
+    transform var(--dur-long, 420ms) var(--ease-out, ease);
+}
+
+/* Off-screen, waiting to be revealed. Added by RevealOnScroll. */
+[data-reveal].reveal-pending {
+  opacity: 0;
+  transform: translateY(24px);
+  will-change: opacity, transform;
+}
+
+/* Directional variants (set the value on the attribute). */
+[data-reveal='fade'].reveal-pending {
+  transform: none;
+}
+[data-reveal='up'].reveal-pending {
+  transform: translateY(24px);
+}
+[data-reveal='left'].reveal-pending {
+  transform: translateX(-28px);
+}
+[data-reveal='right'].reveal-pending {
+  transform: translateX(28px);
+}
+[data-reveal='scale'].reveal-pending {
+  transform: scale(0.96);
+}
+
+/* Revealed. */
+[data-reveal].is-visible {
+  opacity: 1;
+  transform: none;
+  will-change: auto;
+}
+
+/* ==========================================================================
+   Hover micro-interactions
+   ========================================================================== */
+
+[data-hover='lift'] {
+  transition:
+    transform var(--dur-short, 220ms) var(--ease-out, ease),
+    box-shadow var(--dur-short, 220ms) var(--ease-out, ease),
+    border-color var(--dur-short, 220ms) var(--ease-out, ease);
+}
+[data-hover='lift']:hover {
+  transform: translateY(-3px);
+  box-shadow: 0 14px 34px -16px
+    color-mix(in srgb, var(--color-ink, #000) 26%, transparent);
+}
+
+/* ==========================================================================
+   Ambient hero accent — a slow, soft brand-green glow behind content.
+   ========================================================================== */
+
+[data-accent='glow'] {
+  position: relative;
+  isolation: isolate;
+}
+[data-accent='glow']::before {
+  content: '';
+  position: absolute;
+  z-index: -1;
+  inset: -12% -8% auto -12%;
+  height: 62%;
+  background: radial-gradient(
+    58% 58% at 22% 24%,
+    color-mix(in srgb, var(--green-500, #10b981) 22%, transparent),
+    transparent 70%
+  );
+  filter: blur(46px);
+  opacity: 0.6;
+  pointer-events: none;
+  animation: accent-drift 15s var(--ease-in-out, ease-in-out) infinite alternate;
+}
+
+@keyframes accent-drift {
+  from {
+    transform: translate3d(0, 0, 0) scale(1);
+  }
+  to {
+    transform: translate3d(4%, 3%, 0) scale(1.08);
+  }
+}
+
+/* ==========================================================================
+   Accessibility — hard guarantee content is visible and still under
+   reduced-motion, regardless of any class the observer may have added.
+   ========================================================================== */
+
+@media (prefers-reduced-motion: reduce) {
+  [data-reveal],
+  [data-reveal].reveal-pending {
+    opacity: 1 !important;
+    transform: none !important;
+    transition: none !important;
+  }
+  [data-accent='glow']::before {
+    animation: none !important;
+  }
+}
