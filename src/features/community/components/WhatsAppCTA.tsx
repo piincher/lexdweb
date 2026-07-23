@@ -14,7 +14,7 @@ import { Check, MessageCircle, QrCode, Users, Zap, ShieldCheck, Bell } from 'luc
 import { useAnimationActivation } from '@/hooks/useAnimationActivation';
 
 const WHATSAPP_LINK =
-  'https://wa.me/8617863668208?text=Bonjour%2C%20je%20souhaite%20rejoindre%20la%20communaut%C3%A9%20LEXD';
+  'https://chat.whatsapp.com/KALSQm7oyEHFFGENKCj5yr';
 
 const benefits = [
   { icon: Zap, text: 'Conseils sourcing en temps réel', textEn: 'Real-time sourcing tips' },
@@ -50,7 +50,7 @@ export function WhatsAppCTA() {
   const isEn = locale === 'en';
   const { ref, isActive } = useAnimationActivation({ threshold: 0.15, delay: 100 });
   const whatsappLink = isEn
-    ? 'https://wa.me/8617863668208?text=Hello%2C%20I%20want%20to%20join%20the%20LEXD%20community'
+    ? 'https://chat.whatsapp.com/KALSQm7oyEHFFGENKCj5yr'
     : WHATSAPP_LINK;
 
   return (

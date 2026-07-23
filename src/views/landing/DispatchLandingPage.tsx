@@ -66,7 +66,7 @@ export function DispatchLandingPage({ locale }: DispatchLandingPageProps) {
           <h1 id="home-title">{t('hero.headline')}</h1>
           <p className={styles.lede}>{t('hero.subheadline')}</p>
           <div className={styles.heroActions}>
-            <a href={`https://wa.me/${CONTACT_CONFIG.WHATSAPP.CHINA}`} target="_blank" rel="noopener noreferrer" className={styles.primaryAction}>
+            <a href={`https://wa.me/${CONTACT_CONFIG.WHATSAPP.CAMEROON}`} target="_blank" rel="noopener noreferrer" className={styles.primaryAction}>
               <MessageCircle aria-hidden="true" /><span>{t('cta.contactUs')}</span>
             </a>
             <Link href={withLocale('/services')} className={styles.secondaryAction}>
@@ -162,7 +162,7 @@ export function DispatchLandingPage({ locale }: DispatchLandingPageProps) {
         <header>
           <h2 id="faq-title">{t('faq.title')}</h2>
           <p>{t('faq.helpDescription')}</p>
-          <a href={`https://wa.me/${CONTACT_CONFIG.WHATSAPP.CHINA}`} target="_blank" rel="noopener noreferrer">
+          <a href={`https://wa.me/${CONTACT_CONFIG.WHATSAPP.CAMEROON}`} target="_blank" rel="noopener noreferrer">
             {t('faq.contactWhatsApp')}<ArrowRight aria-hidden="true" />
           </a>
         </header>
@@ -181,7 +181,7 @@ export function DispatchLandingPage({ locale }: DispatchLandingPageProps) {
           <h2>{t('contact.title')}</h2>
           <p>{t('contact.subtitle')}</p>
         </div>
-        <a href={`https://wa.me/${CONTACT_CONFIG.WHATSAPP.CHINA}`} target="_blank" rel="noopener noreferrer">
+        <a href={`https://wa.me/${CONTACT_CONFIG.WHATSAPP.CAMEROON}`} target="_blank" rel="noopener noreferrer">
           <span>WhatsApp</span><ArrowRight aria-hidden="true" />
         </a>
       </section>

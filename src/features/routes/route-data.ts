@@ -119,6 +119,28 @@ const cityRoutes = {
     seaDurationEn: '50-70 days',
     seaDurationFr: '50-70 jours',
   },
+  mali: {
+    slug: 'china-to-mali',
+    code: 'ML',
+    frCountry: 'Mali',
+    enCountry: 'Mali',
+    city: 'Bamako',
+    airDurationEn: '14-21 days',
+    airDurationFr: '14-21 jours',
+    seaDurationEn: '60-75 days',
+    seaDurationFr: '60-75 jours',
+  },
+  zambia: {
+    slug: 'china-to-zambia',
+    code: 'ZM',
+    frCountry: 'Zambie',
+    enCountry: 'Zambia',
+    city: 'Lusaka',
+    airDurationEn: '15-23 days',
+    airDurationFr: '15-23 jours',
+    seaDurationEn: '55-70 days',
+    seaDurationFr: '55-70 jours',
+  },
 } as const;
 
 function makeCoastalRoute(route: (typeof cityRoutes)[keyof typeof cityRoutes]): RouteCopy {
@@ -246,6 +268,8 @@ const ROUTES: Record<string, RouteCopy> = {
   [cityRoutes.benin.slug]: makeCoastalRoute(cityRoutes.benin),
   [cityRoutes.togo.slug]: makeCoastalRoute(cityRoutes.togo),
   [cityRoutes.guinea.slug]: makeCoastalRoute(cityRoutes.guinea),
+  [cityRoutes.mali.slug]: makeCoastalRoute(cityRoutes.mali),
+  [cityRoutes.zambia.slug]: makeCoastalRoute(cityRoutes.zambia),
 };
 
 export function getRouteData(routeKey: string, locale: RouteLocale = 'fr'): RouteData | null {

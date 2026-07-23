@@ -79,7 +79,7 @@ export function ComparisonResults({
     ? `Hello ChinaLink, I compared shipping rates for ${result.weight}kg to ${result.destination.name} and I'm interested in a quote.`
     : `Bonjour ChinaLink, j'ai comparé les tarifs pour ${result.weight}kg vers ${result.destination.nameFr} et je suis intéressé par un devis.`;
 
-  const whatsappHref = `https://wa.me/8618851725957?text=${encodeURIComponent(whatsappText)}`;
+  const whatsappHref = `https://wa.me/237672660161?text=${encodeURIComponent(whatsappText)}`;
 
   return (
     <div className="space-y-8">

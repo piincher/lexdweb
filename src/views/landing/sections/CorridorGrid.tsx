@@ -25,11 +25,15 @@ const CORRIDORS = [
   'china-to-burkina-faso',
   'china-to-guinea',
   'china-to-niger',
-  'china-to-ghana',
+  'china-to-mali',
   'china-to-togo',
   'china-to-benin',
-  'china-to-nigeria',
+  'china-to-zambia',
 ] as const;
+
+// Corridors shown in the grid that don't have their own /routes/* page yet.
+// Their tile links to the general China-to-Africa page instead of a 404.
+const DISPLAY_ONLY_CORRIDORS = new Set<string>(['china-to-mali', 'china-to-zambia']);
 
 export function CorridorGrid({ locale }: CorridorGridProps) {
   const t = useTranslations('landing.corridors');
@@ -53,7 +57,7 @@ export function CorridorGrid({ locale }: CorridorGridProps) {
         {corridors.map(({ slug, data }) => (
           <Link
             key={slug}
-            href={`/${locale}/routes/${slug}`}
+            href={`/${locale}/routes/${DISPLAY_ONLY_CORRIDORS.has(slug) ? 'china-to-africa' : slug}`}
             // Cameroon is the home corridor, marked with the amber rule rather
             // than reordered into a separate block.
             className={`${styles.corridor} ${slug === 'china-to-cameroon' ? styles.corridorHome : ''}`}

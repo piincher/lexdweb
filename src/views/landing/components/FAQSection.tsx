@@ -133,7 +133,7 @@ export function FAQSection() {
         <div className="mt-12 text-center">
           <p className="text-[var(--text-secondary)] mb-4">{t('noAnswer') || 'Vous ne trouvez pas votre réponse ?'}</p>
           <a
-            href="https://wa.me/8618851725957"
+            href="https://wa.me/237672660161"
             target="_blank"
             rel="noopener noreferrer"
             className="inline-flex items-center gap-2 text-[var(--color-primary)] font-semibold hover:text-[var(--color-primary-dark] transition-colors duration-300 hover:gap-3"

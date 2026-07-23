@@ -8,7 +8,7 @@ import { Search } from 'lucide-react';
 import styles from './sections.module.css';
 import { CONTACT_CONFIG } from '@/config/app';
 
-const WHATSAPP_NUMBER = CONTACT_CONFIG.WHATSAPP.CHINA;
+const WHATSAPP_NUMBER = CONTACT_CONFIG.WHATSAPP.CAMEROON;
 
 /**
  * Hero tracking entry.

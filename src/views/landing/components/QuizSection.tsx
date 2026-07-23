@@ -71,7 +71,7 @@ export function QuizSection({ locale = 'fr' }: QuizSectionProps) {
                 <h3 className="text-2xl font-bold text-slate-900 dark:text-white">{t('englishCtaTitle')}</h3>
                 <p className="mt-4 text-slate-600 dark:text-slate-300">{t('englishCtaText')}</p>
                 <a
-                  href="https://wa.me/8618851725957?text=Hello%20LEXD%2C%20I%20want%20advice%20before%20importing%20from%20China%20to%20Africa."
+                  href="https://wa.me/237672660161?text=Hello%20LEXD%2C%20I%20want%20advice%20before%20importing%20from%20China%20to%20Africa."
                   target="_blank"
                   rel="noopener noreferrer"
                   className="mt-6 inline-flex items-center justify-center gap-2 rounded-lg bg-[var(--color-primary)] px-6 py-3 font-semibold text-white transition-colors hover:bg-[var(--color-primary-dark)]"

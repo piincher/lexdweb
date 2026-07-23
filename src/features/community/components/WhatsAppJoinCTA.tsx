@@ -13,7 +13,7 @@ import { Check, MessageCircle } from 'lucide-react';
 import { useAnimationActivation } from '@/hooks/useAnimationActivation';
 
 const WHATSAPP_LINK =
-  'https://wa.me/8616621150801?text=Bonjour%2C%20je%20souhaite%20rejoindre%20la%20communaut%C3%A9%20LEXD';
+  'https://chat.whatsapp.com/KALSQm7oyEHFFGENKCj5yr';
 
 function WhatsAppIcon({ className = 'w-5 h-5' }: { className?: string }) {
   return (

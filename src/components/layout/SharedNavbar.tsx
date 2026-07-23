@@ -202,7 +202,7 @@ export function SharedNavbar({ locale }: SharedNavbarProps) {
 
             {/* CTA Button - Desktop */}
             <a
-              href={`https://wa.me/8617863668208`}
+              href={`https://wa.me/237672660161`}
               target="_blank"
               rel="noopener noreferrer"
               className="hidden lg:flex items-center gap-2 bg-green-500 hover:bg-green-600 text-white px-4 py-2 rounded-xl font-medium transition-colors"
@@ -287,7 +287,7 @@ export function SharedNavbar({ locale }: SharedNavbarProps) {
                 </div>
 
                 <a
-                  href={`https://wa.me/8617863668208`}
+                  href={`https://wa.me/237672660161`}
                   target="_blank"
                   rel="noopener noreferrer"
                   className="flex items-center justify-center gap-2 bg-green-500 hover:bg-green-600 text-white px-4 py-3 rounded-xl font-medium transition-colors w-full"

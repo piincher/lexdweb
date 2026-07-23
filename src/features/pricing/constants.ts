@@ -30,7 +30,7 @@ export const DELIVERY_TIERS: DeliveryTier[] = [
     nameFr: 'Flash Express',
     minDays: 2,
     maxDays: 5,
-    rateFCFA: 16000,
+    rateFCFA: 11000,
     unit: 'kg',
     positioning: 'For urgent orders',
     positioningFr: 'Pour les commandes urgentes',
@@ -41,8 +41,8 @@ export const DELIVERY_TIERS: DeliveryTier[] = [
     id: 'air_standard',
     name: 'Air Standard',
     nameFr: 'Air Standard',
-    minDays: 14,
-    maxDays: 21,
+    minDays: 7,
+    maxDays: 14,
     rateFCFA: 8000,
     unit: 'kg',
     positioning: 'Smart choice for non-urgent',
@@ -115,7 +115,7 @@ export const SEA_STANDARD_ITEMS = [
 export const AIR_RATES: AirRate[] = [
   {
     category: 'express',
-    rateFCFA: 16000,
+    rateFCFA: 11000,
     unit: 'kg',
     deliveryTime: '2-5 jours',
     description: 'Livraison Flash Express prioritaire',
@@ -125,7 +125,7 @@ export const AIR_RATES: AirRate[] = [
     category: 'standard',
     rateFCFA: 8000,
     unit: 'kg',
-    deliveryTime: '14-21 jours',
+    deliveryTime: '7-14 jours',
     description: 'Vêtements, Chaussures, Articles quotidiens',
     emoji: '📦',
   },
@@ -155,7 +155,7 @@ export interface ItemCategoryInfo {
 }
 
 export const ITEM_CATEGORIES: ItemCategoryInfo[] = [
-  { id: 'express', rate: 16000, unit: 'kg' },
+  { id: 'express', rate: 11000, unit: 'kg' },
   { id: 'phones', rate: 12000, unit: 'piece' },
   { id: 'electronics', rate: 12000, unit: 'kg' },
   { id: 'standard', rate: 8000, unit: 'kg' },
@@ -173,14 +173,14 @@ export const SEA_RATES: SeaRate = {
 // Speed tier display mapping
 export const SPEED_TIERS = {
   express: { label: 'Flash Express', time: '2-5 jours', highlight: true },
-  standard: { label: 'Air Standard', time: '14-21 jours', highlight: false },
+  standard: { label: 'Air Standard', time: '7-14 jours', highlight: false },
   sea: { label: 'Économique Maritime', time: '60-75 jours', highlight: false },
 } as const;
 
 // Delivery Performance Data (marketing positioning — under-promise, over-deliver)
 export const DELIVERY_PERFORMANCE: Record<string, DeliveryPerformance> = {
   flashExpress: { quoted: '2-5 jours', actualAverage: 3.2, onTimeRate: 96 },
-  airStandard: { quoted: '14-21 jours', actualAverage: 12, onTimeRate: 94 },
+  airStandard: { quoted: '7-14 jours', actualAverage: 12, onTimeRate: 94 },
   seaEconomy: { quoted: '60-75 jours', actualAverage: 62, onTimeRate: 91 },
 };
 

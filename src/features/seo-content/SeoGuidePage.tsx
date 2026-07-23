@@ -34,7 +34,7 @@ interface SeoGuidePageProps {
 }
 
 const defaultWhatsappHref =
-  'https://wa.me/8618851725957?text=Bonjour%20LEXD%2C%20j%27ai%20lu%20votre%20guide%20et%20je%20veux%20importer%20de%20Chine%20au%20Mali.';
+  'https://wa.me/237672660161?text=Bonjour%20LEXD%2C%20j%27ai%20lu%20votre%20guide%20et%20je%20veux%20importer%20de%20Chine%20au%20Mali.';
 
 export function SeoGuidePage({
   title,

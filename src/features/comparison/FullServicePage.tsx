@@ -139,7 +139,7 @@ export function FullServicePage({ locale }: Props) {
             </p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
               <a
-                href="https://wa.me/8618851725957"
+                href="https://wa.me/237672660161"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="inline-flex items-center justify-center px-8 py-4 bg-green-500 text-white rounded-xl font-semibold hover:bg-green-400 transition-colors shadow-lg shadow-green-500/20"
@@ -369,7 +369,7 @@ export function FullServicePage({ locale }: Props) {
                 {t('cta.subtitle')}
               </p>
               <a
-                href="https://wa.me/8618851725957"
+                href="https://wa.me/237672660161"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="inline-flex items-center justify-center px-8 py-4 bg-white text-emerald-700 rounded-xl font-semibold hover:bg-emerald-50 transition-colors shadow-lg"

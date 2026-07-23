@@ -96,7 +96,7 @@ export function OfflinePageClient() {
             Need help? Contact us on WhatsApp
           </p>
           <a
-            href="https://wa.me/8618851725957"
+            href="https://wa.me/237672660161"
             target="_blank"
             rel="noopener noreferrer"
             className="inline-flex items-center gap-2 py-2 px-4 bg-green-500 text-white rounded-full text-sm font-medium hover:bg-green-600 transition-colors"

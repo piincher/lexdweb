@@ -444,7 +444,7 @@
         "consolidation": "Consolidation colis"
       },
       "airFreight": {
-        "expressDelivery": "Livraison express 14-21j",
+        "expressDelivery": "Livraison express 7-14j",
         "tracking": "Suivi temps réel",
         "insurance": "Assurance incluse",
         "doorToDoor": "Livraison porte-à-porte"
@@ -829,7 +829,7 @@
       "speedBadge": "Livraison en 2-5 jours",
       "stats": {
         "express": "Flash Express: 2-5 jours",
-        "standard": "Air Standard: 14-21 jours",
+        "standard": "Air Standard: 7-14 jours",
         "sea": "Économique Maritime: 60-75 jours",
         "reviews": "4.8 ★ — 312 avis"
       }
@@ -871,7 +871,7 @@
       },
       "standard": {
         "name": "Air Standard",
-        "description": "Livraison standard 14-21 jours",
+        "description": "Livraison standard 7-14 jours",
         "unit": "kg"
       },
       "containers": {
@@ -1225,7 +1225,7 @@
       },
       {
         "title": "On expédie (votre choix)",
-        "description": "Air express 2-5j, standard 14-21j, ou maritime 60-75j."
+        "description": "Air express 2-5j, standard 7-14j, ou maritime 60-75j."
       },
       {
         "title": "Suivi en temps réel",

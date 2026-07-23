@@ -107,7 +107,7 @@ export function Footer() {
             </p>
             
             <div className="flex space-x-3">
-              <SocialIcon href={`https://wa.me/${CONTACT_CONFIG.WHATSAPP.CHINA}`} icon={<MessageCircle className="w-5 h-5" />} label="WhatsApp" />
+              <SocialIcon href={`https://wa.me/${CONTACT_CONFIG.WHATSAPP.CAMEROON}`} icon={<MessageCircle className="w-5 h-5" />} label="WhatsApp" />
               <SocialIcon href={SOCIAL_LINKS.FACEBOOK} icon={<Facebook className="w-5 h-5" />} label="Facebook" />
               <SocialIcon href={SOCIAL_LINKS.INSTAGRAM} icon={<Instagram className="w-5 h-5" />} label="Instagram" />
               <SocialIcon href={SOCIAL_LINKS.TWITTER} icon={<Twitter className="w-5 h-5" />} label="Twitter" />

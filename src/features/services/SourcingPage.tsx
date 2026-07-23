@@ -94,7 +94,7 @@ export function SourcingPage({ locale }: Props) {
             </p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
               <a
-                href="https://wa.me/8618851725957"
+                href="https://wa.me/237672660161"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="inline-flex items-center justify-center px-8 py-4 bg-green-500 text-white rounded-xl font-semibold hover:bg-green-400 transition-colors"
@@ -292,7 +292,7 @@ export function SourcingPage({ locale }: Props) {
                 : 'Rejoignez des centaines d\'entreprises africaines qui achètent en Chine avec notre aide'}
             </p>
             <a
-              href="https://wa.me/8618851725957"
+              href="https://wa.me/237672660161"
               target="_blank"
               rel="noopener noreferrer"
               className="inline-flex items-center justify-center px-8 py-4 bg-white text-purple-600 rounded-xl font-semibold hover:bg-purple-50 transition-colors"

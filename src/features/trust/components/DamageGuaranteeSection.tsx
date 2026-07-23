@@ -184,7 +184,7 @@ export function DamageGuaranteeSection() {
           transition={{ duration: 0.6, delay: 0.4 }}
         >
           <a
-            href="https://wa.me/8618851725957"
+            href="https://wa.me/237672660161"
             target="_blank"
             rel="noopener noreferrer"
             className="inline-flex items-center gap-3 px-8 py-4 bg-white text-blue-700 font-bold rounded-full shadow-xl hover:shadow-2xl hover:scale-105 transition-all duration-300"

@@ -288,7 +288,7 @@ export function ContactSection() {
             <ContactInfoItem icon={MessageCircle} title={t('info.whatsapp')}>
               <div className="flex flex-wrap gap-2 mt-1">
                 <a
-                  href={`https://wa.me/${CONTACT_CONFIG.WHATSAPP.CHINA}`}
+                  href={`https://wa.me/${CONTACT_CONFIG.WHATSAPP.CAMEROON}`}
                   target="_blank"
                   rel="noopener noreferrer"
                   className="inline-flex items-center gap-1.5 px-3 py-1.5 rounded-md text-sm font-medium transition-colors"

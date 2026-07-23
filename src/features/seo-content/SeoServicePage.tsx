@@ -46,7 +46,7 @@ interface SeoServicePageProps {
 }
 
 const whatsappHref =
-  'https://wa.me/8618851725957?text=Bonjour%20LEXD%2C%20je%20veux%20un%20devis%20pour%20importer%20de%20Chine%20au%20Mali.';
+  'https://wa.me/237672660161?text=Bonjour%20LEXD%2C%20je%20veux%20un%20devis%20pour%20importer%20de%20Chine%20au%20Mali.';
 
 export function SeoServicePage({
   locale = 'fr',

@@ -44,7 +44,9 @@ export const CONTACT_CONFIG = {
   WHATSAPP: {
     CHINA: '+8617863668208',
     HILARY: '+23772660161',
-    CAMEROON: '+23772660161',
+    CAMEROON: '+237672660161',
+    CAMEROON_2: '+237672660161',
+    GROUP_LINK: 'https://chat.whatsapp.com/KALSQm7oyEHFFGENKCj5yr',
   },
   ADDRESS: {
     STREET: 'Akwa, près du lycée Birgo',

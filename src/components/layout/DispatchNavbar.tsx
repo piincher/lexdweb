@@ -111,7 +111,7 @@ export function DispatchNavbar({ locale }: DispatchNavbarProps) {
           <Link className="studio-calculator" href={withLocale('/calculateur')}>
             <Calculator aria-hidden="true" /><span>{t('navigation.calculator')}</span>
           </Link>
-          <a className="studio-whatsapp" href={`https://wa.me/${CONTACT_CONFIG.WHATSAPP.CHINA}`} target="_blank" rel="noopener noreferrer">
+          <a className="studio-whatsapp" href={`https://wa.me/${CONTACT_CONFIG.WHATSAPP.CAMEROON}`} target="_blank" rel="noopener noreferrer">
             <MessageCircle aria-hidden="true" /><span>WhatsApp</span>
           </a>
           <button

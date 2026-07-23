@@ -182,7 +182,7 @@
         "consolidation": "包裹合并"
       },
       "airFreight": {
-        "expressDelivery": "快递 14-21天",
+        "expressDelivery": "快递 7-14天",
         "tracking": "实时追踪",
         "insurance": "包含保险",
         "doorToDoor": "门到门"
@@ -563,7 +563,7 @@
       "speedBadge": "2-5天送达",
       "stats": {
         "express": "闪送快递: 2-5天",
-        "standard": "空运标准: 14-21天",
+        "standard": "空运标准: 7-14天",
         "sea": "海运经济: 60-75天",
         "reviews": "4.8 ★ — 312 条评价"
       }
@@ -605,7 +605,7 @@
       },
       "standard": {
         "name": "空运标准",
-        "description": "标准配送14-21天",
+        "description": "标准配送7-14天",
         "unit": "公斤"
       },
       "containers": {
@@ -919,7 +919,7 @@
       },
       {
         "title": "我们发货（您选择速度）",
-        "description": "空运快递2-5天，标准14-21天，或海运60-75天。"
+        "description": "空运快递2-5天，标准7-14天，或海运60-75天。"
       },
       {
         "title": "实时追踪",

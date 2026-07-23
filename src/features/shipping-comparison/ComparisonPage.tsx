@@ -266,7 +266,7 @@ export function ComparisonPage({ locale = 'fr' }: ComparisonPageProps) {
               : 'Notre équipe est disponible sur WhatsApp pour vous aider à choisir la meilleure option d\'expédition pour votre entreprise.'}
           </p>
           <a
-            href="https://wa.me/8618851725957?text=Bonjour%20ChinaLink%2C%20j'ai%20une%20question%20sur%20le%20comparateur%20de%20fret."
+            href="https://wa.me/237672660161?text=Bonjour%20ChinaLink%2C%20j'ai%20une%20question%20sur%20le%20comparateur%20de%20fret."
             target="_blank"
             rel="noopener noreferrer"
             className="mt-6 inline-flex items-center gap-2 rounded-xl bg-green-500 px-8 py-4 text-lg font-bold text-white shadow-lg shadow-green-500/20 transition hover:bg-green-400"

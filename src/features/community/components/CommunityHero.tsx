@@ -14,7 +14,7 @@ import { Users, Activity, Globe, ShieldCheck, MessageCircle, Star, Phone } from 
 import { communityStats } from '../data';
 
 const WHATSAPP_LINK =
-  'https://wa.me/8617863668208?text=Bonjour%2C%20je%20souhaite%20rejoindre%20la%20communaut%C3%A9%20LEXD';
+  'https://chat.whatsapp.com/KALSQm7oyEHFFGENKCj5yr';
 
 function WhatsAppIcon({ className = 'w-5 h-5' }: { className?: string }) {
   return (
@@ -58,7 +58,7 @@ export function CommunityHero() {
   const locale = useLocale();
   const isEn = locale === 'en';
   const whatsappLink = isEn
-    ? 'https://wa.me/8617863668208?text=Hello%2C%20I%20want%20to%20join%20the%20LEXD%20community'
+    ? 'https://chat.whatsapp.com/KALSQm7oyEHFFGENKCj5yr'
     : WHATSAPP_LINK;
 
   return (

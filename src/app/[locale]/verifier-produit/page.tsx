@@ -188,7 +188,7 @@ export default async function VerifierProduitPage({ params }: Props) {
                 : 'Notre équipe peut vérifier n\'importe quel produit pour vous. Envoyez-nous une photo ou description sur WhatsApp et nous confirmerons l\'éligibilité en quelques minutes.'}
             </p>
             <a
-              href="https://wa.me/8618851725957?text=Bonjour%20LEXD%2C%20j'ai%20une%20question%20sur%20un%20produit%20%C3%A0%20exp%C3%A9dier."
+              href="https://wa.me/237672660161?text=Bonjour%20LEXD%2C%20j'ai%20une%20question%20sur%20un%20produit%20%C3%A0%20exp%C3%A9dier."
               target="_blank"
               rel="noopener noreferrer"
               className="mt-6 inline-flex items-center gap-2 rounded-xl bg-green-500 px-8 py-4 text-lg font-bold text-white shadow-lg shadow-green-500/20 transition hover:bg-green-400"

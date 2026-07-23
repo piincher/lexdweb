@@ -34,7 +34,7 @@
   "hero": {
     "title": "LEXD - Your Logistics Partner",
     "headline": "Sourcing and shipping from China to Africa",
-    "subheadline": "Import to Cameroon and Africa with one partner handling every step.",
+    "subheadline": "Export to Cameroon and Africa with one partner handling every step.",
     "subtitle": "From supplier sourcing in China to final delivery in Cameroon, Senegal, Ivory Coast, Ghana, Nigeria and Africa, we guide you every step of the way. Purchasing, quality control, secure payment, air freight, sea freight, and WhatsApp tracking: one partner for your China-Africa supply chain.",
     "typingTexts": [
       "Complete Logistics Solutions",
@@ -444,7 +444,7 @@
         "consolidation": "Package Consolidation"
       },
       "airFreight": {
-        "expressDelivery": "Express 14-21 days",
+        "expressDelivery": "Express 7-14 days",
         "tracking": "Real-time Tracking",
         "insurance": "Insurance Included",
         "doorToDoor": "Door-to-Door"
@@ -701,7 +701,7 @@
       "speedBadge": "Delivery in 2-5 days",
       "stats": {
         "express": "Flash Express: 2-5 days",
-        "standard": "Air Standard: 14-21 days",
+        "standard": "Air Standard: 7-14 days",
         "sea": "Economy Sea: 60-75 days",
         "reviews": "4.8 ★ — 312 reviews"
       }
@@ -743,7 +743,7 @@
       },
       "standard": {
         "name": "Air Standard",
-        "description": "Standard delivery 14-21 days",
+        "description": "Standard delivery 7-14 days",
         "unit": "kg"
       },
       "containers": {
@@ -1018,7 +1018,7 @@
         },
         "deliveryTime": {
           "question": "What are the delivery times?",
-          "answer": "Air freight: 14-21 business days. Sea freight: 60-75 business days. Times may vary depending on exact destination and customs checks."
+          "answer": "Air freight: 7-14 business days. Sea freight: 60-75 business days. Times may vary depending on exact destination and customs checks."
         },
         "customsFees": {
           "question": "Are customs fees included?",
@@ -1253,7 +1253,7 @@
       },
       {
         "title": "We ship (your choice)",
-        "description": "Air express 2-5 days, standard 14-21 days, or sea 60-75 days."
+        "description": "Air express 2-5 days, standard 7-14 days, or sea 60-75 days."
       },
       {
         "title": "Track in real-time",

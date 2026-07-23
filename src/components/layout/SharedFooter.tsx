@@ -9,7 +9,7 @@
 'use client';
 
 import Link from 'next/link';
-import { Facebook, Linkedin, Instagram, Mail, Phone, MapPin, Clock } from 'lucide-react';
+import { Facebook, Linkedin, Instagram, Mail, Phone, MapPin, Clock, MessageCircle } from 'lucide-react';
 import { useTranslations } from 'next-intl';
 import { cn, getCurrentYear } from '@/lib/utils';
 import type { Locale } from '@/i18n/config';
@@ -18,6 +18,14 @@ interface SharedFooterProps {
   locale: Locale;
   className?: string;
 }
+
+const WHATSAPP_GROUP_LINK = 'https://chat.whatsapp.com/KALSQm7oyEHFFGENKCj5yr';
+const WHATSAPP_GROUP_LABEL: Record<string, string> = {
+  fr: 'Rejoindre le groupe WhatsApp',
+  en: 'Join our WhatsApp group',
+  ar: 'انضم إلى مجموعة واتساب',
+  zh: '加入 WhatsApp 群组',
+};
 
 const SOCIAL_LINKS = [
   { icon: Facebook, href: 'https://facebook.com/chinalinkexpress', label: 'Facebook', color: 'hover:bg-[var(--color-primary)]' },
@@ -86,6 +94,17 @@ export function SharedFooter({ locale, className }: SharedFooterProps) {
                 );
               })}
             </div>
+
+            {/* WhatsApp Community Group */}
+            <a
+              href={WHATSAPP_GROUP_LINK}
+              target="_blank"
+              rel="noopener noreferrer"
+              className="mt-5 inline-flex items-center gap-2 px-4 py-2.5 rounded-full bg-[#25D366] text-white text-sm font-semibold hover:bg-[#1ebe57] transition-colors"
+            >
+              <MessageCircle className="w-4 h-4" />
+              {WHATSAPP_GROUP_LABEL[locale] ?? WHATSAPP_GROUP_LABEL.fr}
+            </a>
           </div>
 
           {/* Services Column */}
@@ -245,7 +264,7 @@ export function SharedFooter({ locale, className }: SharedFooterProps) {
               </a>{' '}
               team{' '}
               <a
-                href="https://wa.me/8617865673053"
+                href="https://wa.me/237672660161"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="text-green-500 hover:text-green-400 transition-colors"

@@ -681,7 +681,7 @@ export function TermsContent({ locale = "fr" }: { locale?: string }) {
                      </div>
                      <div className="mt-6 pt-4 border-t border-[var(--border)]">
                         <a
-                           href="https://wa.me/8618851725957"
+                           href="https://wa.me/237672660161"
                            target="_blank"
                            rel="noopener noreferrer"
                            className="inline-flex items-center gap-2 py-3 px-6 bg-green-500 text-white rounded-full font-medium hover:bg-green-600 transition-colors"
@@ -1568,7 +1568,7 @@ export function TermsContent({ locale = "fr" }: { locale?: string }) {
                   </div>
                   <div className="mt-6 pt-4 border-t border-[var(--border)]">
                      <a
-                        href="https://wa.me/8618851725957"
+                        href="https://wa.me/237672660161"
                         target="_blank"
                         rel="noopener noreferrer"
                         className="inline-flex items-center gap-2 py-3 px-6 bg-green-500 text-white rounded-full font-medium hover:bg-green-600 transition-colors"

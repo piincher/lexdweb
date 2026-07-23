@@ -80,7 +80,7 @@ export function RoutePage({ locale, routeKey, country, capital }: Props) {
                 {isEn ? 'Calculate Shipping Cost' : 'Calculer les Frais'}
               </Link>
               <a
-                href="https://wa.me/8618851725957"
+                href="https://wa.me/237672660161"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="inline-flex items-center justify-center px-8 py-4 bg-green-500 text-white rounded-xl font-semibold hover:bg-green-400 transition-colors"

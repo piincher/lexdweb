@@ -257,61 +257,6 @@ async function syncContactForms() {
   console.log('[SW] Syncing contact forms...');
 }
 
-// Push notification handling
-self.addEventListener('push', (event) => {
-  console.log('[SW] Push received:', event);
-  
-  const options = {
-    body: event.data?.text() || 'New update from LEXD',
-    icon: '/icons/icon-192x192.png',
-    badge: '/icons/badge-72x72.png',
-    vibrate: [100, 50, 100],
-    data: {
-      url: '/',
-      timestamp: Date.now()
-    },
-    actions: [
-      {
-        action: 'open',
-        title: 'Open App',
-        icon: '/icons/open-96x96.png'
-      },
-      {
-        action: 'dismiss',
-        title: 'Dismiss',
-        icon: '/icons/close-96x96.png'
-      }
-    ],
-    requireInteraction: false,
-    silent: false
-  };
-  
-  event.waitUntil(
-    self.registration.showNotification('LEXD', options)
-  );
-});
-
-// Notification click handling
-self.addEventListener('notificationclick', (event) => {
-  console.log('[SW] Notification click:', event);
-  
-  event.notification.close();
-  
-  const action = event.action;
-  const notificationData = event.notification.data;
-  
-  if (action === 'open' || !action) {
-    event.waitUntil(
-      self.clients.openWindow(notificationData?.url || '/')
-    );
-  }
-  
-  if (action === 'dismiss') {
-    // Just close the notification
-    return;
-  }
-});
-
 // Message handling from main thread
 self.addEventListener('message', (event) => {
   console.log('[SW] Message received:', event.data);

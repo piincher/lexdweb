@@ -385,7 +385,7 @@ export function SeaCalculator() {
                 className="mt-6"
               >
                 <a
-                  href="https://wa.me/8618851725957"
+                  href="https://wa.me/237672660161"
                   target="_blank"
                   rel="noopener noreferrer"
                   className="flex items-center justify-center gap-2 w-full py-3 px-4 bg-green-500 hover:bg-green-400 text-white font-semibold rounded-xl transition-colors duration-200"

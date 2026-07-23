@@ -170,7 +170,7 @@ export function SplitPaymentBanner({
                 transition={{ duration: 0.5, delay: 0.2 }}
               >
                 <a
-                  href="https://wa.me/8618851725957"
+                  href="https://wa.me/237672660161"
                   target="_blank"
                   rel="noopener noreferrer"
                   className={cn(

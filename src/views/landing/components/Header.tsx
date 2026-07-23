@@ -229,7 +229,7 @@ export function Header({ locale }: HeaderProps) {
             >
               <MagneticButton strength={20}>
                 <a
-                  href="https://wa.me/8618851725957"
+                  href="https://wa.me/237672660161"
                   className="relative bg-[var(--color-primary)] hover:bg-[var(--color-primary-dark)] text-white px-5 py-2.5 rounded-lg font-semibold transition-colors overflow-hidden group"
                   target="_blank"
                   rel="noopener noreferrer"
@@ -346,7 +346,7 @@ export function Header({ locale }: HeaderProps) {
                 ))}
                 
                 <motion.a
-                  href="https://wa.me/8618851725957"
+                  href="https://wa.me/237672660161"
                   className="bg-[var(--color-primary)] text-white px-4 py-4 rounded-lg font-semibold flex items-center justify-center mt-4"
                   target="_blank"
                   rel="noopener noreferrer"
