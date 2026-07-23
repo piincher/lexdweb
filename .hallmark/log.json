@@ -1,0 +1,26 @@
+[
+  {
+    "date": "2026-07-20",
+    "scope": "app",
+    "macrostructure": "Split Studio / Narrative Workflow / Map Diagram",
+    "theme": "LEXD Logistics Studio",
+    "enrichment": "real operational photography",
+    "brief": "Replace the rejected dispatch-board design across the complete LEXD website"
+  },
+  {
+    "date": "2026-07-19",
+    "scope": "app",
+    "macrostructure": "Index-First / Workbench / Long Document",
+    "theme": "LEXD locked system",
+    "enrichment": "functional route-line diagrams",
+    "brief": "End-to-end redesign of the complete LEXD website"
+  },
+  {
+    "date": "2026-05-22",
+    "macrostructure": "Marquee Hero",
+    "theme": "custom",
+    "theme_axes": "light / geometric-sans / cool",
+    "enrichment": "none (typography only)",
+    "brief": "LEXD — redesign home landing page"
+  }
+]
