@@ -63,9 +63,9 @@ export function SharedFooter({ locale, className }: SharedFooterProps) {
   return (
     <footer className={cn('bg-gray-50 dark:bg-gray-900 border-t border-gray-200 dark:border-gray-800', className)}>
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-12 md:py-16">
-        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-5 gap-8 lg:gap-10" data-stagger>
+        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-5 gap-8 lg:gap-10">
           {/* Brand Column */}
-          <div className="lg:col-span-1" data-reveal>
+          <div className="lg:col-span-1">
             <Link href={`/${locale}/`} className="inline-block mb-4">
               <span className="text-2xl font-bold text-[var(--color-primary)]">
                 LEXD
@@ -108,7 +108,7 @@ export function SharedFooter({ locale, className }: SharedFooterProps) {
           </div>
 
           {/* Services Column */}
-          <div data-reveal>
+          <div>
             <h3 className="font-semibold text-gray-900 dark:text-white mb-4">
               {t('footer.services')}
             </h3>
@@ -145,7 +145,7 @@ export function SharedFooter({ locale, className }: SharedFooterProps) {
           </div>
 
           {/* Links Column */}
-          <div data-reveal>
+          <div>
             <h3 className="font-semibold text-gray-900 dark:text-white mb-4">
               {t('footer.links')}
             </h3>
@@ -174,7 +174,7 @@ export function SharedFooter({ locale, className }: SharedFooterProps) {
           </div>
 
           {/* Tools Column */}
-          <div data-reveal>
+          <div>
             <h3 className="font-semibold text-gray-900 dark:text-white mb-4">
               {t('navigation.tools')}
             </h3>
@@ -207,7 +207,7 @@ export function SharedFooter({ locale, className }: SharedFooterProps) {
           </div>
 
           {/* Contact Column */}
-          <div data-reveal>
+          <div>
             <h3 className="font-semibold text-gray-900 dark:text-white mb-4">
               {t('contact.info.title')}
             </h3>

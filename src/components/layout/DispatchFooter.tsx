@@ -71,8 +71,8 @@ export function DispatchFooter({ locale, className = '' }: DispatchFooterProps) 
         </a>
       </div>
 
-      <div className="studio-footer__directory">
-        <div className="studio-footer__brand">
+      <div className="studio-footer__directory" data-stagger>
+        <div className="studio-footer__brand" data-reveal>
           <Image
             className="studio-brand__wordmark studio-brand__wordmark--light"
             src="/lexd-wordmark.png"
@@ -91,15 +91,15 @@ export function DispatchFooter({ locale, className = '' }: DispatchFooterProps) 
           <p>Larry Express Delivery</p>
           <span>{t('dispatch.corridor')}</span>
         </div>
-        <div>
+        <div data-reveal>
           <h3>{t('footer.services')}</h3>
           {SERVICE_LINKS.map(([href, label]) => <Link key={href} href={withLocale(href)}>{t(label)}</Link>)}
         </div>
-        <div>
+        <div data-reveal>
           <h3>{t('navigation.tools')}</h3>
           {TOOL_LINKS.map(([href, label]) => <Link key={href} href={withLocale(href)}>{t(label)}</Link>)}
         </div>
-        <address>
+        <address data-reveal>
           <h3>{t('contact.info.title')}</h3>
           <span><MapPin aria-hidden="true" />Akwa, Douala, Cameroon</span>
         <a href="https://wa.me/23772660161" target="_blank" rel="noopener noreferrer"><WhatsAppIcon />Hilary · +237-726-60161</a>
