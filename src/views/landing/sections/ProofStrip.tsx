@@ -19,7 +19,7 @@ const ITEMS = [
  * These four items are process commitments the business either honours or does
  * not, so they are falsifiable in a way an adjective is not. Deliberately no
  * statistics: the only numbers available (`founded: 2019`, `employees: 50-200`,
- * `totalReviews: 312`) were inherited from ChinaLink's configuration and have
+ * `totalReviews: 312`) were inherited from LEXD's configuration and have
  * not been confirmed for LEXD. Publishing them as LEXD's own would be a claim
  * nobody here has verified.
  */

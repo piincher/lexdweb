@@ -1,7 +1,7 @@
 /**
  * Shipping Comparison Data
  *
- * Realistic shipping rate data for ChinaLink Express vs competitors.
+ * Realistic shipping rate data for LEXD vs competitors.
  * Rates are tailored for the African market.
  */
 
@@ -79,8 +79,8 @@ export const SEA_MINIMUM_CHARGES: Record<string, number> = {
 
 export const SHIPPING_RATES: ShippingRate[] = [
   {
-    provider: 'ChinaLink Sea',
-    providerFr: 'ChinaLink Maritime',
+    provider: 'LEXD Sea',
+    providerFr: 'LEXD Maritime',
     mode: 'sea',
     basePricePerKg: 4.0,
     minPrice: 80,
@@ -108,8 +108,8 @@ export const SHIPPING_RATES: ShippingRate[] = [
     isCompetitor: false,
   },
   {
-    provider: 'ChinaLink Air',
-    providerFr: 'ChinaLink Aérien',
+    provider: 'LEXD Air',
+    providerFr: 'LEXD Aérien',
     mode: 'air',
     basePricePerKg: 11.0,
     minPrice: 45,

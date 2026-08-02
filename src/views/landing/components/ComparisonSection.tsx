@@ -2,7 +2,7 @@
  * Comparison Section Component
  *
  * "What We Do That Others Don't" - Visual comparison showing
- * ChinaLink's full-service offering vs typical freight forwarders.
+ * LEXD's full-service offering vs typical freight forwarders.
  */
 
 'use client';
@@ -106,7 +106,7 @@ export function ComparisonSection() {
             <div className="inline-flex items-center gap-2 px-6 py-3 bg-[var(--color-primary-50)] dark:bg-[var(--color-primary-700)]/20 border border-[var(--color-primary-100)] dark:border-[var(--color-primary-700)] rounded-2xl">
               <span className="text-2xl">🚀</span>
               <span className="text-lg font-bold text-[var(--color-primary-700)] dark:text-[var(--color-primary-light)]">
-                {t('chinaLinkColumn')}
+                {t('lexdColumn')}
               </span>
             </div>
           </motion.div>
@@ -140,7 +140,7 @@ export function ComparisonSection() {
                 transition={{ duration: 0.4, delay: 0.1 + index * 0.06 }}
                 className="grid grid-cols-1 md:grid-cols-2 gap-4"
               >
-                {/* ChinaLink Card */}
+                {/* LEXD Card */}
                 <SpotlightCard
                   className="relative rounded-2xl border border-[var(--color-primary-100)] dark:border-[var(--color-primary-700)]/50 bg-[var(--color-primary-50)]/50 dark:bg-[var(--color-primary-700)]/10 backdrop-blur-sm"
                   spotlightColor="rgba(16, 185, 129, 0.15)"
@@ -153,7 +153,7 @@ export function ComparisonSection() {
                       {/* Mobile: show column label */}
                       <div className="md:hidden flex items-center gap-2 mb-1">
                         <span className="text-xs font-semibold text-[var(--color-primary)] dark:text-[var(--color-primary-light)] uppercase tracking-wider">
-                          {t('chinaLinkColumn')}
+                          {t('lexdColumn')}
                         </span>
                       </div>
                       <h3 className="text-base md:text-lg font-bold text-[var(--color-primary-700)] dark:text-[var(--color-primary-light)] mb-1">

@@ -150,7 +150,7 @@ export function MemberTestimonials() {
             Ils ont transformé leur business
           </h2>
           <p className="text-gray-600 dark:text-gray-400 max-w-2xl mx-auto">
-            Des importateurs camerounais qui ont sécurisé leur approvisionnement avec ChinaLink
+            Des importateurs camerounais qui ont sécurisé leur approvisionnement avec LEXD
           </p>
         </motion.div>
 

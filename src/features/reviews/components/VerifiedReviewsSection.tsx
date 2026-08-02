@@ -179,7 +179,7 @@ export function VerifiedReviewsSection() {
           <p className="text-lg md:text-xl text-gray-600 dark:text-gray-400 max-w-2xl mx-auto">
             {t('subtitle', {
               defaultValue:
-                'Des entrepreneurs africains qui importent depuis la Chine avec ChinaLink.',
+                'Des entrepreneurs africains qui importent depuis la Chine avec LEXD.',
             })}
           </p>
 

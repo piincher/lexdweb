@@ -60,7 +60,7 @@ export function SuccessStories() {
           </h2>
           <p className="text-slate-400 max-w-2xl mx-auto">
             Des histoires réelles d&apos;importateurs africains qui ont bénéficié
-            de la communauté ChinaLink.
+            de la communauté LEXD.
           </p>
           <div className="w-24 h-1.5 bg-gradient-to-r from-amber-500 to-orange-500 mx-auto mt-6 rounded-full" />
         </motion.div>

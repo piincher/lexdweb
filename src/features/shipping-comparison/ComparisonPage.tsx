@@ -125,8 +125,8 @@ export function ComparisonPage({ locale = 'fr' }: ComparisonPageProps) {
             </h1>
             <p className="mx-auto mt-6 max-w-2xl text-lg leading-relaxed text-slate-600 dark:text-slate-300">
               {isEn
-                ? 'See ChinaLink\'s rates side-by-side with DHL and Aramex. Transparent pricing for sea freight, air cargo, and express delivery to Cameroon, Senegal, Ivory Coast, and all Africa.'
-                : 'Comparez les tarifs ChinaLink avec DHL et Aramex. Tarifs transparents pour le fret maritime, cargo aérien et livraison express vers le Cameroun, Sénégal, Côte d\'Ivoire et toute l\'Afrique.'}
+                ? 'See LEXD\'s rates side-by-side with DHL and Aramex. Transparent pricing for sea freight, air cargo, and express delivery to Cameroon, Senegal, Ivory Coast, and all Africa.'
+                : 'Comparez les tarifs LEXD avec DHL et Aramex. Tarifs transparents pour le fret maritime, cargo aérien et livraison express vers le Cameroun, Sénégal, Côte d\'Ivoire et toute l\'Afrique.'}
             </p>
           </div>
         </div>
@@ -204,8 +204,8 @@ export function ComparisonPage({ locale = 'fr' }: ComparisonPageProps) {
                 step: '02',
                 title: isEn ? 'Compare Instantly' : 'Comparez Instantanément',
                 desc: isEn
-                  ? 'See rates for ChinaLink Sea, ChinaLink Air, DHL, and Aramex side-by-side.'
-                  : 'Visualisez les tarifs ChinaLink Maritime, ChinaLink Aérien, DHL et Aramex côte à côte.',
+                  ? 'See rates for LEXD Sea, LEXD Air, DHL, and Aramex side-by-side.'
+                  : 'Visualisez les tarifs LEXD Maritime, LEXD Aérien, DHL et Aramex côte à côte.',
               },
               {
                 step: '03',
@@ -239,8 +239,8 @@ export function ComparisonPage({ locale = 'fr' }: ComparisonPageProps) {
             </h2>
             <p className="mt-2 text-slate-400">
               {isEn
-                ? 'Learn more about how ChinaLink can help your business import from China.'
-                : 'En savoir plus sur la façon dont ChinaLink peut aider votre entreprise à importer de Chine.'}
+                ? 'Learn more about how LEXD can help your business import from China.'
+                : 'En savoir plus sur la façon dont LEXD peut aider votre entreprise à importer de Chine.'}
             </p>
           </div>
           <div className="flex flex-wrap justify-center gap-3" data-stagger>
@@ -270,7 +270,7 @@ export function ComparisonPage({ locale = 'fr' }: ComparisonPageProps) {
               : 'Notre équipe est disponible sur WhatsApp pour vous aider à choisir la meilleure option d\'expédition pour votre entreprise.'}
           </p>
           <a
-            href="https://wa.me/237672660161?text=Bonjour%20ChinaLink%2C%20j'ai%20une%20question%20sur%20le%20comparateur%20de%20fret."
+            href="https://wa.me/237672660161?text=Bonjour%20LEXD%2C%20j'ai%20une%20question%20sur%20le%20comparateur%20de%20fret."
             target="_blank"
             rel="noopener noreferrer"
             className="mt-6 inline-flex items-center gap-2 rounded-xl bg-green-500 px-8 py-4 text-lg font-bold text-white shadow-lg shadow-green-500/20 transition hover:bg-green-400"

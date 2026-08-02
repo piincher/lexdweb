@@ -9,7 +9,7 @@ import styles from './sections.module.css';
  * Store links for the LEXD app.
  *
  * `ios` is null on purpose. The old listing (App Store id6503253700) is the
- * ChinaLink-branded app, and sending a LEXD visitor there would hand them a
+ * LEXD-branded app, and sending a LEXD visitor there would hand them a
  * differently-branded product; the clean-break rebrand ships a new listing that
  * does not exist yet. The Play URL resolves by package name as soon as
  * `com.nuvotech.lexd` is published, so it is safe to render now.

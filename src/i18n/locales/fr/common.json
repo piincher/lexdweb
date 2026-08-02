@@ -353,7 +353,7 @@
     "sectionLabel": "La comparaison",
     "title": "LEXD vs Les autres",
     "subtitle": "Ce que vous obtenez réellement avec un partenaire d'importation complet.",
-    "chinaLinkColumn": "LEXD",
+    "lexdColumn": "LEXD",
     "othersColumn": "Les autres",
     "features": {
       "sourcing": {

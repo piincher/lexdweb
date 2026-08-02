@@ -64,8 +64,8 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
       ? 'Check if your product can be shipped from China to Africa. Search 90+ items: electronics, cosmetics, food, machinery, medical supplies. Instantly see if allowed, restricted, prohibited, or needs a permit.'
       : 'Vérifiez si votre produit peut être expédié de Chine vers l\'Afrique. Recherchez 90+ articles : électronique, cosmétiques, alimentation, machines, fournitures médicales. Voyez instantanément si autorisé, restreint, interdit ou permis requis.',
     keywords: isEn
-      ? 'dangerous goods checker, prohibited items shipping, can i ship batteries, restricted items china africa, customs prohibited items cameroon, shipping restrictions china, what can i import from china, hazardous goods freight, cargo restrictions africa, product verifier chinalink'
-      : 'produits interdits importation, verifier produit chine cameroun, marchandises dangereuses fret, restrictions expédition chine afrique, articles interdits douane cameroun, puis-je expédier batteries, produits restreints chine, vérificateur produits chinalink, cargo chine cameroun restrictions',
+      ? 'dangerous goods checker, prohibited items shipping, can i ship batteries, restricted items china africa, customs prohibited items cameroon, shipping restrictions china, what can i import from china, hazardous goods freight, cargo restrictions africa, product verifier lexd'
+      : 'produits interdits importation, verifier produit chine cameroun, marchandises dangereuses fret, restrictions expédition chine afrique, articles interdits douane cameroun, puis-je expédier batteries, produits restreints chine, vérificateur produits lexd, cargo chine cameroun restrictions',
     path: '/verifier-produit',
     locale: locale as Locale,
     ogType: 'website',

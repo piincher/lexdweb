@@ -76,8 +76,8 @@ export function ComparisonResults({
   }
 
   const whatsappText = isEn
-    ? `Hello ChinaLink, I compared shipping rates for ${result.weight}kg to ${result.destination.name} and I'm interested in a quote.`
-    : `Bonjour ChinaLink, j'ai comparé les tarifs pour ${result.weight}kg vers ${result.destination.nameFr} et je suis intéressé par un devis.`;
+    ? `Hello LEXD, I compared shipping rates for ${result.weight}kg to ${result.destination.name} and I'm interested in a quote.`
+    : `Bonjour LEXD, j'ai comparé les tarifs pour ${result.weight}kg vers ${result.destination.nameFr} et je suis intéressé par un devis.`;
 
   const whatsappHref = `https://wa.me/237672660161?text=${encodeURIComponent(whatsappText)}`;
 
@@ -95,7 +95,7 @@ export function ComparisonResults({
               {formatPrice(savingsVsExpress)}
             </p>
             <p className="mt-1 text-lg font-semibold text-emerald-100">
-              ({savingsPercentage}% {isEn ? 'cheaper with ChinaLink' : 'moins cher avec ChinaLink'})
+              ({savingsPercentage}% {isEn ? 'cheaper with LEXD' : 'moins cher avec LEXD'})
             </p>
           </div>
           {/* Decorative circles */}
@@ -224,8 +224,8 @@ export function ComparisonResults({
       <div className="rounded-2xl border border-white/10 bg-white/5 p-8 text-center backdrop-blur-md">
         <h3 className="text-xl font-bold text-white">
           {isEn
-            ? 'Ready to ship with ChinaLink?'
-            : 'Prêt à expédier avec ChinaLink ?'}
+            ? 'Ready to ship with LEXD?'
+            : 'Prêt à expédier avec LEXD ?'}
         </h3>
         <p className="mx-auto mt-2 max-w-lg text-slate-400">
           {isEn

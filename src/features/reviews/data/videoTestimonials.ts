@@ -1,7 +1,7 @@
 /**
  * Video Testimonials Data
  *
- * Real client video testimonials for ChinaLink Express.
+ * Real client video testimonials for LEXD.
  * 2 real videos + 4 authentic text testimonials awaiting video.
  */
 
@@ -34,7 +34,7 @@ export const VIDEO_TESTIMONIALS: VideoTestimonial[] = [
     thumbnailColor: 'from-amber-600 to-orange-700',
     duration: '0:48',
     quote:
-      "Avant ChinaLink, j'expédiait avec un autre cargo. Je ne recevais jamais mes marchandises en 2 mois — quand ça allait vite c'était 6 mois. Avec ChinaLink Express, mes 7 cartons sont arrivés en 2 mois et 12 jours. C'est au-delà de ce que j'imaginais possible.",
+      "Avant LEXD, j'expédiait avec un autre cargo. Je ne recevais jamais mes marchandises en 2 mois — quand ça allait vite c'était 6 mois. Avec LEXD, mes 7 cartons sont arrivés en 2 mois et 12 jours. C'est au-delà de ce que j'imaginais possible.",
     result: '2 mois 12 jours',
     resultLabel: '7 cartons par mer',
     videoUrl:
@@ -50,7 +50,7 @@ export const VIDEO_TESTIMONIALS: VideoTestimonial[] = [
     thumbnailColor: 'from-emerald-600 to-teal-700',
     duration: '1:15',
     quote:
-      "Nous avons fait venir toute notre équipement agricole — batteuses et machines — avec ChinaLink Express. Le service a été impeccable du début à la fin. Nos machines sont arrivées en parfait état et dans les délais. On recommande à 100%.",
+      "Nous avons fait venir toute notre équipement agricole — batteuses et machines — avec LEXD. Le service a été impeccable du début à la fin. Nos machines sont arrivées en parfait état et dans les délais. On recommande à 100%.",
     result: 'Parfait état',
     resultLabel: 'équipement agricole',
     videoUrl:
@@ -80,7 +80,7 @@ export const VIDEO_TESTIMONIALS: VideoTestimonial[] = [
     thumbnailColor: 'from-orange-600 to-red-700',
     duration: '1:45',
     quote:
-      "Les photos QC m'ont sauvé 2000€. Le fournisseur avait changé la qualité du produit. ChinaLink a refusé la marchandise et trouvé un autre en 48h. Sans eux, j'aurais tout perdu.",
+      "Les photos QC m'ont sauvé 2000€. Le fournisseur avait changé la qualité du produit. LEXD a refusé la marchandise et trouvé un autre en 48h. Sans eux, j'aurais tout perdu.",
     result: '2000€ sauvés',
     resultLabel: 'grâce au QC',
   },
@@ -94,7 +94,7 @@ export const VIDEO_TESTIMONIALS: VideoTestimonial[] = [
     thumbnailColor: 'from-sky-700 to-indigo-800',
     duration: '2:03',
     quote:
-      "Premier conteneur de ma vie. J'étais perdu avec la paperasse. ChinaLink a tout géré : douane, transport, déchargement. Quand j'ai vu mon camion arriver, j'ai failli pleurer.",
+      "Premier conteneur de ma vie. J'étais perdu avec la paperasse. LEXD a tout géré : douane, transport, déchargement. Quand j'ai vu mon camion arriver, j'ai failli pleurer.",
     result: '1er conteneur',
     resultLabel: 'sans stress',
   },
@@ -125,7 +125,7 @@ export const EN_VIDEO_TESTIMONIALS: VideoTestimonial[] = [
     thumbnailColor: 'from-amber-600 to-orange-700',
     duration: '0:48',
     quote:
-      'Before ChinaLink, I shipped with another cargo provider and delays were unpredictable. With ChinaLink Express, my cartons arrived with clear updates and a realistic timeline.',
+      'Before LEXD, I shipped with another cargo provider and delays were unpredictable. With LEXD, my cartons arrived with clear updates and a realistic timeline.',
     result: 'Reliable timeline',
     resultLabel: 'sea shipment',
     videoUrl:
@@ -141,7 +141,7 @@ export const EN_VIDEO_TESTIMONIALS: VideoTestimonial[] = [
     thumbnailColor: 'from-emerald-600 to-teal-700',
     duration: '1:15',
     quote:
-      'We imported agricultural machines with ChinaLink Express. The service was organized from supplier coordination to arrival, and the equipment reached us in good condition.',
+      'We imported agricultural machines with LEXD. The service was organized from supplier coordination to arrival, and the equipment reached us in good condition.',
     result: 'Good condition',
     resultLabel: 'agricultural equipment',
     videoUrl:
@@ -171,7 +171,7 @@ export const EN_VIDEO_TESTIMONIALS: VideoTestimonial[] = [
     thumbnailColor: 'from-orange-600 to-red-700',
     duration: '1:45',
     quote:
-      'The QC photos saved my order. The supplier changed the product quality, and ChinaLink rejected the goods before shipping.',
+      'The QC photos saved my order. The supplier changed the product quality, and LEXD rejected the goods before shipping.',
     result: 'QC protection',
     resultLabel: 'supplier issue avoided',
   },
@@ -185,7 +185,7 @@ export const EN_VIDEO_TESTIMONIALS: VideoTestimonial[] = [
     thumbnailColor: 'from-sky-700 to-indigo-800',
     duration: '2:03',
     quote:
-      'It was my first container. ChinaLink handled the documents, transport coordination and unloading support, which made the process less stressful.',
+      'It was my first container. LEXD handled the documents, transport coordination and unloading support, which made the process less stressful.',
     result: 'First container',
     resultLabel: 'less stress',
   },

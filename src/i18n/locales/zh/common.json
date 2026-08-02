@@ -1260,7 +1260,7 @@
     "sectionLabel": "对比",
     "title": "LEXD 与其他公司",
     "subtitle": "选择全包进口合作伙伴，您真正能得到什么。",
-    "chinaLinkColumn": "LEXD",
+    "lexdColumn": "LEXD",
     "othersColumn": "其他公司",
     "features": {
       "sourcing": {

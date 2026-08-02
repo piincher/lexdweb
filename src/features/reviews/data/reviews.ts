@@ -1,7 +1,7 @@
 /**
  * Reviews Data
  *
- * Realistic, verified client reviews for ChinaLink Express.
+ * Realistic, verified client reviews for LEXD.
  * Mix of French and English, authentic details, specific services.
  * Focused on Cameroon clients as shipping is China-to-Cameroon only.
  */
@@ -37,7 +37,7 @@ export const REVIEWS: Review[] = [
     countryFlag: '🇲🇱',
     date: 'il y a 1 mois',
     rating: 5,
-    text: "Les photos QC m'ont sauvé 2000€. Le fournisseur avait changé la qualité du tissu sans prévenir. ChinaLink a refusé la marchandise et trouvé un autre atelier en 48h.",
+    text: "Les photos QC m'ont sauvé 2000€. Le fournisseur avait changé la qualité du tissu sans prévenir. LEXD a refusé la marchandise et trouvé un autre atelier en 48h.",
     verified: true,
     service: 'Sourcing',
   },
@@ -103,7 +103,7 @@ export const REVIEWS: Review[] = [
     countryFlag: '🇲🇱',
     date: 'il y a 2 mois',
     rating: 5,
-    text: "I saved me from a bad supplier. The factory looked good on Alibaba but ChinaLink's inspection found they had no real production line. Found me a better one.",
+    text: "I saved me from a bad supplier. The factory looked good on Alibaba but LEXD's inspection found they had no real production line. Found me a better one.",
     verified: true,
     service: 'Sourcing',
   },
@@ -161,7 +161,7 @@ export const EN_REVIEWS: Review[] = [
     countryFlag: '🇲🇱',
     date: '2 weeks ago',
     rating: 5,
-    text: 'My third shipment with ChinaLink. Still professional. The 16-day Douala delivery was as promised, and QC saved me from an issue with electronic items.',
+    text: 'My third shipment with LEXD. Still professional. The 16-day Douala delivery was as promised, and QC saved me from an issue with electronic items.',
     verified: true,
     service: 'Air Express',
   },
@@ -172,7 +172,7 @@ export const EN_REVIEWS: Review[] = [
     countryFlag: '🇸🇳',
     date: '1 month ago',
     rating: 5,
-    text: 'The quality-control photos saved my order. The supplier changed the fabric quality, ChinaLink rejected the goods and found another workshop within 48 hours.',
+    text: 'The quality-control photos saved my order. The supplier changed the fabric quality, LEXD rejected the goods and found another workshop within 48 hours.',
     verified: true,
     service: 'Sourcing',
   },
@@ -238,7 +238,7 @@ export const EN_REVIEWS: Review[] = [
     countryFlag: '🇹🇬',
     date: '2 months ago',
     rating: 5,
-    text: "They saved me from a bad supplier. The factory looked good online, but ChinaLink's inspection found no real production line.",
+    text: "They saved me from a bad supplier. The factory looked good online, but LEXD's inspection found no real production line.",
     verified: true,
     service: 'Sourcing',
   },

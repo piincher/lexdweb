@@ -95,7 +95,7 @@ export const BUSINESS_INFO = {
   ],
   
   // Feeds schema.org `sameAs`. Deliberately empty until LEXD's own profiles
-  // exist: `sameAs` is an identity assertion, so listing ChinaLink's accounts
+  // exist: `sameAs` is an identity assertion, so listing LEXD's accounts
   // told search engines the two companies are one entity. No `sameAs` is
   // neutral; a wrong `sameAs` merges the brands. Add LEXD URLs here once the
   // accounts are live.
@@ -897,7 +897,7 @@ export function generatePageMetadata({
       ? (['fr'] as Locale[])
       : undefined);
   
-  // Self-hosted and LEXD-branded. Previously a warehouse photo on ChinaLink's
+  // Self-hosted and LEXD-branded. Previously a warehouse photo on LEXD's
   // CDN, which meant every shared LEXD link — on WhatsApp, the main channel
   // here — rendered a preview served from a competitor's domain.
   const defaultOgImage = '/og-image.jpg';

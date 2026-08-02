@@ -1260,7 +1260,7 @@
     "sectionLabel": "المقارنة",
     "title": "LEXD مقابل الآخرين",
     "subtitle": "ما تحصل عليه فعلياً مع شريك استيراد متكامل.",
-    "chinaLinkColumn": "LEXD",
+    "lexdColumn": "LEXD",
     "othersColumn": "الآخرون",
     "features": {
       "sourcing": {

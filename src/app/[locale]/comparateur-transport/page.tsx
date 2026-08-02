@@ -37,7 +37,7 @@ export async function generateMetadata({
       : 'Comparez les coûts d\'expédition de la Chine vers l\'Afrique. LEXD Maritime (3-5$/kg, 60-75 jours) vs Aérien (8-15$/kg, 14-21 jours) vs DHL (25-45$/kg). Découvrez vos économies. Comparaison instantanée.',
     keywords: isEn
       ? 'shipping cost comparison china africa, compare freight rates china to africa, DHL vs freight forwarder china, cheap shipping china africa, air freight vs sea freight cost, cargo rates china cameroon, compare DHL Aramex LEXD, shipping calculator china africa, freight quote comparison, africa freight quote'
-      : 'comparer fret chine afrique, comparateur transport chine afrique, dhl vs transitaire chine, fret aerien vs maritime cout, tarifs cargo chine cameroun, comparateur prix expedition chine, chinalink vs dhl prix, devis fret chine afrique, transport chine afrique pas cher, comparateur transitaire',
+      : 'comparer fret chine afrique, comparateur transport chine afrique, dhl vs transitaire chine, fret aerien vs maritime cout, tarifs cargo chine cameroun, comparateur prix expedition chine, lexd vs dhl prix, devis fret chine afrique, transport chine afrique pas cher, comparateur transitaire',
     path: '/comparateur-transport',
     locale: locale as Locale,
     ogType: 'website',

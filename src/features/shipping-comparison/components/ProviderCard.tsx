@@ -160,7 +160,7 @@ export function ProviderCard({
         </div>
         {!isCompetitor && (
           <span className="rounded-full bg-blue-600/20 px-2.5 py-1 text-xs font-semibold text-blue-300">
-            {isEn ? 'ChinaLink' : 'ChinaLink'}
+            {isEn ? 'LEXD' : 'LEXD'}
           </span>
         )}
         {isCompetitor && (
@@ -243,7 +243,7 @@ export function ProviderCard({
           <span className="text-sm font-semibold text-emerald-400">
             {isEn ? 'Save' : 'Économisez'}{' '}
             {formatPrice(savingsVsThis)}{' '}
-            {isEn ? 'with ChinaLink' : 'avec ChinaLink'}
+            {isEn ? 'with LEXD' : 'avec LEXD'}
           </span>
         </div>
       )}

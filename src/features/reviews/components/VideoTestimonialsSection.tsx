@@ -187,7 +187,7 @@ export function VideoTestimonialsSection() {
             <p className="text-sm text-gray-500 dark:text-gray-400 mb-4">
               {t('ctaText', {
                 defaultValue:
-                  'Vous aussi, partagez votre expérience avec ChinaLink.',
+                  'Vous aussi, partagez votre expérience avec LEXD.',
               })}
             </p>
             <a

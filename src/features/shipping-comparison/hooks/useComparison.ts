@@ -134,13 +134,13 @@ export function useComparison({
       result.rates.find((r) => r.provider === 'DHL Express') ||
       result.rates.find((r) => r.isCompetitor && r.durationDays.max <= 7);
 
-    const bestChinaLink = result.rates.find((r) => !r.isCompetitor);
+    const bestLEXD = result.rates.find((r) => !r.isCompetitor);
 
-    if (!expressOption || !bestChinaLink) {
+    if (!expressOption || !bestLEXD) {
       return { savingsVsExpress: 0, savingsPercentage: 0 };
     }
 
-    const savings = expressOption.calculatedPrice - bestChinaLink.calculatedPrice;
+    const savings = expressOption.calculatedPrice - bestLEXD.calculatedPrice;
     const percentage =
       expressOption.calculatedPrice > 0
         ? Math.round((savings / expressOption.calculatedPrice) * 100)
