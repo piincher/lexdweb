@@ -38,6 +38,7 @@ export {
   WebGLParticleSystem,
   // Mind-blowing
   HolographicGlobe,
+  CorridorGlobe,
   LiquidBackground,
   MorphingConstellations,
 } from './components';

@@ -17,6 +17,7 @@
 .page svg { flex: none; }
 
 .hero {
+  position: relative;
   display: grid;
   grid-template-columns: minmax(0, 1fr);
   min-height: calc(100svh - 7rem);
@@ -24,6 +25,8 @@
 }
 
 .heroCopy {
+  position: relative;
+  z-index: 1;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -107,6 +110,7 @@
 
 .heroVisual {
   position: relative;
+  z-index: 1;
   min-height: 31rem;
   overflow: hidden;
   background: var(--color-paper-2);

@@ -8,6 +8,7 @@
 
 export { AppSection } from './AppSection';
 export { CorridorGrid } from './CorridorGrid';
+export { HeroAnimationLoader } from './HeroAnimationLoader';
 export { JourneyDetail } from './JourneyDetail';
 export { ProofStrip } from './ProofStrip';
 export { RateStrip } from './RateStrip';

@@ -15,5 +15,6 @@ export { WebGLParticleSystem } from './WebGLParticleSystem';
 
 // Mind-Blowing Effects (used by HeroAnimation)
 export { HolographicGlobe } from './HolographicGlobe';
+export { CorridorGlobe } from './CorridorGlobe';
 export { LiquidBackground } from './LiquidBackground';
 export { MorphingConstellations } from './MorphingConstellations';

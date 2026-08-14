@@ -1,5 +1,12 @@
 import type { NextConfig } from "next";
 import createNextIntlPlugin from 'next-intl/plugin';
+import path from 'path';
+
+// three >= r170 no longer exposes "./build/three.module.js" through its
+// package exports, but @react-three/fiber and maath still import that
+// subpath. Alias the request straight to the real file to bypass the
+// exports map (applied for webpack below and turbopack further down).
+const threeModulePath = path.resolve(process.cwd(), 'node_modules/three/build/three.module.js');
 
 const nextConfig: NextConfig = {
   // ============================================================================
@@ -240,11 +247,12 @@ const nextConfig: NextConfig = {
     });
 
     // Optimize three.js imports for client only
+    config.resolve.alias = {
+      ...config.resolve.alias,
+      'three/build/three.module.js': threeModulePath,
+    };
     if (!isServer) {
-      config.resolve.alias = {
-        ...config.resolve.alias,
-        'three$': 'three/build/three.module.js',
-      };
+      config.resolve.alias['three$'] = threeModulePath;
     }
 
     // Tree-shake unused locales from moment.js (if used)
@@ -256,6 +264,16 @@ const nextConfig: NextConfig = {
     );
 
     return config;
+  },
+
+  // ============================================================================
+  // Turbopack (next dev --turbopack)
+  // ============================================================================
+  turbopack: {
+    resolveAlias: {
+      // Same three.js exports workaround as the webpack alias above
+      'three/build/three.module.js': threeModulePath,
+    },
   },
 
   // ============================================================================

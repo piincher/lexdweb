@@ -39,10 +39,38 @@ interface FormErrors {
   message?: string;
 }
 
+interface BrandCard {
+  src: string;
+  alt: string;
+  width: number;
+  height: number;
+}
+
+/**
+ * Locale-aware brand business cards. Add a new locale by dropping the image
+ * into public/images/brand/ and adding an entry here — every other locale
+ * falls back to English.
+ */
+const BRAND_CARDS: Record<string, BrandCard> = {
+  fr: {
+    src: '/images/brand/business-card-fr.jpg',
+    alt: 'LEXD — Larry Express Delivery : sourcing et services logistiques, de la Chine au Cameroun',
+    width: 1305,
+    height: 1205,
+  },
+  en: {
+    src: '/images/brand/business-card-en.jpg',
+    alt: 'LEXD — Larry Express Delivery: sourcing and logistics services from China to Cameroon',
+    width: 1600,
+    height: 959,
+  },
+};
+
 export function ContactPage() {
   const t = useTranslations('contact');
   const locale = useLocale();
   const isEn = locale === 'en';
+  const brandCard = BRAND_CARDS[locale] ?? BRAND_CARDS.en;
   const [formData, setFormData] = useState<FormData>({
     name: '',
     email: '',
@@ -467,30 +495,20 @@ export function ContactPage() {
           </motion.div>
         </div>
 
-        {/* Brand business cards (EN + FR) */}
+        {/* Brand business card — matches the visitor's locale (falls back to EN) */}
         <motion.div
           initial={{ opacity: 0, y: 20 }}
           whileInView={{ opacity: 1, y: 0 }}
           viewport={{ once: true }}
           transition={{ duration: 0.6 }}
-          className="max-w-4xl mx-auto mt-12 space-y-6"
+          className="max-w-4xl mx-auto mt-12"
         >
           <div className="rounded-2xl shadow-xl overflow-hidden bg-white dark:bg-gray-800">
             <Image
-              src="/images/brand/business-card-en.jpg"
-              alt="LEXD — Larry Express Delivery: sourcing and logistics services from China to Cameroon"
-              width={1600}
-              height={959}
-              className="w-full h-auto"
-              sizes="(max-width: 896px) 100vw, 896px"
-            />
-          </div>
-          <div className="rounded-2xl shadow-xl overflow-hidden bg-white dark:bg-gray-800">
-            <Image
-              src="/images/brand/business-card-fr.jpg"
-              alt="LEXD — Larry Express Delivery : sourcing et services logistiques, de la Chine au Cameroun"
-              width={1305}
-              height={1205}
+              src={brandCard.src}
+              alt={brandCard.alt}
+              width={brandCard.width}
+              height={brandCard.height}
               className="w-full h-auto"
               sizes="(max-width: 896px) 100vw, 896px"
             />

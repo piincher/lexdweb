@@ -30,6 +30,7 @@ import { AnimatedNumber } from '@/components/animations/AnimatedNumber';
 import {
   AppSection,
   CorridorGrid,
+  HeroAnimationLoader,
   JourneyDetail,
   ProofStrip,
   RateStrip,
@@ -62,6 +63,9 @@ export function DispatchLandingPage({ locale }: DispatchLandingPageProps) {
   return (
     <div className={styles.page}>
       <section className={styles.hero} aria-labelledby="home-title">
+        {/* three.js animated backdrop (globe, routes, particles) — sits
+            behind the hero copy/visual, client-only and code-split. */}
+        <HeroAnimationLoader />
         <div className={styles.heroCopy} data-accent="glow">
           <p className={styles.corridor}>{t('dispatch.corridor')}</p>
           <h1 id="home-title">{t('hero.headline')}</h1>

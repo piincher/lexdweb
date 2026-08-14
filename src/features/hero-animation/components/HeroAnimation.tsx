@@ -26,6 +26,7 @@ import { WebGLParticleSystem } from './WebGLParticleSystem';
 
 // NEW: Mind-blowing effects
 import { HolographicGlobe } from './HolographicGlobe';
+import { CorridorGlobe } from './CorridorGlobe';
 import { LiquidBackground } from './LiquidBackground';
 import { MorphingConstellations } from './MorphingConstellations';
 
@@ -36,7 +37,7 @@ interface HeroAnimationProps {
   /** Enable the crazy mind-blowing effects (default: true) */
   enableMindBlowing?: boolean;
   /** Which effect layer to show (default: 'combined') */
-  effectMode?: 'combined' | 'globe' | 'liquid' | 'morphing' | 'teleport' | 'classic';
+  effectMode?: 'combined' | 'globe' | 'corridor' | 'liquid' | 'morphing' | 'teleport' | 'classic';
 }
 
 /**
@@ -127,7 +128,9 @@ export function HeroAnimation({
     switch (effectMode) {
       case 'globe':
         return <HolographicGlobe tier={tier} />;
-      
+
+      case 'corridor':
+        return <CorridorGlobe tier={tier} />;
       case 'liquid':
         return (
           <>
@@ -160,10 +163,11 @@ export function HeroAnimation({
               <MorphingConstellations tier={tier} />
             </div>
             
-            {/* Layer 4: Holographic globe (high tier only) */}
+            {/* Layer 4: Corridor globe (high tier only) — real China → Cameroon
+                trade routes over the copy column, clear of the hero photo. */}
             {tier === 'high' && (
-              <div className="absolute right-0 top-0 w-1/2 h-full z-30 opacity-50 pointer-events-none">
-                <HolographicGlobe tier={tier} />
+              <div className="absolute inset-y-0 left-0 w-full lg:w-1/2 z-30 opacity-60 pointer-events-none">
+                <CorridorGlobe tier={tier} />
               </div>
             )}
           </>
