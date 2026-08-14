@@ -467,28 +467,30 @@ export function ContactPage() {
           </motion.div>
         </div>
 
-        {/* Brand business card (EN/FR) */}
+        {/* Brand business cards (EN + FR) */}
         <motion.div
           initial={{ opacity: 0, y: 20 }}
           whileInView={{ opacity: 1, y: 0 }}
           viewport={{ once: true }}
           transition={{ duration: 0.6 }}
-          className="max-w-4xl mx-auto mt-12"
+          className="max-w-4xl mx-auto mt-12 space-y-6"
         >
           <div className="rounded-2xl shadow-xl overflow-hidden bg-white dark:bg-gray-800">
             <Image
-              src={
-                locale === 'fr'
-                  ? '/images/brand/business-card-fr.jpg'
-                  : '/images/brand/business-card-en.jpg'
-              }
-              alt={
-                isEn
-                  ? 'LEXD — Larry Express Delivery: sourcing and logistics services from China to Cameroon'
-                  : 'LEXD — Larry Express Delivery : sourcing et services logistiques, de la Chine au Cameroun'
-              }
-              width={locale === 'fr' ? 1305 : 1600}
-              height={locale === 'fr' ? 1205 : 959}
+              src="/images/brand/business-card-en.jpg"
+              alt="LEXD — Larry Express Delivery: sourcing and logistics services from China to Cameroon"
+              width={1600}
+              height={959}
+              className="w-full h-auto"
+              sizes="(max-width: 896px) 100vw, 896px"
+            />
+          </div>
+          <div className="rounded-2xl shadow-xl overflow-hidden bg-white dark:bg-gray-800">
+            <Image
+              src="/images/brand/business-card-fr.jpg"
+              alt="LEXD — Larry Express Delivery : sourcing et services logistiques, de la Chine au Cameroun"
+              width={1305}
+              height={1205}
               className="w-full h-auto"
               sizes="(max-width: 896px) 100vw, 896px"
             />
