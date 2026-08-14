@@ -8,6 +8,7 @@
 'use client';
 
 import { useState } from 'react';
+import Image from 'next/image';
 import { motion } from 'framer-motion';
 import { useLocale, useTranslations } from 'next-intl';
 import { 
@@ -465,6 +466,34 @@ export function ContactPage() {
             </div>
           </motion.div>
         </div>
+
+        {/* Brand business card (EN/FR) */}
+        <motion.div
+          initial={{ opacity: 0, y: 20 }}
+          whileInView={{ opacity: 1, y: 0 }}
+          viewport={{ once: true }}
+          transition={{ duration: 0.6 }}
+          className="max-w-4xl mx-auto mt-12"
+        >
+          <div className="rounded-2xl shadow-xl overflow-hidden bg-white dark:bg-gray-800">
+            <Image
+              src={
+                locale === 'fr'
+                  ? '/images/brand/business-card-fr.jpg'
+                  : '/images/brand/business-card-en.jpg'
+              }
+              alt={
+                isEn
+                  ? 'LEXD — Larry Express Delivery: sourcing and logistics services from China to Cameroon'
+                  : 'LEXD — Larry Express Delivery : sourcing et services logistiques, de la Chine au Cameroun'
+              }
+              width={locale === 'fr' ? 1305 : 1600}
+              height={locale === 'fr' ? 1205 : 959}
+              className="w-full h-auto"
+              sizes="(max-width: 896px) 100vw, 896px"
+            />
+          </div>
+        </motion.div>
       </div>
     </main>
   );
