@@ -210,9 +210,9 @@ export const STRUCTURED_DATA = {
     telephone: '+861-786-366-8208',
     address: {
       '@type': 'PostalAddress',
-      streetAddress: 'Akwa, près du lycée Birgo',
+      streetAddress: 'En Face du Lycée Polyvalent, Bonabéri',
       addressLocality: 'Douala',
-      addressCountry: 'ML',
+      addressCountry: 'CM',
     },
     geo: {
       '@type': 'GeoCoordinates',

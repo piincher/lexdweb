@@ -664,7 +664,7 @@ export function TermsContent({ locale = "fr" }: { locale?: string }) {
                      <div className="space-y-3 text-[var(--text-secondary)]">
                         <p className="flex items-center gap-2">
                            <MapPin className="w-4 h-4 text-blue-500" />
-                           Akwa, near Birgo high school, Douala, Cameroon
+                           En Face du Lycée Polyvalent, Bonabéri - Douala, Cameroon
                         </p>
                         <p className="flex items-center gap-2">
                            <Phone className="w-4 h-4 text-green-500" />
@@ -1551,7 +1551,7 @@ export function TermsContent({ locale = "fr" }: { locale?: string }) {
                   <div className="space-y-3 text-[var(--text-secondary)]">
                      <p className="flex items-center gap-2">
                         <MapPin className="w-4 h-4 text-blue-500" />
-                        Akwa, près du lycée Birgo, Douala, Cameroon
+                        En Face du Lycée Polyvalent, Bonabéri - Douala, Cameroon
                      </p>
                      <p className="flex items-center gap-2">
                         <Phone className="w-4 h-4 text-green-500" />

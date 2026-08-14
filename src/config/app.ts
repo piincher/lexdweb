@@ -36,7 +36,7 @@ export const CONTACT_CONFIG = {
   EMAIL: 'contact@lexdservices.com',
   PHONE: {
     CHINA: '+861-786-366-8208',
-    HILARY: '+237-674-578-453',
+    HILARY: '+237-672-660-161',
     CAMEROON_1: '+237-672-660-162',
     VERA: '+237-687-478-380',
   },
@@ -48,7 +48,7 @@ export const CONTACT_CONFIG = {
     GROUP_LINK: 'https://chat.whatsapp.com/KALSQm7oyEHFFGENKCj5yr',
   },
   ADDRESS: {
-    STREET: 'Opposite Lycée Polyvalent, Bonabéri',
+    STREET: 'En Face du Lycée Polyvalent, Bonabéri',
     CITY: 'Douala',
     COUNTRY: 'Cameroon',
   },

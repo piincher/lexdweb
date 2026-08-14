@@ -219,14 +219,14 @@ export function SharedFooter({ locale, className }: SharedFooterProps) {
               <div className="flex items-start gap-3">
                 <MapPin className="w-5 h-5 text-[var(--color-primary)] flex-shrink-0 mt-0.5" />
                 <span className="text-gray-600 dark:text-gray-400 text-sm">
-                  Akwa, Douala, Cameroon
+                  En Face du Lycée Polyvalent, Bonabéri - Douala, Cameroon
                 </span>
               </div>
               <div className="flex items-start gap-3">
                 <Phone className="w-5 h-5 text-[var(--color-primary)] flex-shrink-0" />
                 <div className="text-gray-600 dark:text-gray-400 text-sm">
                   <a href="tel:+8617863668208" className="hover:text-[var(--color-primary)] block">+861-786-366-8208</a>
-                  <a href="tel:+237674578453" className="hover:text-[var(--color-primary)] block">Hilary · +237-674-578-453</a>
+                  <a href="tel:+237672660161" className="hover:text-[var(--color-primary)] block">Hilary · +237-672-660-161</a>
                   <a href="tel:+237687478380" className="hover:text-[var(--color-primary)] block">Vera · +237-687-478-380</a>
                 </div>
               </div>

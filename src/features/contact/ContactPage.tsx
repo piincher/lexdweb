@@ -177,8 +177,8 @@ export function ContactPage() {
                     {t('info.address')}
                   </h3>
                   <p className="text-gray-600 dark:text-gray-400 text-sm">
-                    Akwa, près du lycée Birgo,<br />
-                    Douala, Cameroon
+                    En Face du Lycée Polyvalent,<br />
+                    Bonabéri - Douala, Cameroon
                   </p>
                 </div>
               </div>
@@ -203,8 +203,8 @@ export function ContactPage() {
                     <a href="tel:+8617863668208" className="block text-gray-600 dark:text-gray-400 text-sm hover:text-blue-600 dark:hover:text-blue-400">
                       +861-786-366-8208 ({isEn ? 'China' : 'Chine'})
                     </a>
-                    <a href="tel:+237674578453" className="block text-gray-600 dark:text-gray-400 text-sm hover:text-blue-600 dark:hover:text-blue-400">
-                      Hilary · +237-674-578-453
+                    <a href="tel:+237672660161" className="block text-gray-600 dark:text-gray-400 text-sm hover:text-blue-600 dark:hover:text-blue-400">
+                      Hilary · +237-672-660-161
                     </a>
                     <a href="tel:+237687478380" className="block text-gray-600 dark:text-gray-400 text-sm hover:text-blue-600 dark:hover:text-blue-400">
                       Vera · +237-687-478-380
@@ -304,7 +304,7 @@ export function ContactPage() {
                     {isEn ? 'Company information' : 'Informations entreprise'}
                   </h3>
                   <p className="text-gray-600 dark:text-gray-400 text-sm">
-                    {isEn ? 'Douala address' : 'Adresse Douala'} : Akwa, près du lycée Birgo.<br />
+                    {isEn ? 'Douala address' : 'Adresse Douala'} : En Face du Lycée Polyvalent, Bonabéri.<br />
                     {isEn
                       ? 'Cameroon and China support, payment receipts, WhatsApp tracking and checks before shipping.'
                       : 'Support Cameroun et Chine, reçus de paiement, suivi WhatsApp et contrôle avant expédition.'}
