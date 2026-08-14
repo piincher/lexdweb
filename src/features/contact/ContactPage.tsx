@@ -206,8 +206,8 @@ export function ContactPage() {
                     <a href="tel:+237674578453" className="block text-gray-600 dark:text-gray-400 text-sm hover:text-blue-600 dark:hover:text-blue-400">
                       Hilary · +237-674-578-453
                     </a>
-                    <a href="tel:+237674578453" className="block text-gray-600 dark:text-gray-400 text-sm hover:text-blue-600 dark:hover:text-blue-400">
-                      Hilary · +237-674-578-453
+                    <a href="tel:+237687478380" className="block text-gray-600 dark:text-gray-400 text-sm hover:text-blue-600 dark:hover:text-blue-400">
+                      Vera · +237-687-478-380
                     </a>
                   </div>
                 </div>

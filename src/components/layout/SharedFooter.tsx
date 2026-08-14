@@ -227,6 +227,7 @@ export function SharedFooter({ locale, className }: SharedFooterProps) {
                 <div className="text-gray-600 dark:text-gray-400 text-sm">
                   <a href="tel:+8617863668208" className="hover:text-[var(--color-primary)] block">+861-786-366-8208</a>
                   <a href="tel:+237674578453" className="hover:text-[var(--color-primary)] block">Hilary · +237-674-578-453</a>
+                  <a href="tel:+237687478380" className="hover:text-[var(--color-primary)] block">Vera · +237-687-478-380</a>
                 </div>
               </div>
               <div className="flex items-start gap-3">
