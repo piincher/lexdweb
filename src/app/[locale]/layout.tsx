@@ -13,7 +13,6 @@
 
 import { ReactNode } from 'react';
 import { cookies } from 'next/headers';
-import { Bricolage_Grotesque, Geist_Mono, Manrope } from 'next/font/google';
 import { setRequestLocale } from 'next-intl/server';
 import { SpeedInsights } from '@vercel/speed-insights/next';
 import { Analytics } from '@vercel/analytics/next';
@@ -40,31 +39,6 @@ import '@/components/animations/GridPattern.css';
 import '@/components/animations/SpotlightBorder.css';
 import '@/components/animations/GradientText.css';
 import '@/components/animations/Marquee.css';
-
-// ============================================================================
-// Font Configuration
-// ============================================================================
-
-const bricolage = Bricolage_Grotesque({
-  variable: '--font-bricolage',
-  subsets: ['latin'],
-  display: 'swap',
-  preload: true,
-});
-
-const manrope = Manrope({
-  variable: '--font-manrope',
-  subsets: ['latin'],
-  display: 'swap',
-  preload: true,
-});
-
-const geistMono = Geist_Mono({
-  variable: '--font-geist-mono',
-  subsets: ['latin'],
-  display: 'swap',
-  preload: false, // Monospace is less critical
-});
 
 // ============================================================================
 // Server-Side Theme Resolution
@@ -192,8 +166,8 @@ export async function generateMetadata({
     other: {
       'geo.region': 'ML-BM',
       'geo.placename': 'Douala',
-      'geo.position': '12.6392;-8.0029',
-      'ICBM': '12.6392, -8.0029',
+      'geo.position': '4.0511;9.7679',
+      'ICBM': '4.0511, 9.7679',
     },
     appleWebApp: {
       capable: true,
@@ -241,8 +215,6 @@ export default async function LocaleLayout({ children, params }: LayoutProps) {
       
       {/* Performance: Preconnect to Critical Domains */}
       <link rel="preconnect" href="https://chinalinkexpress.nyc3.cdn.digitaloceanspaces.com" />
-      <link rel="preconnect" href="https://fonts.googleapis.com" />
-      <link rel="preconnect" href="https://fonts.gstatic.com" crossOrigin="anonymous" />
       
       {/* DNS Prefetch for Third-Party Services */}
       <link rel="dns-prefetch" href="https://www.google-analytics.com" />
@@ -271,7 +243,7 @@ export default async function LocaleLayout({ children, params }: LayoutProps) {
       <link rel="icon" type="image/png" sizes="16x16" href="/icons/icon-16x16.png" />
       <link rel="mask-icon" href="/icons/icon-192x192.png" color="#007757" />
       
-      <div className={`${bricolage.variable} ${manrope.variable} ${geistMono.variable} lexd-site-frame antialiased min-h-screen flex flex-col`}>
+      <div className="lexd-site-frame antialiased min-h-screen flex flex-col">
         <ThemeProvider>
           <PWAProvider>
             <HumanReadableIntlProvider locale={validLocale} messages={messages}>

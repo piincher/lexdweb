@@ -82,7 +82,7 @@ const routeFaqs = {
   ],
 };
 
-export default async function ChinaToMaliRoute({ params }: PageProps) {
+export default async function ChinaToCameroonRoute({ params }: PageProps) {
   const { locale } = await params;
   
   // Set locale for static generation

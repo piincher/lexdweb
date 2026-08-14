@@ -10,6 +10,9 @@
     "qa:seo-images": "node scripts/seo-image-locale-qa.mjs"
   },
   "dependencies": {
+    "@fontsource-variable/bricolage-grotesque": "^5.3.0",
+    "@fontsource-variable/geist-mono": "^5.3.0",
+    "@fontsource-variable/manrope": "^5.3.0",
     "@formatjs/intl-localematcher": "^0.8.1",
     "@gsap/react": "^2.1.2",
     "@react-three/drei": "^10.7.7",

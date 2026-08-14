@@ -55,7 +55,7 @@ export function validateWhatsAppNumber(
       return {
         isValid: true,
         formattedNumber: digitsOnly,
-        countryCode: digitsOnly.startsWith('223') ? '223' : '',
+        countryCode: digitsOnly.startsWith('237') ? '237' : '',
       };
     }
 

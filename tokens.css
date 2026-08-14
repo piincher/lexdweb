@@ -79,9 +79,9 @@
   --dark-border: #24443B;
 
   /* --- Fonts --- */
-  --font-display: var(--font-bricolage), "Bricolage Grotesque", ui-sans-serif, system-ui, sans-serif;
-  --font-body:    var(--font-manrope), "Manrope", ui-sans-serif, system-ui, sans-serif;
-  --font-mono:    var(--font-geist-mono), "Geist Mono", ui-monospace, monospace;
+  --font-display: "Bricolage Grotesque Variable", "Bricolage Grotesque", ui-sans-serif, system-ui, sans-serif;
+  --font-body:    "Manrope Variable", "Manrope", ui-sans-serif, system-ui, sans-serif;
+  --font-mono:    "Geist Mono Variable", "Geist Mono", ui-monospace, monospace;
 
   /* --- Spacing: 4-point scale --- */
   --space-3xs: 0.125rem;  /*  2px */

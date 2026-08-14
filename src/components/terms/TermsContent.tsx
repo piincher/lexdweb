@@ -222,7 +222,7 @@ export function TermsContent({ locale = "fr" }: { locale?: string }) {
                      The version published on this website is the current version.
                   </p>
                   <InfoBox type="info" title="Support contacts">
-                     WhatsApp: +86 188 5172 5957 (China desk) / +223 76 69 61 77 (Cameroon desk)
+                     WhatsApp: +86 188 5172 5957 (China desk) / +237 672 660 162 (Cameroon desk)
                   </InfoBox>
                </Section>
 
@@ -304,10 +304,10 @@ export function TermsContent({ locale = "fr" }: { locale?: string }) {
                            "Package: L=50cm x W=40cm x H=30cm, actual weight = 8kg",
                            "Volumetric weight = (50 x 40 x 30) / 5000 = 12kg",
                            "Chargeable weight = max(8kg, 12kg) = 12kg",
-                           "Example rate: 12,000 XOF/kg",
-                           "12kg x 12,000 XOF = 144,000 XOF",
+                           "Example rate: 12,000 XAF/kg",
+                           "12kg x 12,000 XAF = 144,000 XAF",
                         ]}
-                        result="Estimated air freight: 144,000 XOF"
+                        result="Estimated air freight: 144,000 XAF"
                      />
                   </SubSection>
 
@@ -325,12 +325,12 @@ export function TermsContent({ locale = "fr" }: { locale?: string }) {
                               <tr>
                                  <td className="px-4 py-3 text-[var(--text-secondary)]">General goods</td>
                                  <td className="px-4 py-3 text-[var(--text-secondary)]">Standard merchandise</td>
-                                 <td className="px-4 py-3 text-[var(--text-secondary)]">From 10,000 XOF/kg</td>
+                                 <td className="px-4 py-3 text-[var(--text-secondary)]">From 10,000 XAF/kg</td>
                               </tr>
                               <tr>
                                  <td className="px-4 py-3 text-[var(--text-secondary)]">Sensitive electronics</td>
                                  <td className="px-4 py-3 text-[var(--text-secondary)]">Computers, screens, and fragile electronics</td>
-                                 <td className="px-4 py-3 text-[var(--text-secondary)]">From 12,000 XOF/kg</td>
+                                 <td className="px-4 py-3 text-[var(--text-secondary)]">From 12,000 XAF/kg</td>
                               </tr>
                               <tr>
                                  <td className="px-4 py-3 text-[var(--text-secondary)]">Phones</td>
@@ -364,9 +364,9 @@ export function TermsContent({ locale = "fr" }: { locale?: string }) {
                            "CBM = 1.2 x 0.8 x 1.0 = 0.96 CBM",
                            "Density = 80 / 0.96 = 83 kg/m3",
                            "Final volume may be rounded to 1.0 CBM",
-                           "Example: 1.0 CBM x 350,000 XOF = 350,000 XOF",
+                           "Example: 1.0 CBM x 350,000 XAF = 350,000 XAF",
                         ]}
-                        result="Estimated sea freight: 350,000 XOF"
+                        result="Estimated sea freight: 350,000 XAF"
                      />
                   </SubSection>
 
@@ -454,7 +454,7 @@ export function TermsContent({ locale = "fr" }: { locale?: string }) {
                            <tbody className="divide-y divide-[var(--border)]">
                               <tr>
                                  <td className="px-4 py-3 text-[var(--text-secondary)]">Cameroon and Douala</td>
-                                 <td className="px-4 py-3 text-[var(--text-secondary)]">Lome, Dakar, or Abidjan plus inland transit</td>
+                                 <td className="px-4 py-3 text-[var(--text-secondary)]">Lome, Tema, or Pointe-Noire plus onward transit</td>
                                  <td className="px-4 py-3 text-[var(--text-secondary)]">60-75 days</td>
                               </tr>
                               <tr>
@@ -672,7 +672,7 @@ export function TermsContent({ locale = "fr" }: { locale?: string }) {
                         </p>
                         <p className="flex items-center gap-2">
                            <Phone className="w-4 h-4 text-green-500" />
-                           Cameroon desk WhatsApp: +223 76 69 61 77 / +223 51 00 50 42
+                           Cameroon desk WhatsApp: +237 672 660 162
                         </p>
                         <p className="flex items-center gap-2">
                            <Clock className="w-4 h-4 text-amber-700" />
@@ -681,7 +681,7 @@ export function TermsContent({ locale = "fr" }: { locale?: string }) {
                      </div>
                      <div className="mt-6 pt-4 border-t border-[var(--border)]">
                         <a
-                           href="https://wa.me/237672660161"
+                           href="https://wa.me/237672660162"
                            target="_blank"
                            rel="noopener noreferrer"
                            className="inline-flex items-center gap-2 py-3 px-6 bg-green-500 text-white rounded-full font-medium hover:bg-green-600 transition-colors"
@@ -836,7 +836,7 @@ export function TermsContent({ locale = "fr" }: { locale?: string }) {
                   moment ; la version en vigueur est celle publiée sur notre site.
                </p>
                <InfoBox type="info" title="Contact pour questions">
-                  WhatsApp : +86 188 5172 5957 (Chine) / +223 76 69 61 77 (Cameroon)
+                  WhatsApp : +86 188 5172 5957 (Chine) / +237 672 660 162 (Cameroon)
                </InfoBox>
             </Section>
 
@@ -1297,7 +1297,7 @@ export function TermsContent({ locale = "fr" }: { locale?: string }) {
                            <tr>
                               <td className="px-4 py-3 text-[var(--text-secondary)]">Cameroon (Douala)</td>
                               <td className="px-4 py-3 text-[var(--text-secondary)]">
-                                 Lomé / Dakar / Abidjan (transit terrestre)
+                                 Lomé / Tema / Pointe-Noire (correspondance)
                               </td>
                               <td className="px-4 py-3 text-[var(--text-secondary)]">
                                  60-75 jours
@@ -1559,7 +1559,7 @@ export function TermsContent({ locale = "fr" }: { locale?: string }) {
                      </p>
                      <p className="flex items-center gap-2">
                         <Phone className="w-4 h-4 text-green-500" />
-                        WhatsApp Cameroon : +223 76 69 61 77 / +223 51 00 50 42
+                        WhatsApp Cameroon : +237 672 660 162
                      </p>
                      <p className="flex items-center gap-2">
                         <Clock className="w-4 h-4 text-amber-700" />
@@ -1568,7 +1568,7 @@ export function TermsContent({ locale = "fr" }: { locale?: string }) {
                   </div>
                   <div className="mt-6 pt-4 border-t border-[var(--border)]">
                      <a
-                        href="https://wa.me/237672660161"
+                        href="https://wa.me/237672660162"
                         target="_blank"
                         rel="noopener noreferrer"
                         className="inline-flex items-center gap-2 py-3 px-6 bg-green-500 text-white rounded-full font-medium hover:bg-green-600 transition-colors"

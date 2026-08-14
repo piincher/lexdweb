@@ -83,7 +83,7 @@ export const PAGE_SEO = {
     seaFreight: {
       en: {
         title: 'Sea Freight China to Cameroon | FCL & LCL Shipping | LEXD',
-        description: 'Economical sea freight from Foshan port to Dakar port, then land transit to Douala. FCL container shipping & LCL consolidation in 60-75 days. Get a quote!',
+        description: 'Economical sea freight from Foshan port to Douala port via Lomé or Tema transit. FCL container shipping & LCL consolidation in 60-75 days. Get a quote!',
         keywords: 'sea freight China Cameroon, FCL shipping, LCL consolidation, container shipping, maritime freight China Cameroon, sea freight Douala',
       },
       fr: {
@@ -108,7 +108,7 @@ export const PAGE_SEO = {
   },
   
   routes: {
-    chinaToMali: {
+    chinaToCameroon: {
     en: {
         title: 'Shipping from China to Cameroon | Freight Forwarder Douala',
         description: 'Reliable freight forwarding from China to Cameroon. Air & sea shipping to Douala. Door-to-door delivery. 7+ years experience. Get your free quote now!',
@@ -216,8 +216,8 @@ export const STRUCTURED_DATA = {
     },
     geo: {
       '@type': 'GeoCoordinates',
-      latitude: 12.6392,
-      longitude: -8.0029,
+      latitude: 4.0511,
+      longitude: 9.7679,
     },
     openingHoursSpecification: [
       {

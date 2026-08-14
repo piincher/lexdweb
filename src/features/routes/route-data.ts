@@ -119,17 +119,6 @@ const cityRoutes = {
     seaDurationEn: '50-70 days',
     seaDurationFr: '50-70 jours',
   },
-  mali: {
-    slug: 'china-to-mali',
-    code: 'ML',
-    frCountry: 'Mali',
-    enCountry: 'Mali',
-    city: 'Bamako',
-    airDurationEn: '14-21 days',
-    airDurationFr: '14-21 jours',
-    seaDurationEn: '60-75 days',
-    seaDurationFr: '60-75 jours',
-  },
   zambia: {
     slug: 'china-to-zambia',
     code: 'ZM',
@@ -190,7 +179,7 @@ const ROUTES: Record<string, RouteCopy> = {
   'china-to-cameroon': {
     fr: {
       origin: { country: 'Chine', city: 'Foshan', code: 'CN' },
-      destination: { country: 'Cameroon', city: 'Douala', code: 'ML' },
+      destination: { country: 'Cameroon', city: 'Douala', code: 'CM' },
       airFreight: {
         duration: '14-21 jours',
         routes: [
@@ -199,13 +188,13 @@ const ROUTES: Record<string, RouteCopy> = {
         ],
       },
       seaFreight: {
-        duration: '60-75 jours',
-        routes: [{ via: 'Dakar + route', path: 'Foshan → Dakar → Douala (terrestre)' }],
+        duration: '45-60 jours',
+        routes: [{ via: 'Tema', path: 'Foshan → Tema → Douala' }],
       },
     },
     en: {
       origin: { country: 'China', city: 'Foshan', code: 'CN' },
-      destination: { country: 'Cameroon', city: 'Douala', code: 'ML' },
+      destination: { country: 'Cameroon', city: 'Douala', code: 'CM' },
       airFreight: {
         duration: '14-21 days',
         routes: [
@@ -214,8 +203,8 @@ const ROUTES: Record<string, RouteCopy> = {
         ],
       },
       seaFreight: {
-        duration: '60-75 days',
-        routes: [{ via: 'Dakar + road', path: 'Foshan → Dakar → Douala (land transit)' }],
+        duration: '45-60 days',
+        routes: [{ via: 'Tema', path: 'Foshan → Tema → Douala' }],
       },
     },
   },
@@ -268,7 +257,6 @@ const ROUTES: Record<string, RouteCopy> = {
   [cityRoutes.benin.slug]: makeCoastalRoute(cityRoutes.benin),
   [cityRoutes.togo.slug]: makeCoastalRoute(cityRoutes.togo),
   [cityRoutes.guinea.slug]: makeCoastalRoute(cityRoutes.guinea),
-  [cityRoutes.mali.slug]: makeCoastalRoute(cityRoutes.mali),
   [cityRoutes.zambia.slug]: makeCoastalRoute(cityRoutes.zambia),
 };
 

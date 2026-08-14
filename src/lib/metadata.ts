@@ -281,20 +281,23 @@ export function getBaseMetadata(locale: Locale): Metadata {
       // Geographic targeting
       'geo.region': 'ML-BM',
       'geo.placename': 'Douala',
-      'geo.position': '12.6392;-8.0029',
-      'ICBM': '12.6392, -8.0029',
+      'geo.position': '4.0511;9.7679',
+      'ICBM': '4.0511, 9.7679',
       // Business info
       'business:contact_data:street_address': BUSINESS_INFO.address.streetAddress,
       'business:contact_data:locality': BUSINESS_INFO.address.addressLocality,
       'business:contact_data:country_name': BUSINESS_INFO.address.addressCountry,
       'business:contact_data:phone_number': BUSINESS_INFO.contact.phones.cameroon,
-      'place:location:latitude': '12.6392',
-      'place:location:longitude': '-8.0029',
+      // Douala, Cameroon. These were Bamako, Mali (4.0511, 9.7679) — a
+      // leftover from the pre-Cameroon content that told search engines the
+      // business was in the wrong country.
+      'place:location:latitude': '4.0511',
+      'place:location:longitude': '9.7679',
     },
+    // Twitter Card metadata controls how links preview when shared, so it stays.
+    // creator/site are omitted: LEXD has no Twitter/X account to attribute to.
     twitter: {
       card: 'summary_large_image',
-      creator: '@chinalinkexpress',
-      site: '@chinalinkexpress',
     },
     appleWebApp: {
       capable: true,

@@ -6,6 +6,9 @@
  */
 
 import { ReactNode } from 'react';
+import '@fontsource-variable/bricolage-grotesque';
+import '@fontsource-variable/manrope';
+import '@fontsource-variable/geist-mono';
 
 export default function RootLayout({ children }: { children: ReactNode }) {
   return (

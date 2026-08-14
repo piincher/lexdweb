@@ -260,7 +260,7 @@ export const successStories = [
       "J'ai trouvé 3 fournisseurs fiables grâce à ce groupe. Mes coûts d'importation ont baissé de 25% et je ne m'inquiète plus des arnaques.",
     author: 'Amadou',
     location: 'Douala',
-    countryFlag: '🇲🇱',
+    countryFlag: '🇨🇲',
   },
   {
     id: '2',

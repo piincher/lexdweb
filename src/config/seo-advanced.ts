@@ -45,14 +45,14 @@ export const BUSINESS_INFO = {
     email: 'contact@lexdservices.com',
     phones: {
       china: '+861-786-366-8208',
-      hilary: '+237-726-60161',
-      cameroon: '+237-726-60161',
-      cameroonAlt: '+237-726-60161',
+      hilary: '+237-674-578-453',
+      cameroon: '+237-674-578-453',
+      cameroonAlt: '+237-674-578-453',
     },
     whatsapp: {
       china: '+8617863668208',
-      hilary: '+23772660161',
-      cameroon: '+23772660161',
+      hilary: '+237674578453',
+      cameroon: '+237674578453',
     },
   },
   
@@ -78,8 +78,8 @@ export const BUSINESS_INFO = {
   
   geo: {
     '@type': 'GeoCoordinates' as const,
-    latitude: 12.6392,
-    longitude: -8.0029,
+    latitude: 4.0511,
+    longitude: 9.7679,
   },
   
   chinaGeo: {
@@ -266,7 +266,7 @@ export function generateLocalBusinessSchema() {
     })),
     priceRange: '$$$',
     paymentAccepted: ['Cash', 'Credit Card', 'Bank Transfer', 'Mobile Money', 'Alipay', 'WeChat Pay', 'PayPal'],
-    currenciesAccepted: ['USD', 'EUR', 'CNY', 'XOF', 'XAF'],
+    currenciesAccepted: ['USD', 'EUR', 'CNY', 'XAF'],
     // EXPANDED: All West and Central African countries
     areaServed: [
       { '@type': 'Country', name: 'Cameroon' },
@@ -285,7 +285,7 @@ export function generateLocalBusinessSchema() {
       { '@type': 'Country', name: 'China' },
       { '@type': 'GeoCircle', geoMidpoint: { '@type': 'GeoCoordinates', latitude: 12.0, longitude: -5.0 }, geoRadius: '2000 km', description: 'Africa' },
     ],
-    hasMap: 'https://www.google.com/maps/search/?api=1&query=12.6392,-8.0029',
+    hasMap: 'https://www.google.com/maps/search/?api=1&query=4.0511,9.7679',
     // NEW: Aggregate rating for trust signals
     aggregateRating: {
       '@type': 'AggregateRating',
@@ -951,8 +951,8 @@ export function generatePageMetadata({
     other: {
       'geo.region': 'ML-BM',
       'geo.placename': 'Douala',
-      'geo.position': '12.6392;-8.0029',
-      'ICBM': '12.6392, -8.0029',
+      'geo.position': '4.0511;9.7679',
+      'ICBM': '4.0511, 9.7679',
     },
   };
 }

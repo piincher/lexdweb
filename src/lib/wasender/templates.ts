@@ -353,7 +353,7 @@ Merci pour votre intérêt. Pour vous donner un devis précis, j'ai besoin de qu
 🇨🇳 *Port de départ en Chine :*
 (Foshan)
 
-🇲🇱 *Destination :*
+🇨🇲 *Destination :*
 (Douala ou autre)
 
 ✈️ *Mode d'expédition préféré :*

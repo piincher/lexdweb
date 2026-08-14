@@ -226,7 +226,7 @@ export default async function FAQPage({ params }: Props) {
             </p>
             <div className="mt-5 flex flex-col gap-3 sm:flex-row">
               <a
-                href="https://wa.me/237672660161"
+                href="https://wa.me/237672660162"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="rounded-lg bg-white px-5 py-3 text-center font-bold text-blue-700"

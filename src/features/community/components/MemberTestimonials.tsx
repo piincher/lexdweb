@@ -30,7 +30,7 @@ const TESTIMONIALS: TestimonialConfig[] = [
   {
     key: 'amadou',
     name: 'Amadou',
-    countryFlag: '🇲🇱',
+    countryFlag: '🇨🇲',
     country: 'Cameroon',
     metricIcon: TrendingUp,
     metricValue: '2x',
@@ -42,7 +42,7 @@ const TESTIMONIALS: TestimonialConfig[] = [
   {
     key: 'fatou',
     name: 'Fatou',
-    countryFlag: '🇲🇱',
+    countryFlag: '🇨🇲',
     country: 'Cameroon',
     metricIcon: PiggyBank,
     metricValue: '-30%',
@@ -54,7 +54,7 @@ const TESTIMONIALS: TestimonialConfig[] = [
   {
     key: 'kofi',
     name: 'Kofi',
-    countryFlag: '🇲🇱',
+    countryFlag: '🇨🇲',
     country: 'Cameroon',
     metricIcon: ShieldAlert,
     metricValue: '5000€',

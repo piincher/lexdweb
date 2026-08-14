@@ -30,26 +30,25 @@ export const META_CONFIG = {
   URL: 'https://www.lexdservices.com',
   IMAGE: 'https://www.lexdservices.com/icons/icon-512x512.png',
   LOCALE: 'fr_FR',
-  TWITTER_HANDLE: '@chinalinkexpress', // Existing account; rename requires platform access.
 } as const;
 
 export const CONTACT_CONFIG = {
   EMAIL: 'contact@lexdservices.com',
   PHONE: {
     CHINA: '+861-786-366-8208',
-    HILARY: '+237-726-60161',
-    CAMEROON_1: '+237-726-60161',
-    CAMEROON_2: '+237-726-60161',
+    HILARY: '+237-674-578-453',
+    CAMEROON_1: '+237-672-660-162',
+    CAMEROON_2: '+237-687-478-380',
   },
   WHATSAPP: {
     CHINA: '+8617863668208',
-    HILARY: '+23772660161',
-    CAMEROON: '+237672660161',
-    CAMEROON_2: '+237672660161',
+    HILARY: '+237674578453',
+    CAMEROON: '+237672660162',
+    CAMEROON_2: '+237687478380',
     GROUP_LINK: 'https://chat.whatsapp.com/KALSQm7oyEHFFGENKCj5yr',
   },
   ADDRESS: {
-    STREET: 'Akwa, près du lycée Birgo',
+    STREET: 'Opposite Lycée Polyvalent, Bonabéri',
     CITY: 'Douala',
     COUNTRY: 'Cameroon',
   },
@@ -60,9 +59,11 @@ export const CONTACT_CONFIG = {
   },
 } as const;
 
+// LinkedIn and Twitter/X are intentionally absent: LEXD has no accounts on
+// those platforms. Do not add placeholder links — a social icon pointing at a
+// dead profile is worse than no icon.
 export const SOCIAL_LINKS = {
-  FACEBOOK: 'https://facebook.com/chinalinkexpress',
-  INSTAGRAM: 'https://instagram.com/chinalinkexpress',
-  LINKEDIN: 'https://linkedin.com/company/chinalinkexpress',
-  TWITTER: 'https://twitter.com/chinalinkexpress',
+  FACEBOOK: 'https://facebook.com/lexdservices',
+  INSTAGRAM: 'https://instagram.com/lexd237',
+  TIKTOK: 'https://tiktok.com/@lexd237',
 } as const;

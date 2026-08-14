@@ -9,7 +9,9 @@
 'use client';
 
 import Link from 'next/link';
-import { Facebook, Linkedin, Instagram, Mail, Phone, MapPin, Clock, MessageCircle } from 'lucide-react';
+import { Facebook, Instagram, Mail, Phone, MapPin, Clock, MessageCircle } from 'lucide-react';
+import { TikTokIcon } from '@/components/icons/TikTokIcon';
+import { SOCIAL_LINKS as SOCIAL_URLS } from '@/config/app';
 import { useTranslations } from 'next-intl';
 import { cn, getCurrentYear } from '@/lib/utils';
 import type { Locale } from '@/i18n/config';
@@ -27,10 +29,12 @@ const WHATSAPP_GROUP_LABEL: Record<string, string> = {
   zh: '加入 WhatsApp 群组',
 };
 
+// URLs come from config/app.ts so the footer cannot drift from the rest of the
+// site. LEXD has no LinkedIn or Twitter/X account, so neither is listed.
 const SOCIAL_LINKS = [
-  { icon: Facebook, href: 'https://facebook.com/chinalinkexpress', label: 'Facebook', color: 'hover:bg-[var(--color-primary)]' },
-  { icon: Instagram, href: 'https://instagram.com/chinalinkexpress', label: 'Instagram', color: 'hover:bg-[var(--color-primary)]' },
-  { icon: Linkedin, href: 'https://linkedin.com/company/chinalinkexpress', label: 'LinkedIn', color: 'hover:bg-[var(--color-primary)]' },
+  { icon: Facebook, href: SOCIAL_URLS.FACEBOOK, label: 'Facebook', color: 'hover:bg-[var(--color-primary)]' },
+  { icon: Instagram, href: SOCIAL_URLS.INSTAGRAM, label: 'Instagram', color: 'hover:bg-[var(--color-primary)]' },
+  { icon: TikTokIcon, href: SOCIAL_URLS.TIKTOK, label: 'TikTok', color: 'hover:bg-[var(--color-primary)]' },
 ] as const;
 
 const SERVICE_LINKS = [
@@ -222,7 +226,7 @@ export function SharedFooter({ locale, className }: SharedFooterProps) {
                 <Phone className="w-5 h-5 text-[var(--color-primary)] flex-shrink-0" />
                 <div className="text-gray-600 dark:text-gray-400 text-sm">
                   <a href="tel:+8617863668208" className="hover:text-[var(--color-primary)] block">+861-786-366-8208</a>
-                  <a href="tel:+23772660161" className="hover:text-[var(--color-primary)] block">Hilary · +237-726-60161</a>
+                  <a href="tel:+237674578453" className="hover:text-[var(--color-primary)] block">Hilary · +237-674-578-453</a>
                 </div>
               </div>
               <div className="flex items-start gap-3">
@@ -264,7 +268,7 @@ export function SharedFooter({ locale, className }: SharedFooterProps) {
               </a>{' '}
               team{' '}
               <a
-                href="https://wa.me/237672660161"
+                href="https://wa.me/237672660162"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="text-green-500 hover:text-green-400 transition-colors"

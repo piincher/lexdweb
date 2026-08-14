@@ -12,7 +12,8 @@ import React from 'react';
 import { motion } from 'framer-motion';
 import { useTranslations } from 'next-intl';
 import { AnimatedSection } from '@/components/animations';
-import { MessageCircle, Facebook, Instagram, Twitter } from 'lucide-react';
+import { MessageCircle, Facebook, Instagram } from 'lucide-react';
+import { TikTokIcon } from '@/components/icons/TikTokIcon';
 import { APP_NAME } from '@/constants/appConstants';
 import { getCurrentYear } from '@/lib/utils';
 import { SOCIAL_LINKS } from '@/config/app';
@@ -110,7 +111,7 @@ export function Footer() {
               <SocialIcon href={`https://wa.me/${CONTACT_CONFIG.WHATSAPP.CAMEROON}`} icon={<MessageCircle className="w-5 h-5" />} label="WhatsApp" />
               <SocialIcon href={SOCIAL_LINKS.FACEBOOK} icon={<Facebook className="w-5 h-5" />} label="Facebook" />
               <SocialIcon href={SOCIAL_LINKS.INSTAGRAM} icon={<Instagram className="w-5 h-5" />} label="Instagram" />
-              <SocialIcon href={SOCIAL_LINKS.TWITTER} icon={<Twitter className="w-5 h-5" />} label="Twitter" />
+              <SocialIcon href={SOCIAL_LINKS.TIKTOK} icon={<TikTokIcon className="w-5 h-5" />} label="TikTok" />
             </div>
           </AnimatedSection>
 

@@ -174,11 +174,11 @@ export function ContactPage() {
                     <a href="tel:+8617863668208" className="block text-gray-600 dark:text-gray-400 text-sm hover:text-blue-600 dark:hover:text-blue-400">
                       +861-786-366-8208 ({isEn ? 'China' : 'Chine'})
                     </a>
-                    <a href="tel:+23772660161" className="block text-gray-600 dark:text-gray-400 text-sm hover:text-blue-600 dark:hover:text-blue-400">
-                      Hilary · +237-726-60161
+                    <a href="tel:+237674578453" className="block text-gray-600 dark:text-gray-400 text-sm hover:text-blue-600 dark:hover:text-blue-400">
+                      Hilary · +237-674-578-453
                     </a>
-                    <a href="tel:+23772660161" className="block text-gray-600 dark:text-gray-400 text-sm hover:text-blue-600 dark:hover:text-blue-400">
-                      Hilary · +237-726-60161
+                    <a href="tel:+237674578453" className="block text-gray-600 dark:text-gray-400 text-sm hover:text-blue-600 dark:hover:text-blue-400">
+                      Hilary · +237-674-578-453
                     </a>
                   </div>
                 </div>
@@ -286,7 +286,7 @@ export function ContactPage() {
 
             {/* WhatsApp CTA */}
             <motion.a
-              href="https://wa.me/237672660161"
+              href="https://wa.me/237672660162"
               target="_blank"
               rel="noopener noreferrer"
               initial={{ opacity: 0, x: -20 }}
