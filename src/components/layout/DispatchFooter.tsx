@@ -102,7 +102,7 @@ export function DispatchFooter({ locale, className = '' }: DispatchFooterProps) 
         <address data-reveal>
           <h3>{t('contact.info.title')}</h3>
           <span><MapPin aria-hidden="true" />Akwa, Douala, Cameroon</span>
-        <a href="https://wa.me/237674578453" target="_blank" rel="noopener noreferrer"><WhatsAppIcon />Hilary · +237-674-578-453</a>
+        <a href="https://wa.me/237672660161" target="_blank" rel="noopener noreferrer"><WhatsAppIcon />Hilary · +237-672-660-161</a>
           <a href="mailto:contact@lexdservices.com"><Mail aria-hidden="true" />contact@lexdservices.com</a>
           <a href="mailto:lexdservices237@gmail.com"><Mail aria-hidden="true" />lexdservices237@gmail.com</a>
           <a href={WHATSAPP_GROUP_LINK} target="_blank" rel="noopener noreferrer"><MessageCircle aria-hidden="true" />{WHATSAPP_GROUP_LABEL[locale] ?? WHATSAPP_GROUP_LABEL.fr}</a>

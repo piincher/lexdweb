@@ -42,7 +42,7 @@ export const CONTACT_CONFIG = {
   },
   WHATSAPP: {
     CHINA: '+8617863668208',
-    HILARY: '+237674578453',
+    HILARY: '+237672660161',
     CAMEROON: '+237672660162',
     CAMEROON_2: '+237687478380',
     GROUP_LINK: 'https://chat.whatsapp.com/KALSQm7oyEHFFGENKCj5yr',

@@ -51,7 +51,7 @@ export const BUSINESS_INFO = {
     },
     whatsapp: {
       china: '+8617863668208',
-      hilary: '+237674578453',
+      hilary: '+237672660161',
       cameroon: '+237674578453',
     },
   },
