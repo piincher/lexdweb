@@ -222,7 +222,7 @@ export function TermsContent({ locale = "fr" }: { locale?: string }) {
                      The version published on this website is the current version.
                   </p>
                   <InfoBox type="info" title="Support contacts">
-                     WhatsApp: +86 188 5172 5957 (China desk) / +237 672 660 162 (Cameroon desk)
+                     WhatsApp: +86 188 5172 5957 (China desk) / +86 188 5165 7762 (main WhatsApp)
                   </InfoBox>
                </Section>
 
@@ -672,7 +672,7 @@ export function TermsContent({ locale = "fr" }: { locale?: string }) {
                         </p>
                         <p className="flex items-center gap-2">
                            <Phone className="w-4 h-4 text-green-500" />
-                           Cameroon desk WhatsApp: +237 672 660 162
+                           Main WhatsApp: +86 188 5165 7762
                         </p>
                         <p className="flex items-center gap-2">
                            <Clock className="w-4 h-4 text-amber-700" />
@@ -681,7 +681,7 @@ export function TermsContent({ locale = "fr" }: { locale?: string }) {
                      </div>
                      <div className="mt-6 pt-4 border-t border-[var(--border)]">
                         <a
-                           href="https://wa.me/237672660162"
+                           href="https://wa.me/8618851657762"
                            target="_blank"
                            rel="noopener noreferrer"
                            className="inline-flex items-center gap-2 py-3 px-6 bg-green-500 text-white rounded-full font-medium hover:bg-green-600 transition-colors"
@@ -836,7 +836,7 @@ export function TermsContent({ locale = "fr" }: { locale?: string }) {
                   moment ; la version en vigueur est celle publiée sur notre site.
                </p>
                <InfoBox type="info" title="Contact pour questions">
-                  WhatsApp : +86 188 5172 5957 (Chine) / +237 672 660 162 (Cameroon)
+                  WhatsApp : +86 188 5172 5957 (Chine) / +86 188 5165 7762 (WhatsApp principal)
                </InfoBox>
             </Section>
 
@@ -1559,7 +1559,7 @@ export function TermsContent({ locale = "fr" }: { locale?: string }) {
                      </p>
                      <p className="flex items-center gap-2">
                         <Phone className="w-4 h-4 text-green-500" />
-                        WhatsApp Cameroon : +237 672 660 162
+                        WhatsApp principal : +86 188 5165 7762
                      </p>
                      <p className="flex items-center gap-2">
                         <Clock className="w-4 h-4 text-amber-700" />
@@ -1568,7 +1568,7 @@ export function TermsContent({ locale = "fr" }: { locale?: string }) {
                   </div>
                   <div className="mt-6 pt-4 border-t border-[var(--border)]">
                      <a
-                        href="https://wa.me/237672660162"
+                        href="https://wa.me/8618851657762"
                         target="_blank"
                         rel="noopener noreferrer"
                         className="inline-flex items-center gap-2 py-3 px-6 bg-green-500 text-white rounded-full font-medium hover:bg-green-600 transition-colors"

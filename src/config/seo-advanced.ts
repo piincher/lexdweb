@@ -46,13 +46,13 @@ export const BUSINESS_INFO = {
     phones: {
       china: '+861-786-366-8208',
       hilary: '+237-672-660-161',
-      cameroon: '+237-672-660-162',
+      cameroon: '+86-188-5165-7762',
       cameroonAlt: '+237-687-478-380',
     },
     whatsapp: {
       china: '+8617863668208',
       hilary: '+237672660161',
-      cameroon: '+237672660162',
+      cameroon: '+8618851657762',
     },
   },
   

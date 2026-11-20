@@ -31,6 +31,7 @@ interface DispatchNavbarProps {
 const PRIMARY_LINKS = [
   { key: 'home', href: '/', label: 'navigation.home' },
   { key: 'services', href: '/services', label: 'navigation.services' },
+  { key: 'catalogue', href: '/catalogue', label: 'navigation.catalogue' },
   { key: 'pricing', href: '/tarifs', label: 'navigation.pricing' },
   { key: 'community', href: '/communaute', label: 'navigation.community' },
   { key: 'blog', href: '/blog', label: 'navigation.blog' },

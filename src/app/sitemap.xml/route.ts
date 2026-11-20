@@ -12,6 +12,7 @@
 
 import { NextResponse } from 'next/server';
 import { i18nConfig, getSeoLocale, type Locale } from '@/i18n/config';
+import { CATALOGUE_CATEGORIES } from '@/features/catalogue/data';
 
 const BASE_URL = 'https://www.lexdservices.com';
 const LAST_MODIFIED = '2026-05-17T00:00:00.000Z';
@@ -116,6 +117,12 @@ const INDUSTRY_PAGES: PageConfig[] = [
   { path: 'industries/cosmetiques-chine-afrique', priority: 0.85, changeFrequency: 'monthly' as const, locales: ['fr', 'en'] },
   { path: 'industries/pieces-auto-chine-afrique', priority: 0.85, changeFrequency: 'monthly' as const, locales: ['fr', 'en'] },
   { path: 'industries/materiaux-construction-chine-afrique', priority: 0.85, changeFrequency: 'monthly' as const, locales: ['fr', 'en'] },
+];
+
+// All 4 locales (no `locales` key); category list comes from the catalogue data file.
+const CATALOGUE_PAGES: PageConfig[] = [
+  { path: 'catalogue', priority: 0.85, changeFrequency: 'monthly' as const },
+  ...CATALOGUE_CATEGORIES.map((c) => ({ path: `catalogue/${c.slug}`, priority: 0.8, changeFrequency: 'monthly' as const })),
 ];
 
 // ============================================================================
@@ -290,7 +297,7 @@ export async function GET() {
     });
   });
 
-  INDUSTRY_PAGES.forEach((page) => {
+  [...INDUSTRY_PAGES, ...CATALOGUE_PAGES].forEach((page) => {
     const locales = page.locales || i18nConfig.locales;
     locales.forEach((locale) => {
       entries.push({

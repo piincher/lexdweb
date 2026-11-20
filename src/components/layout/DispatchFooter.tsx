@@ -66,7 +66,7 @@ export function DispatchFooter({ locale, className = '' }: DispatchFooterProps) 
           />
           <h2>{t('dispatch.footerStatement')}</h2>
         </div>
-        <a href="https://wa.me/237672660162" target="_blank" rel="noopener noreferrer">
+        <a href="https://wa.me/8618851657762" target="_blank" rel="noopener noreferrer">
           <span>{t('cta.contactUs')}</span><ArrowRight aria-hidden="true" />
         </a>
       </div>

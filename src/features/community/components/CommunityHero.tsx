@@ -137,11 +137,11 @@ export function CommunityHero() {
             </a>
 
             <a
-              href="tel:+237672660162"
+              href="tel:+8618851657762"
               className="inline-flex items-center justify-center gap-2 px-6 py-4 bg-white/10 text-white rounded-2xl font-semibold text-base hover:bg-white/20 transition-all duration-300 border border-white/10"
             >
               <Phone className="w-5 h-5" />
-              +237 672 660 162
+              +86 188 5165 7762
             </a>
           </motion.div>
 

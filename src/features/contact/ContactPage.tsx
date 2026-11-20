@@ -315,7 +315,7 @@ export function ContactPage() {
 
             {/* WhatsApp CTA */}
             <motion.a
-              href="https://wa.me/237672660162"
+              href="https://wa.me/8618851657762"
               target="_blank"
               rel="noopener noreferrer"
               initial={{ opacity: 0, x: -20 }}
