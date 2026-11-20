@@ -9,8 +9,8 @@ export const engins: CatalogueCategory = {
     ar: 'معدات البناء',
   },
   tagline: {
-    fr: 'Pelles, chargeuses, tractopelles, niveleuses et compacteurs, sourcés auprès d’usines chinoises.',
-    en: 'Excavators, loaders, backhoes, graders and rollers, sourced from Chinese factories.',
+    fr: 'Pelles, bulldozers, chargeuses, tractopelles, niveleuses et compacteurs, sourcés auprès d’usines chinoises.',
+    en: 'Excavators, bulldozers, loaders, backhoes, graders and rollers, sourced from Chinese factories.',
     zh: '挖掘机、装载机、挖掘装载机、平地机和压路机，直接从中国工厂采购。',
     ar: 'حفارات، لوادر، لوادر حفارة، ممهدات ومداحل، يتم توريدها من مصانع صينية.',
   },
@@ -65,6 +65,17 @@ export const engins: CatalogueCategory = {
         ar: 'مدحلة بأسطوانة واحدة لدمك الردم وطبقات الأساس والطرق.',
       },
       images: ['/images/catalogue/road-rollers.jpg'],
+    },
+    {
+      id: 'bulldozer',
+      name: { fr: 'Bulldozer sur chenilles', en: 'Crawler bulldozer', zh: '履带式推土机', ar: 'جرافة (بلدوزر) على جنازير' },
+      summary: {
+        fr: 'Lame avant et ripper arrière pour le défrichage, le terrassement lourd et les mines.',
+        en: 'Front blade and rear ripper for land clearing, heavy earthworks and mining.',
+        zh: '前推铲加后松土器，用于清障、大型土方和矿山作业。',
+        ar: 'نصل أمامي ومحراث خلفي لتنظيف الأراضي وأعمال الحفر الثقيلة والمناجم.',
+      },
+      images: ['/images/catalogue/bulldozer.jpg'],
     },
     {
       id: 'backhoe-loader',

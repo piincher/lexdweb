@@ -4,8 +4,8 @@ export const camions: CatalogueCategory = {
   slug: 'camions',
   name: { fr: 'Camions & remorques', en: 'Trucks & trailers', zh: '卡车与挂车', ar: 'الشاحنات والمقطورات' },
   tagline: {
-    fr: 'Bennes, tracteurs, ampliroll, semi-remorques plateau et citerne (HOWO, Shacman…).',
-    en: 'Dump trucks, tractor units, hook-lifts, flatbed and tanker semi-trailers (HOWO, Shacman…).',
+    fr: 'Bennes, tracteurs, ampliroll, semi-remorques plateau, citernes carburant et gaz (HOWO, Shacman…).',
+    en: 'Dump trucks, tractor units, hook-lifts, flatbed, fuel and gas tanker semi-trailers (HOWO, Shacman…).',
     zh: '自卸车、牵引车、勾臂车、平板及罐式半挂车（豪沃、陕汽等）。',
     ar: 'شاحنات قلاب، رؤوس قاطرة، شاحنات خطافية، ونصف مقطورات مسطحة وصهاريج (HOWO، شكمان…).',
   },
@@ -85,7 +85,22 @@ export const camions: CatalogueCategory = {
         zh: '分仓罐体，可装柴油、汽油或油品，容量和仓数可定制。',
         ar: 'صهريج مقسّم إلى حجرات للديزل أو البنزين أو الزيوت؛ السعة وعدد الحجرات حسب الطلب.',
       },
-      images: ['/images/catalogue/fuel-tanker-semi-trailer.jpg'],
+      images: [
+        '/images/catalogue/fuel-tanker-semi-trailer.jpg',
+        '/images/catalogue/fuel-tanker-semi-trailer-side.jpg',
+        '/images/catalogue/fuel-tanker-semi-trailer-rear.jpg',
+      ],
+    },
+    {
+      id: 'lng-tanker',
+      name: { fr: 'Semi-remorque citerne GNL / gaz', en: 'LNG / gas tanker semi-trailer', zh: 'LNG / 液化气罐式半挂车', ar: 'نصف مقطورة صهريج غاز مسال (LNG)' },
+      summary: {
+        fr: 'Citerne isolée sous pression pour gaz naturel liquéfié ou GPL ; homologation et équipements de sécurité à vérifier pour votre pays.',
+        en: 'Insulated pressure tank for liquefied natural gas or LPG; approvals and safety equipment to be checked for your country.',
+        zh: '用于液化天然气或液化石油气的保温压力罐体；需确认目的国的认证和安全配置要求。',
+        ar: 'صهريج معزول تحت الضغط للغاز الطبيعي المسال أو غاز البترول المسال؛ يجب التحقق من الاعتمادات ومعدات السلامة المطلوبة في بلدك.',
+      },
+      images: ['/images/catalogue/lng-tanker-semi-trailer.jpg'],
     },
   ],
   guideTitle: {
