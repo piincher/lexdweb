@@ -56,10 +56,10 @@ export const CATALOGUE_UI = {
     },
   ] as Localized[],
   disclaimer: {
-    fr: 'Les produits présentés sont des exemples de ce que nous pouvons sourcer ; ils ne constituent pas un stock. Les noms de marques (Shacman, XCMG…) servent uniquement à décrire les produits : LEXD n’est pas concessionnaire officiel de ces marques.',
-    en: 'The products shown are examples of what we can source; they are not stock. Brand names (Shacman, XCMG…) are used only to describe products: LEXD is not an official dealer for these brands.',
-    zh: '所展示产品仅为我们可采购的示例，并非现货库存。品牌名称（陕汽、徐工等）仅用于描述产品，LEXD 并非这些品牌的官方经销商。',
-    ar: 'المنتجات المعروضة أمثلة لما يمكننا توريده، وليست مخزوناً. تُستخدم أسماء العلامات التجارية (شكمان، XCMG…) لوصف المنتجات فقط، وLEXD ليست وكيلاً رسمياً لهذه العلامات.',
+    fr: 'Les produits présentés sont des exemples de ce que nous pouvons sourcer ; ils ne constituent pas un stock. Les noms de marques (Shacman, HOWO, SDLG, CNCMC…) servent uniquement à décrire les produits : LEXD n’est pas concessionnaire officiel de ces marques.',
+    en: 'The products shown are examples of what we can source; they are not stock. Brand names (Shacman, HOWO, SDLG, CNCMC…) are used only to describe products: LEXD is not an official dealer for these brands.',
+    zh: '所展示产品仅为我们可采购的示例，并非现货库存。品牌名称（陕汽、豪沃、山东临工、CNCMC 等）仅用于描述产品，LEXD 并非这些品牌的官方经销商。',
+    ar: 'المنتجات المعروضة أمثلة لما يمكننا توريده، وليست مخزوناً. تُستخدم أسماء العلامات التجارية (شكمان، HOWO، SDLG، CNCMC…) لوصف المنتجات فقط، وLEXD ليست وكيلاً رسمياً لهذه العلامات.',
   },
   quoteMessage: {
     fr: 'Bonjour LEXD, je souhaite un devis pour : ',

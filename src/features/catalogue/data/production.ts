@@ -4,16 +4,16 @@ export const production: CatalogueCategory = {
   slug: 'machines-de-production',
   name: { fr: 'Machines de production', en: 'Production machines', zh: '生产设备', ar: 'آلات الإنتاج' },
   tagline: {
-    fr: 'Profileuses de tôles de toiture et unités de traitement de minerai.',
-    en: 'Roof-sheet roll-forming machines and mineral processing plants.',
-    zh: '屋面板压瓦机和选矿设备。',
-    ar: 'آلات تشكيل صفائح الأسقف ووحدات معالجة المعادن.',
+    fr: 'Profileuses de tôles, machines à parpaings et unités de traitement de minerai.',
+    en: 'Roof-sheet roll formers, concrete block machines and mineral processing plants.',
+    zh: '压瓦机、水泥砖机和选矿设备。',
+    ar: 'آلات تشكيل صفائح الأسقف، آلات صنع البلوك، ووحدات معالجة المعادن.',
   },
   intro: {
-    fr: 'Équipements pour produire sur place : profileuses qui transforment une bobine en tôles de toiture, et lignes de traitement de minerai. Nous confirmons avec l’usine les profils, la tension électrique et la liste des pièces avant toute commande.',
-    en: 'Equipment to produce locally: roll-forming machines that turn a coil into roof sheets, and mineral processing lines. We confirm profiles, voltage and the parts list with the factory before any order.',
-    zh: '本地化生产设备：将钢卷加工成屋面板的压瓦机，以及选矿生产线。下单前我们与工厂确认板型、电压和配件清单。',
-    ar: 'معدات للإنتاج محلياً: آلات تشكيل تحوّل اللفيفة إلى صفائح أسقف، وخطوط معالجة المعادن. نؤكد مع المصنع المقاطع والجهد الكهربائي وقائمة القطع قبل أي طلب.',
+    fr: 'Équipements pour produire sur place : profileuses qui transforment une bobine en tôles de toiture, machines à parpaings et lignes de traitement de minerai. Nous confirmons avec l’usine les formats, la tension électrique et la liste des pièces avant toute commande.',
+    en: 'Equipment to produce locally: roll formers that turn a coil into roof sheets, concrete block machines and mineral processing lines. We confirm formats, voltage and the parts list with the factory before any order.',
+    zh: '本地化生产设备：将钢卷加工成屋面板的压瓦机、水泥砖机以及选矿生产线。下单前我们与工厂确认规格、电压和配件清单。',
+    ar: 'معدات للإنتاج محلياً: آلات تشكيل تحوّل اللفيفة إلى صفائح أسقف، آلات صنع البلوك، وخطوط معالجة المعادن. نؤكد مع المصنع المقاسات والجهد الكهربائي وقائمة القطع قبل أي طلب.',
   },
   metaTitle: {
     fr: 'Profileuses de tôles et machines de traitement de minerai de Chine | LEXD',
@@ -22,10 +22,10 @@ export const production: CatalogueCategory = {
     ar: 'آلات تشكيل صفائح الأسقف ومعدات معالجة المعادن من الصين | LEXD',
   },
   metaDescription: {
-    fr: 'Importez une profileuse de tôles double ou triple étage, ou une unité de traitement de minerai, de Chine vers l’Afrique. Vérification usine et transport. Devis WhatsApp.',
-    en: 'Import a double or triple-layer roof-sheet roll-forming machine, or a mineral processing plant, from China to Africa. Factory checks and shipping. WhatsApp quote.',
-    zh: '从中国进口双层或三层压瓦机或选矿设备到非洲。工厂核查与运输。WhatsApp 询价。',
-    ar: 'استورد آلة تشكيل صفائح أسقف ثنائية أو ثلاثية الطبقات، أو وحدة معالجة معادن، من الصين إلى أفريقيا. فحص المصنع والشحن. عرض سعر عبر واتساب.',
+    fr: 'Importez une profileuse de tôles, une machine à parpaings ou une unité de traitement de minerai de Chine vers l’Afrique. Vérification usine et transport. Devis WhatsApp.',
+    en: 'Import a roof-sheet roll former, a concrete block machine or a mineral processing plant from China to Africa. Factory checks and shipping. WhatsApp quote.',
+    zh: '从中国进口压瓦机、水泥砖机或选矿设备到非洲。工厂核查与运输。WhatsApp 询价。',
+    ar: 'استورد آلة تشكيل صفائح أسقف أو آلة صنع بلوك أو وحدة معالجة معادن من الصين إلى أفريقيا. فحص المصنع والشحن. عرض سعر عبر واتساب.',
   },
   products: [
     {
@@ -49,6 +49,17 @@ export const production: CatalogueCategory = {
         ar: 'ثلاثة مقاطع على هيكل واحد، لتقديم أنواع أكثر من الصفائح بخط إنتاج واحد.',
       },
       images: ['/images/catalogue/roof-sheet-machine-triple-layer.jpg'],
+    },
+    {
+      id: 'block-machine',
+      name: { fr: 'Machine à parpaings', en: 'Concrete block machine', zh: '水泥砖机', ar: 'آلة صنع الطوب الإسمنتي (البلوك)' },
+      summary: {
+        fr: 'Presse vibrante pour fabriquer parpaings, briques pleines et pavés ; les moules se changent selon le format voulu.',
+        en: 'Vibrating press for hollow blocks, solid bricks and pavers; moulds are swapped for each format.',
+        zh: '振动压制成型，可生产空心砖、实心砖和路面砖，更换模具即可改变规格。',
+        ar: 'مكبس اهتزازي لصنع البلوك المفرغ والطوب المصمت وبلاط الأرصفة؛ تُغيَّر القوالب حسب المقاس المطلوب.',
+      },
+      images: ['/images/catalogue/concrete-block-machine.jpg'],
     },
     {
       id: 'mineral-plant',
