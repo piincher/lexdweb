@@ -200,6 +200,9 @@ export function ContactPage() {
                     {t('info.phone')}
                   </h3>
                   <div className="space-y-1">
+                    <a href="https://wa.me/8618851657762" target="_blank" rel="noopener noreferrer" className="block text-gray-600 dark:text-gray-400 text-sm hover:text-blue-600 dark:hover:text-blue-400">
+                      +86-188-5165-7762 (WhatsApp)
+                    </a>
                     <a href="tel:+8617863668208" className="block text-gray-600 dark:text-gray-400 text-sm hover:text-blue-600 dark:hover:text-blue-400">
                       +861-786-366-8208 ({isEn ? 'China' : 'Chine'})
                     </a>

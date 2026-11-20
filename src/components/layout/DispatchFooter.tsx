@@ -102,7 +102,8 @@ export function DispatchFooter({ locale, className = '' }: DispatchFooterProps) 
         <address data-reveal>
           <h3>{t('contact.info.title')}</h3>
           <span><MapPin aria-hidden="true" />En Face du Lycée Polyvalent, Bonabéri - Douala</span>
-        <a href="https://wa.me/237672660161" target="_blank" rel="noopener noreferrer"><WhatsAppIcon />Hilary · +237-672-660-161</a>
+          <a href="https://wa.me/8618851657762" target="_blank" rel="noopener noreferrer"><WhatsAppIcon />WhatsApp · +86-188-5165-7762</a>
+          <a href="https://wa.me/237672660161" target="_blank" rel="noopener noreferrer"><WhatsAppIcon />Hilary · +237-672-660-161</a>
           <a href="mailto:contact@lexdservices.com"><Mail aria-hidden="true" />contact@lexdservices.com</a>
           <a href="mailto:lexdservices237@gmail.com"><Mail aria-hidden="true" />lexdservices237@gmail.com</a>
           <a href={WHATSAPP_GROUP_LINK} target="_blank" rel="noopener noreferrer"><MessageCircle aria-hidden="true" />{WHATSAPP_GROUP_LABEL[locale] ?? WHATSAPP_GROUP_LABEL.fr}</a>
